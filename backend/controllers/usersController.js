@@ -26,15 +26,17 @@ const indexUsers = async(req,res)=>{
 // {
 //     "firstName": "Emma",
 //     "email": "emma@example.com",
+//      "passowrd": "asdflkjlaiue",
 //     "savedVerses": []
 //  }
 
 const addUser = async (req, res) => {
     try {
-        const { firstName, email, savedVerses } = req.body;
+        const { firstName, email, password, savedVerses } = req.body;
         const newUser = new User({
             firstName,
             email,
+            password,
             savedVerses
         });
         const savedUser = await newUser.save();
@@ -94,6 +96,7 @@ const addVerse = async (req, res) => {
 // {
 //     "firstName": "Bob",
 //     "email": "bob@example.com",
+//     "password": "asdfjasdlfj",
 //     "savedVerses": []
 //  }
 
@@ -131,4 +134,4 @@ const deleteUser = async ({ params: { id } }, res) => {
 }; 
 
 
-export {indexUsers, addUser, updateUser, deleteUser, addVerse } // Can add more functions
+export {indexUsers, addUser, updateUser, deleteUser, addVerse }
