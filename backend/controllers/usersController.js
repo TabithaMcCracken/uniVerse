@@ -18,6 +18,24 @@ const indexUsers = async(req,res)=>{
     
 }
 
+// Get Route- works
+// http://localhost:3075/user/:id
+// Get user by id
+const getUser = async(req, res)=>{
+    try{
+        const userId = req.params.id;
+        const user = await User.findById(userId);
+        if(!user){
+            return res.status(404).send('User not found');
+        }
+
+        res.status(200).json(user);
+    } catch (error){
+        console.error('Error retrieving user: ', error);
+        res.status(500).send('Internal Server Error');
+    }
+}
+
 // POST Route to add User- this works
 // http://localhost:3075/users/addUser
 // Adds a new user
@@ -26,7 +44,7 @@ const indexUsers = async(req,res)=>{
 // {
 //     "firstName": "Emma",
 //     "email": "emma@example.com",
-//      "passowrd": "asdflkjlaiue",
+//     "passowrd": "asdflkjlaiue",
 //     "savedVerses": []
 //  }
 
@@ -47,45 +65,7 @@ const addUser = async (req, res) => {
     }
 }
 
-// PATCH Route to add Verse- works
-// http://localhost:3075/users/addVerse/:id
 
-// id: 665906dca4d25109369cc2a1
-// {
-//     "book": "Genesis",
-//     "chapter": 1,
-//     "verse": 1,
-//     "text": "In the beginning, God created the heavens and the earth."
-//   }
-
-const addVerse = async (req, res) => {
-    try {
-        // Extract user ID from request parameters
-        const userId = req.params.id;
-        console.log(req.params.userId)
-       
-        // Extract verse data from request body
-        const { book, chapter, verse, text, practiceAttemps, progress, dateSaved } = req.body;
-    
-        // Find the user in the database
-        const user = await User.findById(userId);
-        if (!user) {
-          return res.status(404).json({ message: 'User not found' });
-        }
-    
-        // Add the new verse to the user's savedVerses array
-        user.savedVerses.push({ book, chapter, verse, text, practiceAttemps, progress, dateSaved });
-    
-        // Save the updated user data back to the database
-        await user.save();
-    
-        // Respond with the updated user data
-        res.status(201).json(user);
-      } catch (error) {
-        // Handle errors
-        res.status(500).json({ error: error.message });
-      }
-}
 
 
 // PATCH Route- works
@@ -134,4 +114,4 @@ const deleteUser = async ({ params: { id } }, res) => {
 }; 
 
 
-export {indexUsers, addUser, updateUser, deleteUser, addVerse }
+export {indexUsers, addUser, updateUser, deleteUser, getUser }

@@ -1,0 +1,128 @@
+[{
+    "firstName": "Emma",
+    "email": "emma@example.com",
+    "password": "password123",
+    "savedVerses": [
+      {
+        "book": "Matthew",
+        "chapter": 11,
+        "verse": 28,
+        "text": "Come to me, all you who are weary and burdened, and I will give you rest.",
+        "practiceAttempts": 2,
+        "progress": 75,
+        "dateSaved": "2024-07-05T11:15:00Z"
+      },
+      {
+        "book": "Psalm",
+        "chapter": 119,
+        "verse": 105,
+        "text": "Your word is a lamp for my feet, a light on my path.",
+        "practiceAttempts": 0,
+        "progress": 0,
+        "dateSaved": "2024-07-10T10:30:00Z"
+      }
+    ]
+  },
+  {
+    "firstName": "Michael",
+    "email": "michael@example.com",
+    "password": "help123",
+    "savedVerses": [
+      {
+        "book": "Romans",
+        "chapter": 8,
+        "verse": 28,
+        "text": "And we know that in all things God works for the good of those who love him, who have been called according to his purpose.",
+        "practiceAttempts": 3,
+        "progress": 100,
+        "dateSaved": "2024-06-28T09:00:00Z"
+      },
+      {
+        "book": "Jeremiah",
+        "chapter": 29,
+        "verse": 11,
+        "text": "For I know the plans I have for you,” declares the LORD, “plans to prosper you and not to harm you, plans to give you hope and a future.",
+        "practiceAttempts": 1,
+        "progress": 25,
+        "dateSaved": "2024-07-01T08:45:00Z"
+      }
+    ]
+  },
+  {
+    "firstName": "Sarah",
+    "email": "sarah@example.com",
+    "password": "ok345",
+    "savedVerses": [
+      {
+        "book": "Isaiah",
+        "chapter": 41,
+        "verse": 10,
+        "text": "So do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you; I will uphold you with my righteous right hand.",
+        "practiceAttempts": 0,
+        "progress": 0,
+        "dateSaved": "2024-06-20T10:00:00Z"
+      },
+      {
+        "book": "Philippians",
+        "chapter": 4,
+        "verse": 13,
+        "text": "I can do all this through him who gives me strength.",
+        "practiceAttempts": 2,
+        "progress": 50,
+        "dateSaved": "2024-06-25T14:30:00Z"
+      }
+    ]
+  },
+  {
+    "firstName": "David",
+    "email": "david@example.com",
+    "password": "hello987",
+    "savedVerses": [
+      {
+        "book": "Proverbs",
+        "chapter": 3,
+        "verse": 5,
+        "text": "Trust in the LORD with all your heart and lean not on your own understanding.",
+        "practiceAttempts": 1,
+        "progress": 75,
+        "dateSaved": "2024-06-12T11:30:00Z"
+      },
+      {
+        "book": "Ephesians",
+        "chapter": 4,
+        "verse": 32,
+        "text": "Be kind and compassionate to one another, forgiving each other, just as in Christ God forgave you.",
+        "practiceAttempts": 3,
+        "progress": 100,
+        "dateSaved": "2024-06-15T08:15:00Z"
+      }
+    ]
+  },
+  {
+    "firstName": "Emily",
+    "email": "emily@example.com",
+    "password": "igloo786",
+    "savedVerses": [
+      {
+        "book": "Psalms",
+        "chapter": 23,
+        "verse": 1,
+        "text": "The LORD is my shepherd; I shall not want.",
+        "practiceAttempts": 2,
+        "progress": 25,
+        "dateSaved": "2024-06-05T09:45:00Z"
+      },
+      {
+        "book": "Matthew",
+        "chapter": 5,
+        "verse": 14,
+        "text": "You are the light of the world. A town built on a hill cannot be hidden.",
+        "practiceAttempts": 1,
+        "progress": 0,
+        "dateSaved": "2024-06-10T14:22:00Z"
+      }
+    ]
+  }
+
+
+]
