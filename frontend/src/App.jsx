@@ -5,6 +5,9 @@ import Login from './pages/Login';
 import CreateAccount from './pages/CreateAccount';
 import LoggedInPage from './pages/LoggedInPage';
 import VersePage from './components/VersePage';
+// import dotenv from 'dotenv';
+
+// dotenv.config()
 
 const App = () => {
   return (
