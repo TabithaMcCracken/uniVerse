@@ -1,8 +1,9 @@
-import mongoose from 'mongoose';
+// import mongoose from 'mongoose';
+const mongoose = require('mongoose');
 
 const connectionString = process.env.ATLAS_URI || ""
 
-export default async function connectToDb(){
+async function connectToDb(){
     try {
         await mongoose.connect(connectionString);
         console.log('Connected to MongoDB');
@@ -12,3 +13,5 @@ export default async function connectToDb(){
     } 
 
 }
+
+module.exports = connectToDb;

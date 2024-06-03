@@ -1,4 +1,5 @@
-import mongoose from 'mongoose';
+// import mongoose from 'mongoose';
+const mongoose = require('mongoose');
 
 const savedVerseSchema = new mongoose.Schema({
   book: { type: String, required: true },
@@ -17,4 +18,6 @@ const userSchema = new mongoose.Schema({
   savedVerses: [savedVerseSchema]
 });
 
-export default mongoose.model('users', userSchema);
+// export default mongoose.model('users', userSchema);
+
+module.exports = mongoose.model('users', userSchema);

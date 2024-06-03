@@ -1,4 +1,5 @@
-import User from "../models/usersModel.js";
+// import User from "../models/usersModel.js";
+const User = require("../models/usersModel.js")
 
 // PATCH Route to add Verse- works
 // http://localhost:3075/users/addVerse/:id
@@ -134,4 +135,8 @@ const deleteVerse = async (req, res) => {
   }
 };
 
-export { addVerse, updateVerse, deleteVerse };
+// export { addVerse, updateVerse, deleteVerse };
+
+exports.addVerse = addVerse;
+exports.updateVerse = updateVerse;
+exports.deleteVerse = deleteVerse;

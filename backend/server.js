@@ -1,8 +1,16 @@
-import express from 'express'
-import 'dotenv/config'
-import connectToDb from './config/db.js'
+// import express from 'express'
+const express = require('express')
 
-import appUsers from './routes/userRoutes.js'
+// import 'dotenv/config'
+require('dotenv').config();
+
+const connectToDb = require('./config/db.js')
+// import connectToDb from './config/db.js'
+
+// import cors from 'cors';
+const cors = require('cors');
+// import appUsers from './routes/userRoutes.js'
+const appUsers = require('./routes/userRoutes.js')
 
 // Create Express App
 const app = express()
@@ -12,7 +20,9 @@ const PORT = process.env.PORT || 5050;
 connectToDb();
 
 // Middleware for Parsing
+app.use(cors());
 app.use(express.json())
+
 
 // Middleware for Logging Time Stamp and Request info
 app.use((req, res, next) => {

@@ -1,4 +1,5 @@
-import User from '../models/usersModel.js'
+// import User from '../models/usersModel.js'
+const User = require('../models/usersModel.js')
 
 // Get Route- works
 // http://localhost:3075/users
@@ -19,7 +20,7 @@ const indexUsers = async(req,res)=>{
 }
 
 // Get Route- works
-// http://localhost:3075/user/:id
+// http://localhost:3075/users/:id
 // Get user by id
 const getUser = async(req, res)=>{
     try{
@@ -114,4 +115,10 @@ const deleteUser = async ({ params: { id } }, res) => {
 }; 
 
 
-export {indexUsers, addUser, updateUser, deleteUser, getUser }
+// export {indexUsers, addUser, updateUser, deleteUser, getUser }
+
+exports.indexUsers = indexUsers;
+exports.addUser = addUser;
+exports.updateUser = updateUser;
+exports.deleteUser = deleteUser;
+exports.getUser = getUser;

@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import CreateAccount from './pages/CreateAccount';
 import LoggedInPage from './pages/LoggedInPage';
+import VersePage from './components/VersePage';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/create-account" element={<CreateAccount />} />
         <Route path="/logged-in" element={<LoggedInPage />} />
+        <Route path="/verse/:id" element={<VersePage />} />
       </Routes>
     </Router>
   );

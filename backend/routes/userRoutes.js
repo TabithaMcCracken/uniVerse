@@ -1,8 +1,13 @@
-import express from 'express'
+// import express from 'express'
+const express = require('express');
+
 const router = express.Router()
 
-import { indexUsers, addUser, deleteUser, updateUser, getUser } from '../controllers/usersController.js'
-import { addVerse, updateVerse, deleteVerse } from '../controllers/verseController.js'
+const { indexUsers, addUser, deleteUser, updateUser, getUser } = require('../controllers/usersController.js')
+// import { indexUsers, addUser, deleteUser, updateUser, getUser } from '../controllers/usersController.js'
+
+const { addVerse, updateVerse, deleteVerse } = require('../controllers/verseController.js')
+// import { addVerse, updateVerse, deleteVerse } from '../controllers/verseController.js'
 
 
 // Get route to get all user data
@@ -32,4 +37,5 @@ router.route('/updateVerse/:id').patch(updateVerse) // change userId to id
 router.route('/deleteVerse/:id').delete(deleteVerse)
 
 
-export default router
+// export default router
+module.exports = router;
