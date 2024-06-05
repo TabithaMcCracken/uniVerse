@@ -65,7 +65,8 @@ return (
             ))}
           </ul>
         )}
-        <button>Add Verse</button>
+        <Link to="/add-verse"><button>Add Verse</button></Link>
+        
         <button><Link to="/">Log Out</Link></button>
       </div>
     </div>

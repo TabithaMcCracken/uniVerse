@@ -5,11 +5,7 @@ import axios from "axios";
 import ScrambleGameComponent from './ScrambleGameComponent';
 
 
-// import 'dotenv/config'
-// require('dotenv').config();
-// const apiKey = process.env.REACT_APP_ESV_API_KEY;
-// dotenv.config();
-const apiKey = "3f39ed2e760cb8b133dbd496777f1c8008b54858";
+const apiKey = import.meta.env.VITE_ESV_API_KEY;
 
 
 const VersePage = () => {

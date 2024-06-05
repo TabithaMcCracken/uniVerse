@@ -1,0 +1,7136 @@
+[
+    {
+      "book": "Genesis",
+      "chapter": 1,
+      "num_verses": 31,
+      "num_words": 791
+    },
+    {
+      "book": "Genesis",
+      "chapter": 2,
+      "num_verses": 25,
+      "num_words": 639
+    },
+    {
+      "book": "Genesis",
+      "chapter": 3,
+      "num_verses": 24,
+      "num_words": 683
+    },
+    {
+      "book": "Genesis",
+      "chapter": 4,
+      "num_verses": 26,
+      "num_words": 594
+    },
+    {
+      "book": "Genesis",
+      "chapter": 5,
+      "num_verses": 32,
+      "num_words": 427
+    },
+    {
+      "book": "Genesis",
+      "chapter": 6,
+      "num_verses": 22,
+      "num_words": 531
+    },
+    {
+      "book": "Genesis",
+      "chapter": 7,
+      "num_verses": 24,
+      "num_words": 543
+    },
+    {
+      "book": "Genesis",
+      "chapter": 8,
+      "num_verses": 22,
+      "num_words": 549
+    },
+    {
+      "book": "Genesis",
+      "chapter": 9,
+      "num_verses": 29,
+      "num_words": 619
+    },
+    {
+      "book": "Genesis",
+      "chapter": 10,
+      "num_verses": 32,
+      "num_words": 427
+    },
+    {
+      "book": "Genesis",
+      "chapter": 11,
+      "num_verses": 32,
+      "num_words": 573
+    },
+    {
+      "book": "Genesis",
+      "chapter": 12,
+      "num_verses": 20,
+      "num_words": 502
+    },
+    {
+      "book": "Genesis",
+      "chapter": 13,
+      "num_verses": 18,
+      "num_words": 427
+    },
+    {
+      "book": "Genesis",
+      "chapter": 14,
+      "num_verses": 24,
+      "num_words": 581
+    },
+    {
+      "book": "Genesis",
+      "chapter": 15,
+      "num_verses": 21,
+      "num_words": 445
+    },
+    {
+      "book": "Genesis",
+      "chapter": 16,
+      "num_verses": 16,
+      "num_words": 402
+    },
+    {
+      "book": "Genesis",
+      "chapter": 17,
+      "num_verses": 27,
+      "num_words": 652
+    },
+    {
+      "book": "Genesis",
+      "chapter": 18,
+      "num_verses": 33,
+      "num_words": 826
+    },
+    {
+      "book": "Genesis",
+      "chapter": 19,
+      "num_verses": 38,
+      "num_words": 1024
+    },
+    {
+      "book": "Genesis",
+      "chapter": 20,
+      "num_verses": 18,
+      "num_words": 495
+    },
+    {
+      "book": "Genesis",
+      "chapter": 21,
+      "num_verses": 34,
+      "num_words": 757
+    },
+    {
+      "book": "Genesis",
+      "chapter": 22,
+      "num_verses": 24,
+      "num_words": 584
+    },
+    {
+      "book": "Genesis",
+      "chapter": 23,
+      "num_verses": 20,
+      "num_words": 489
+    },
+    {
+      "book": "Genesis",
+      "chapter": 24,
+      "num_verses": 67,
+      "num_words": 1728
+    },
+    {
+      "book": "Genesis",
+      "chapter": 25,
+      "num_verses": 34,
+      "num_words": 630
+    },
+    {
+      "book": "Genesis",
+      "chapter": 26,
+      "num_verses": 35,
+      "num_words": 839
+    },
+    {
+      "book": "Genesis",
+      "chapter": 27,
+      "num_verses": 46,
+      "num_words": 1196
+    },
+    {
+      "book": "Genesis",
+      "chapter": 28,
+      "num_verses": 22,
+      "num_words": 598
+    },
+    {
+      "book": "Genesis",
+      "chapter": 29,
+      "num_verses": 35,
+      "num_words": 803
+    },
+    {
+      "book": "Genesis",
+      "chapter": 30,
+      "num_verses": 43,
+      "num_words": 978
+    },
+    {
+      "book": "Genesis",
+      "chapter": 31,
+      "num_verses": 55,
+      "num_words": 1372
+    },
+    {
+      "book": "Genesis",
+      "chapter": 32,
+      "num_verses": 32,
+      "num_words": 773
+    },
+    {
+      "book": "Genesis",
+      "chapter": 33,
+      "num_verses": 20,
+      "num_words": 490
+    },
+    {
+      "book": "Genesis",
+      "chapter": 34,
+      "num_verses": 31,
+      "num_words": 762
+    },
+    {
+      "book": "Genesis",
+      "chapter": 35,
+      "num_verses": 29,
+      "num_words": 630
+    },
+    {
+      "book": "Genesis",
+      "chapter": 36,
+      "num_verses": 43,
+      "num_words": 769
+    },
+    {
+      "book": "Genesis",
+      "chapter": 37,
+      "num_verses": 36,
+      "num_words": 898
+    },
+    {
+      "book": "Genesis",
+      "chapter": 38,
+      "num_verses": 30,
+      "num_words": 771
+    },
+    {
+      "book": "Genesis",
+      "chapter": 39,
+      "num_verses": 23,
+      "num_words": 631
+    },
+    {
+      "book": "Genesis",
+      "chapter": 40,
+      "num_verses": 23,
+      "num_words": 518
+    },
+    {
+      "book": "Genesis",
+      "chapter": 41,
+      "num_verses": 57,
+      "num_words": 1313
+    },
+    {
+      "book": "Genesis",
+      "chapter": 42,
+      "num_verses": 38,
+      "num_words": 984
+    },
+    {
+      "book": "Genesis",
+      "chapter": 43,
+      "num_verses": 34,
+      "num_words": 911
+    },
+    {
+      "book": "Genesis",
+      "chapter": 44,
+      "num_verses": 34,
+      "num_words": 857
+    },
+    {
+      "book": "Genesis",
+      "chapter": 45,
+      "num_verses": 28,
+      "num_words": 714
+    },
+    {
+      "book": "Genesis",
+      "chapter": 46,
+      "num_verses": 34,
+      "num_words": 711
+    },
+    {
+      "book": "Genesis",
+      "chapter": 47,
+      "num_verses": 31,
+      "num_words": 942
+    },
+    {
+      "book": "Genesis",
+      "chapter": 48,
+      "num_verses": 22,
+      "num_words": 632
+    },
+    {
+      "book": "Genesis",
+      "chapter": 49,
+      "num_verses": 33,
+      "num_words": 721
+    },
+    {
+      "book": "Genesis",
+      "chapter": 50,
+      "num_verses": 26,
+      "num_words": 666
+    },
+    {
+      "book": "Exodus",
+      "chapter": 1,
+      "num_verses": 22,
+      "num_words": 413
+    },
+    {
+      "book": "Exodus",
+      "chapter": 2,
+      "num_verses": 25,
+      "num_words": 613
+    },
+    {
+      "book": "Exodus",
+      "chapter": 3,
+      "num_verses": 22,
+      "num_words": 734
+    },
+    {
+      "book": "Exodus",
+      "chapter": 4,
+      "num_verses": 31,
+      "num_words": 833
+    },
+    {
+      "book": "Exodus",
+      "chapter": 5,
+      "num_verses": 23,
+      "num_words": 592
+    },
+    {
+      "book": "Exodus",
+      "chapter": 6,
+      "num_verses": 30,
+      "num_words": 689
+    },
+    {
+      "book": "Exodus",
+      "chapter": 7,
+      "num_verses": 25,
+      "num_words": 659
+    },
+    {
+      "book": "Exodus",
+      "chapter": 8,
+      "num_verses": 32,
+      "num_words": 909
+    },
+    {
+      "book": "Exodus",
+      "chapter": 9,
+      "num_verses": 35,
+      "num_words": 969
+    },
+    {
+      "book": "Exodus",
+      "chapter": 10,
+      "num_verses": 29,
+      "num_words": 861
+    },
+    {
+      "book": "Exodus",
+      "chapter": 11,
+      "num_verses": 10,
+      "num_words": 307
+    },
+    {
+      "book": "Exodus",
+      "chapter": 12,
+      "num_verses": 51,
+      "num_words": 1387
+    },
+    {
+      "book": "Exodus",
+      "chapter": 13,
+      "num_verses": 22,
+      "num_words": 646
+    },
+    {
+      "book": "Exodus",
+      "chapter": 14,
+      "num_verses": 31,
+      "num_words": 861
+    },
+    {
+      "book": "Exodus",
+      "chapter": 15,
+      "num_verses": 27,
+      "num_words": 665
+    },
+    {
+      "book": "Exodus",
+      "chapter": 16,
+      "num_verses": 36,
+      "num_words": 994
+    },
+    {
+      "book": "Exodus",
+      "chapter": 17,
+      "num_verses": 16,
+      "num_words": 452
+    },
+    {
+      "book": "Exodus",
+      "chapter": 18,
+      "num_verses": 27,
+      "num_words": 698
+    },
+    {
+      "book": "Exodus",
+      "chapter": 19,
+      "num_verses": 25,
+      "num_words": 667
+    },
+    {
+      "book": "Exodus",
+      "chapter": 20,
+      "num_verses": 26,
+      "num_words": 573
+    },
+    {
+      "book": "Exodus",
+      "chapter": 21,
+      "num_verses": 36,
+      "num_words": 861
+    },
+    {
+      "book": "Exodus",
+      "chapter": 22,
+      "num_verses": 31,
+      "num_words": 776
+    },
+    {
+      "book": "Exodus",
+      "chapter": 23,
+      "num_verses": 33,
+      "num_words": 840
+    },
+    {
+      "book": "Exodus",
+      "chapter": 24,
+      "num_verses": 18,
+      "num_words": 479
+    },
+    {
+      "book": "Exodus",
+      "chapter": 25,
+      "num_verses": 40,
+      "num_words": 875
+    },
+    {
+      "book": "Exodus",
+      "chapter": 26,
+      "num_verses": 37,
+      "num_words": 890
+    },
+    {
+      "book": "Exodus",
+      "chapter": 27,
+      "num_verses": 21,
+      "num_words": 549
+    },
+    {
+      "book": "Exodus",
+      "chapter": 28,
+      "num_verses": 43,
+      "num_words": 1105
+    },
+    {
+      "book": "Exodus",
+      "chapter": 29,
+      "num_verses": 46,
+      "num_words": 1273
+    },
+    {
+      "book": "Exodus",
+      "chapter": 30,
+      "num_verses": 38,
+      "num_words": 898
+    },
+    {
+      "book": "Exodus",
+      "chapter": 31,
+      "num_verses": 18,
+      "num_words": 406
+    },
+    {
+      "book": "Exodus",
+      "chapter": 32,
+      "num_verses": 35,
+      "num_words": 1062
+    },
+    {
+      "book": "Exodus",
+      "chapter": 33,
+      "num_verses": 23,
+      "num_words": 680
+    },
+    {
+      "book": "Exodus",
+      "chapter": 34,
+      "num_verses": 35,
+      "num_words": 977
+    },
+    {
+      "book": "Exodus",
+      "chapter": 35,
+      "num_verses": 35,
+      "num_words": 765
+    },
+    {
+      "book": "Exodus",
+      "chapter": 36,
+      "num_verses": 38,
+      "num_words": 835
+    },
+    {
+      "book": "Exodus",
+      "chapter": 37,
+      "num_verses": 29,
+      "num_words": 667
+    },
+    {
+      "book": "Exodus",
+      "chapter": 38,
+      "num_verses": 31,
+      "num_words": 779
+    },
+    {
+      "book": "Exodus",
+      "chapter": 39,
+      "num_verses": 43,
+      "num_words": 991
+    },
+    {
+      "book": "Exodus",
+      "chapter": 40,
+      "num_verses": 38,
+      "num_words": 775
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 1,
+      "num_verses": 17,
+      "num_words": 486
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 2,
+      "num_verses": 16,
+      "num_words": 446
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 3,
+      "num_verses": 17,
+      "num_words": 477
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 4,
+      "num_verses": 35,
+      "num_words": 1115
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 5,
+      "num_verses": 19,
+      "num_words": 690
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 6,
+      "num_verses": 30,
+      "num_words": 830
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 7,
+      "num_verses": 38,
+      "num_words": 964
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 8,
+      "num_verses": 36,
+      "num_words": 987
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 9,
+      "num_verses": 24,
+      "num_words": 621
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 10,
+      "num_verses": 20,
+      "num_words": 622
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 11,
+      "num_verses": 47,
+      "num_words": 1035
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 12,
+      "num_verses": 8,
+      "num_words": 245
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 13,
+      "num_verses": 59,
+      "num_words": 1766
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 14,
+      "num_verses": 57,
+      "num_words": 1631
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 15,
+      "num_verses": 33,
+      "num_words": 897
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 16,
+      "num_verses": 34,
+      "num_words": 1121
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 17,
+      "num_verses": 16,
+      "num_words": 526
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 18,
+      "num_verses": 30,
+      "num_words": 648
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 19,
+      "num_verses": 37,
+      "num_words": 909
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 20,
+      "num_verses": 27,
+      "num_words": 791
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 21,
+      "num_verses": 24,
+      "num_words": 571
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 22,
+      "num_verses": 33,
+      "num_words": 862
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 23,
+      "num_verses": 44,
+      "num_words": 1205
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 24,
+      "num_verses": 23,
+      "num_words": 508
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 25,
+      "num_verses": 55,
+      "num_words": 1430
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 26,
+      "num_verses": 46,
+      "num_words": 1217
+    },
+    {
+      "book": "Leviticus",
+      "chapter": 27,
+      "num_verses": 34,
+      "num_words": 893
+    },
+    {
+      "book": "Numbers",
+      "chapter": 1,
+      "num_verses": 54,
+      "num_words": 1094
+    },
+    {
+      "book": "Numbers",
+      "chapter": 2,
+      "num_verses": 34,
+      "num_words": 590
+    },
+    {
+      "book": "Numbers",
+      "chapter": 3,
+      "num_verses": 51,
+      "num_words": 1162
+    },
+    {
+      "book": "Numbers",
+      "chapter": 4,
+      "num_verses": 49,
+      "num_words": 1281
+    },
+    {
+      "book": "Numbers",
+      "chapter": 5,
+      "num_verses": 31,
+      "num_words": 905
+    },
+    {
+      "book": "Numbers",
+      "chapter": 6,
+      "num_verses": 27,
+      "num_words": 731
+    },
+    {
+      "book": "Numbers",
+      "chapter": 7,
+      "num_verses": 89,
+      "num_words": 1871
+    },
+    {
+      "book": "Numbers",
+      "chapter": 8,
+      "num_verses": 26,
+      "num_words": 684
+    },
+    {
+      "book": "Numbers",
+      "chapter": 9,
+      "num_verses": 23,
+      "num_words": 677
+    },
+    {
+      "book": "Numbers",
+      "chapter": 10,
+      "num_verses": 36,
+      "num_words": 851
+    },
+    {
+      "book": "Numbers",
+      "chapter": 11,
+      "num_verses": 35,
+      "num_words": 1019
+    },
+    {
+      "book": "Numbers",
+      "chapter": 12,
+      "num_verses": 16,
+      "num_words": 365
+    },
+    {
+      "book": "Numbers",
+      "chapter": 13,
+      "num_verses": 33,
+      "num_words": 722
+    },
+    {
+      "book": "Numbers",
+      "chapter": 14,
+      "num_verses": 45,
+      "num_words": 1183
+    },
+    {
+      "book": "Numbers",
+      "chapter": 15,
+      "num_verses": 41,
+      "num_words": 1014
+    },
+    {
+      "book": "Numbers",
+      "chapter": 16,
+      "num_verses": 50,
+      "num_words": 1285
+    },
+    {
+      "book": "Numbers",
+      "chapter": 17,
+      "num_verses": 13,
+      "num_words": 309
+    },
+    {
+      "book": "Numbers",
+      "chapter": 18,
+      "num_verses": 32,
+      "num_words": 1044
+    },
+    {
+      "book": "Numbers",
+      "chapter": 19,
+      "num_verses": 22,
+      "num_words": 670
+    },
+    {
+      "book": "Numbers",
+      "chapter": 20,
+      "num_verses": 29,
+      "num_words": 768
+    },
+    {
+      "book": "Numbers",
+      "chapter": 21,
+      "num_verses": 35,
+      "num_words": 899
+    },
+    {
+      "book": "Numbers",
+      "chapter": 22,
+      "num_verses": 41,
+      "num_words": 1142
+    },
+    {
+      "book": "Numbers",
+      "chapter": 23,
+      "num_verses": 30,
+      "num_words": 729
+    },
+    {
+      "book": "Numbers",
+      "chapter": 24,
+      "num_verses": 25,
+      "num_words": 614
+    },
+    {
+      "book": "Numbers",
+      "chapter": 25,
+      "num_verses": 18,
+      "num_words": 442
+    },
+    {
+      "book": "Numbers",
+      "chapter": 26,
+      "num_verses": 65,
+      "num_words": 1295
+    },
+    {
+      "book": "Numbers",
+      "chapter": 27,
+      "num_verses": 23,
+      "num_words": 570
+    },
+    {
+      "book": "Numbers",
+      "chapter": 28,
+      "num_verses": 31,
+      "num_words": 740
+    },
+    {
+      "book": "Numbers",
+      "chapter": 29,
+      "num_verses": 40,
+      "num_words": 894
+    },
+    {
+      "book": "Numbers",
+      "chapter": 30,
+      "num_verses": 16,
+      "num_words": 493
+    },
+    {
+      "book": "Numbers",
+      "chapter": 31,
+      "num_verses": 54,
+      "num_words": 1077
+    },
+    {
+      "book": "Numbers",
+      "chapter": 32,
+      "num_verses": 42,
+      "num_words": 1008
+    },
+    {
+      "book": "Numbers",
+      "chapter": 33,
+      "num_verses": 56,
+      "num_words": 950
+    },
+    {
+      "book": "Numbers",
+      "chapter": 34,
+      "num_verses": 29,
+      "num_words": 587
+    },
+    {
+      "book": "Numbers",
+      "chapter": 35,
+      "num_verses": 34,
+      "num_words": 946
+    },
+    {
+      "book": "Numbers",
+      "chapter": 36,
+      "num_verses": 13,
+      "num_words": 432
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 1,
+      "num_verses": 46,
+      "num_words": 1236
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 2,
+      "num_verses": 37,
+      "num_words": 1017
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 3,
+      "num_verses": 29,
+      "num_words": 837
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 4,
+      "num_verses": 49,
+      "num_words": 1498
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 5,
+      "num_verses": 33,
+      "num_words": 910
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 6,
+      "num_verses": 25,
+      "num_words": 652
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 7,
+      "num_verses": 26,
+      "num_words": 834
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 8,
+      "num_verses": 20,
+      "num_words": 551
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 9,
+      "num_verses": 29,
+      "num_words": 958
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 10,
+      "num_verses": 22,
+      "num_words": 589
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 11,
+      "num_verses": 32,
+      "num_words": 925
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 12,
+      "num_verses": 32,
+      "num_words": 1042
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 13,
+      "num_verses": 18,
+      "num_words": 591
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 14,
+      "num_verses": 29,
+      "num_words": 659
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 15,
+      "num_verses": 23,
+      "num_words": 682
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 16,
+      "num_verses": 22,
+      "num_words": 702
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 17,
+      "num_verses": 20,
+      "num_words": 699
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 18,
+      "num_verses": 22,
+      "num_words": 580
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 19,
+      "num_verses": 21,
+      "num_words": 585
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 20,
+      "num_verses": 20,
+      "num_words": 615
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 21,
+      "num_verses": 23,
+      "num_words": 718
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 22,
+      "num_verses": 30,
+      "num_words": 868
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 23,
+      "num_verses": 25,
+      "num_words": 655
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 24,
+      "num_verses": 22,
+      "num_words": 662
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 25,
+      "num_verses": 19,
+      "num_words": 556
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 26,
+      "num_verses": 19,
+      "num_words": 658
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 27,
+      "num_verses": 26,
+      "num_words": 580
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 28,
+      "num_verses": 68,
+      "num_words": 1987
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 29,
+      "num_verses": 29,
+      "num_words": 824
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 30,
+      "num_verses": 20,
+      "num_words": 640
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 31,
+      "num_verses": 30,
+      "num_words": 1000
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 32,
+      "num_verses": 52,
+      "num_words": 1269
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 33,
+      "num_verses": 29,
+      "num_words": 722
+    },
+    {
+      "book": "Deuteronomy",
+      "chapter": 34,
+      "num_verses": 12,
+      "num_words": 317
+    },
+    {
+      "book": "Joshua",
+      "chapter": 1,
+      "num_verses": 18,
+      "num_words": 558
+    },
+    {
+      "book": "Joshua",
+      "chapter": 2,
+      "num_verses": 24,
+      "num_words": 750
+    },
+    {
+      "book": "Joshua",
+      "chapter": 3,
+      "num_verses": 17,
+      "num_words": 547
+    },
+    {
+      "book": "Joshua",
+      "chapter": 4,
+      "num_verses": 24,
+      "num_words": 670
+    },
+    {
+      "book": "Joshua",
+      "chapter": 5,
+      "num_verses": 15,
+      "num_words": 537
+    },
+    {
+      "book": "Joshua",
+      "chapter": 6,
+      "num_verses": 27,
+      "num_words": 881
+    },
+    {
+      "book": "Joshua",
+      "chapter": 7,
+      "num_verses": 26,
+      "num_words": 888
+    },
+    {
+      "book": "Joshua",
+      "chapter": 8,
+      "num_verses": 35,
+      "num_words": 1151
+    },
+    {
+      "book": "Joshua",
+      "chapter": 9,
+      "num_verses": 27,
+      "num_words": 768
+    },
+    {
+      "book": "Joshua",
+      "chapter": 10,
+      "num_verses": 43,
+      "num_words": 1345
+    },
+    {
+      "book": "Joshua",
+      "chapter": 11,
+      "num_verses": 23,
+      "num_words": 686
+    },
+    {
+      "book": "Joshua",
+      "chapter": 12,
+      "num_verses": 24,
+      "num_words": 470
+    },
+    {
+      "book": "Joshua",
+      "chapter": 13,
+      "num_verses": 33,
+      "num_words": 840
+    },
+    {
+      "book": "Joshua",
+      "chapter": 14,
+      "num_verses": 15,
+      "num_words": 464
+    },
+    {
+      "book": "Joshua",
+      "chapter": 15,
+      "num_verses": 63,
+      "num_words": 898
+    },
+    {
+      "book": "Joshua",
+      "chapter": 16,
+      "num_verses": 10,
+      "num_words": 254
+    },
+    {
+      "book": "Joshua",
+      "chapter": 17,
+      "num_verses": 18,
+      "num_words": 615
+    },
+    {
+      "book": "Joshua",
+      "chapter": 18,
+      "num_verses": 28,
+      "num_words": 742
+    },
+    {
+      "book": "Joshua",
+      "chapter": 19,
+      "num_verses": 51,
+      "num_words": 847
+    },
+    {
+      "book": "Joshua",
+      "chapter": 20,
+      "num_verses": 9,
+      "num_words": 300
+    },
+    {
+      "book": "Joshua",
+      "chapter": 21,
+      "num_verses": 45,
+      "num_words": 937
+    },
+    {
+      "book": "Joshua",
+      "chapter": 22,
+      "num_verses": 34,
+      "num_words": 1293
+    },
+    {
+      "book": "Joshua",
+      "chapter": 23,
+      "num_verses": 16,
+      "num_words": 538
+    },
+    {
+      "book": "Joshua",
+      "chapter": 24,
+      "num_verses": 33,
+      "num_words": 1014
+    },
+    {
+      "book": "Judges",
+      "chapter": 1,
+      "num_verses": 36,
+      "num_words": 946
+    },
+    {
+      "book": "Judges",
+      "chapter": 2,
+      "num_verses": 23,
+      "num_words": 677
+    },
+    {
+      "book": "Judges",
+      "chapter": 3,
+      "num_verses": 31,
+      "num_words": 834
+    },
+    {
+      "book": "Judges",
+      "chapter": 4,
+      "num_verses": 24,
+      "num_words": 732
+    },
+    {
+      "book": "Judges",
+      "chapter": 5,
+      "num_verses": 31,
+      "num_words": 701
+    },
+    {
+      "book": "Judges",
+      "chapter": 6,
+      "num_verses": 40,
+      "num_words": 1283
+    },
+    {
+      "book": "Judges",
+      "chapter": 7,
+      "num_verses": 25,
+      "num_words": 902
+    },
+    {
+      "book": "Judges",
+      "chapter": 8,
+      "num_verses": 35,
+      "num_words": 968
+    },
+    {
+      "book": "Judges",
+      "chapter": 9,
+      "num_verses": 57,
+      "num_words": 1580
+    },
+    {
+      "book": "Judges",
+      "chapter": 10,
+      "num_verses": 18,
+      "num_words": 457
+    },
+    {
+      "book": "Judges",
+      "chapter": 11,
+      "num_verses": 40,
+      "num_words": 1175
+    },
+    {
+      "book": "Judges",
+      "chapter": 12,
+      "num_verses": 15,
+      "num_words": 384
+    },
+    {
+      "book": "Judges",
+      "chapter": 13,
+      "num_verses": 25,
+      "num_words": 733
+    },
+    {
+      "book": "Judges",
+      "chapter": 14,
+      "num_verses": 20,
+      "num_words": 680
+    },
+    {
+      "book": "Judges",
+      "chapter": 15,
+      "num_verses": 20,
+      "num_words": 636
+    },
+    {
+      "book": "Judges",
+      "chapter": 16,
+      "num_verses": 31,
+      "num_words": 1102
+    },
+    {
+      "book": "Judges",
+      "chapter": 17,
+      "num_verses": 13,
+      "num_words": 387
+    },
+    {
+      "book": "Judges",
+      "chapter": 18,
+      "num_verses": 31,
+      "num_words": 1009
+    },
+    {
+      "book": "Judges",
+      "chapter": 19,
+      "num_verses": 30,
+      "num_words": 1052
+    },
+    {
+      "book": "Judges",
+      "chapter": 20,
+      "num_verses": 48,
+      "num_words": 1372
+    },
+    {
+      "book": "Judges",
+      "chapter": 21,
+      "num_verses": 25,
+      "num_words": 702
+    },
+    {
+      "book": "Ruth",
+      "chapter": 1,
+      "num_verses": 22,
+      "num_words": 619
+    },
+    {
+      "book": "Ruth",
+      "chapter": 2,
+      "num_verses": 23,
+      "num_words": 721
+    },
+    {
+      "book": "Ruth",
+      "chapter": 3,
+      "num_verses": 18,
+      "num_words": 473
+    },
+    {
+      "book": "Ruth",
+      "chapter": 4,
+      "num_verses": 22,
+      "num_words": 624
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 1,
+      "num_verses": 28,
+      "num_words": 758
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 2,
+      "num_verses": 36,
+      "num_words": 1113
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 3,
+      "num_verses": 21,
+      "num_words": 527
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 4,
+      "num_verses": 22,
+      "num_words": 696
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 5,
+      "num_verses": 12,
+      "num_words": 427
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 6,
+      "num_verses": 21,
+      "num_words": 735
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 7,
+      "num_verses": 17,
+      "num_words": 509
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 8,
+      "num_verses": 22,
+      "num_words": 527
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 9,
+      "num_verses": 27,
+      "num_words": 940
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 10,
+      "num_verses": 27,
+      "num_words": 848
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 11,
+      "num_verses": 15,
+      "num_words": 482
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 12,
+      "num_verses": 25,
+      "num_words": 781
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 13,
+      "num_verses": 23,
+      "num_words": 683
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 14,
+      "num_verses": 52,
+      "num_words": 1582
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 15,
+      "num_verses": 35,
+      "num_words": 953
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 16,
+      "num_verses": 23,
+      "num_words": 654
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 17,
+      "num_verses": 58,
+      "num_words": 1661
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 18,
+      "num_verses": 30,
+      "num_words": 794
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 19,
+      "num_verses": 24,
+      "num_words": 674
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 20,
+      "num_verses": 42,
+      "num_words": 1217
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 21,
+      "num_verses": 15,
+      "num_words": 483
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 22,
+      "num_verses": 23,
+      "num_words": 737
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 23,
+      "num_verses": 29,
+      "num_words": 801
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 24,
+      "num_verses": 22,
+      "num_words": 646
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 25,
+      "num_verses": 44,
+      "num_words": 1343
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 26,
+      "num_verses": 25,
+      "num_words": 830
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 27,
+      "num_verses": 12,
+      "num_words": 380
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 28,
+      "num_verses": 25,
+      "num_words": 780
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 29,
+      "num_verses": 11,
+      "num_words": 422
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 30,
+      "num_verses": 31,
+      "num_words": 846
+    },
+    {
+      "book": "1 Samuel",
+      "chapter": 31,
+      "num_verses": 13,
+      "num_words": 339
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 1,
+      "num_verses": 27,
+      "num_words": 675
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 2,
+      "num_verses": 32,
+      "num_words": 865
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 3,
+      "num_verses": 39,
+      "num_words": 1119
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 4,
+      "num_verses": 12,
+      "num_words": 414
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 5,
+      "num_verses": 25,
+      "num_words": 597
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 6,
+      "num_verses": 23,
+      "num_words": 671
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 7,
+      "num_verses": 29,
+      "num_words": 827
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 8,
+      "num_verses": 18,
+      "num_words": 420
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 9,
+      "num_verses": 13,
+      "num_words": 392
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 10,
+      "num_verses": 19,
+      "num_words": 575
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 11,
+      "num_verses": 27,
+      "num_words": 771
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 12,
+      "num_verses": 31,
+      "num_words": 975
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 13,
+      "num_verses": 39,
+      "num_words": 1106
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 14,
+      "num_verses": 33,
+      "num_words": 1077
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 15,
+      "num_verses": 37,
+      "num_words": 1051
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 16,
+      "num_verses": 23,
+      "num_words": 702
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 17,
+      "num_verses": 29,
+      "num_words": 892
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 18,
+      "num_verses": 33,
+      "num_words": 1084
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 19,
+      "num_verses": 43,
+      "num_words": 1421
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 20,
+      "num_verses": 26,
+      "num_words": 816
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 21,
+      "num_verses": 22,
+      "num_words": 772
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 22,
+      "num_verses": 51,
+      "num_words": 878
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 23,
+      "num_verses": 39,
+      "num_words": 851
+    },
+    {
+      "book": "2 Samuel",
+      "chapter": 24,
+      "num_verses": 25,
+      "num_words": 844
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 1,
+      "num_verses": 53,
+      "num_words": 1447
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 2,
+      "num_verses": 46,
+      "num_words": 1437
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 3,
+      "num_verses": 28,
+      "num_words": 822
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 4,
+      "num_verses": 34,
+      "num_words": 661
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 5,
+      "num_verses": 18,
+      "num_words": 499
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 6,
+      "num_verses": 38,
+      "num_words": 976
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 7,
+      "num_verses": 51,
+      "num_words": 1397
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 8,
+      "num_verses": 66,
+      "num_words": 2045
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 9,
+      "num_verses": 28,
+      "num_words": 787
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 10,
+      "num_verses": 29,
+      "num_words": 799
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 11,
+      "num_verses": 43,
+      "num_words": 1237
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 12,
+      "num_verses": 33,
+      "num_words": 995
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 13,
+      "num_verses": 34,
+      "num_words": 1093
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 14,
+      "num_verses": 31,
+      "num_words": 934
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 15,
+      "num_verses": 34,
+      "num_words": 946
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 16,
+      "num_verses": 34,
+      "num_words": 1015
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 17,
+      "num_verses": 24,
+      "num_words": 653
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 18,
+      "num_verses": 46,
+      "num_words": 1354
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 19,
+      "num_verses": 21,
+      "num_words": 730
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 20,
+      "num_verses": 43,
+      "num_words": 1372
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 21,
+      "num_verses": 29,
+      "num_words": 856
+    },
+    {
+      "book": "1 Kings",
+      "chapter": 22,
+      "num_verses": 53,
+      "num_words": 1465
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 1,
+      "num_verses": 18,
+      "num_words": 634
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 2,
+      "num_verses": 25,
+      "num_words": 835
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 3,
+      "num_verses": 27,
+      "num_words": 810
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 4,
+      "num_verses": 44,
+      "num_words": 1295
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 5,
+      "num_verses": 27,
+      "num_words": 932
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 6,
+      "num_verses": 33,
+      "num_words": 1004
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 7,
+      "num_verses": 20,
+      "num_words": 784
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 8,
+      "num_verses": 29,
+      "num_words": 935
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 9,
+      "num_verses": 37,
+      "num_words": 1172
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 10,
+      "num_verses": 36,
+      "num_words": 1179
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 11,
+      "num_verses": 21,
+      "num_words": 712
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 12,
+      "num_verses": 21,
+      "num_words": 690
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 13,
+      "num_verses": 25,
+      "num_words": 771
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 14,
+      "num_verses": 29,
+      "num_words": 859
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 15,
+      "num_verses": 38,
+      "num_words": 1104
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 16,
+      "num_verses": 20,
+      "num_words": 658
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 17,
+      "num_verses": 41,
+      "num_words": 1226
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 18,
+      "num_verses": 37,
+      "num_words": 1181
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 19,
+      "num_verses": 37,
+      "num_words": 1079
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 20,
+      "num_verses": 21,
+      "num_words": 652
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 21,
+      "num_verses": 26,
+      "num_words": 753
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 22,
+      "num_verses": 20,
+      "num_words": 696
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 23,
+      "num_verses": 37,
+      "num_words": 1433
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 24,
+      "num_verses": 20,
+      "num_words": 573
+    },
+    {
+      "book": "2 Kings",
+      "chapter": 25,
+      "num_verses": 30,
+      "num_words": 945
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 1,
+      "num_verses": 54,
+      "num_words": 582
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 2,
+      "num_verses": 55,
+      "num_words": 744
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 3,
+      "num_verses": 24,
+      "num_words": 308
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 4,
+      "num_verses": 43,
+      "num_words": 744
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 5,
+      "num_verses": 26,
+      "num_words": 594
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 6,
+      "num_verses": 81,
+      "num_words": 1140
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 7,
+      "num_verses": 40,
+      "num_words": 695
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 8,
+      "num_verses": 40,
+      "num_words": 419
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 9,
+      "num_verses": 44,
+      "num_words": 871
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 10,
+      "num_verses": 14,
+      "num_words": 354
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 11,
+      "num_verses": 47,
+      "num_words": 926
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 12,
+      "num_verses": 40,
+      "num_words": 837
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 13,
+      "num_verses": 14,
+      "num_words": 376
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 14,
+      "num_verses": 17,
+      "num_words": 335
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 15,
+      "num_verses": 29,
+      "num_words": 663
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 16,
+      "num_verses": 43,
+      "num_words": 807
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 17,
+      "num_verses": 27,
+      "num_words": 739
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 18,
+      "num_verses": 17,
+      "num_words": 397
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 19,
+      "num_verses": 19,
+      "num_words": 580
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 20,
+      "num_verses": 8,
+      "num_words": 275
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 21,
+      "num_verses": 30,
+      "num_words": 882
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 22,
+      "num_verses": 19,
+      "num_words": 579
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 23,
+      "num_verses": 32,
+      "num_words": 625
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 24,
+      "num_verses": 31,
+      "num_words": 502
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 25,
+      "num_verses": 31,
+      "num_words": 484
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 26,
+      "num_verses": 32,
+      "num_words": 703
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 27,
+      "num_verses": 34,
+      "num_words": 692
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 28,
+      "num_verses": 21,
+      "num_words": 779
+    },
+    {
+      "book": "1 Chronicles",
+      "chapter": 29,
+      "num_verses": 30,
+      "num_words": 948
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 1,
+      "num_verses": 17,
+      "num_words": 501
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 2,
+      "num_verses": 18,
+      "num_words": 572
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 3,
+      "num_verses": 17,
+      "num_words": 428
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 4,
+      "num_verses": 22,
+      "num_words": 525
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 5,
+      "num_verses": 14,
+      "num_words": 462
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 6,
+      "num_verses": 42,
+      "num_words": 1336
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 7,
+      "num_verses": 22,
+      "num_words": 704
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 8,
+      "num_verses": 18,
+      "num_words": 497
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 9,
+      "num_verses": 31,
+      "num_words": 843
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 10,
+      "num_verses": 19,
+      "num_words": 533
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 11,
+      "num_verses": 23,
+      "num_words": 451
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 12,
+      "num_verses": 16,
+      "num_words": 456
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 13,
+      "num_verses": 22,
+      "num_words": 598
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 14,
+      "num_verses": 15,
+      "num_words": 430
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 15,
+      "num_verses": 19,
+      "num_words": 510
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 16,
+      "num_verses": 14,
+      "num_words": 453
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 17,
+      "num_verses": 19,
+      "num_words": 391
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 18,
+      "num_verses": 34,
+      "num_words": 993
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 19,
+      "num_verses": 11,
+      "num_words": 344
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 20,
+      "num_verses": 37,
+      "num_words": 1087
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 21,
+      "num_verses": 20,
+      "num_words": 592
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 22,
+      "num_verses": 12,
+      "num_words": 455
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 23,
+      "num_verses": 21,
+      "num_words": 764
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 24,
+      "num_verses": 27,
+      "num_words": 895
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 25,
+      "num_verses": 28,
+      "num_words": 899
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 26,
+      "num_verses": 23,
+      "num_words": 690
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 27,
+      "num_verses": 9,
+      "num_words": 231
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 28,
+      "num_verses": 27,
+      "num_words": 869
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 29,
+      "num_verses": 36,
+      "num_words": 1125
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 30,
+      "num_verses": 27,
+      "num_words": 845
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 31,
+      "num_verses": 21,
+      "num_words": 716
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 32,
+      "num_verses": 33,
+      "num_words": 1096
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 33,
+      "num_verses": 25,
+      "num_words": 771
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 34,
+      "num_verses": 33,
+      "num_words": 1175
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 35,
+      "num_verses": 27,
+      "num_words": 890
+    },
+    {
+      "book": "2 Chronicles",
+      "chapter": 36,
+      "num_verses": 23,
+      "num_words": 729
+    },
+    {
+      "book": "Ezra",
+      "chapter": 1,
+      "num_verses": 11,
+      "num_words": 343
+    },
+    {
+      "book": "Ezra",
+      "chapter": 2,
+      "num_verses": 70,
+      "num_words": 798
+    },
+    {
+      "book": "Ezra",
+      "chapter": 3,
+      "num_verses": 13,
+      "num_words": 525
+    },
+    {
+      "book": "Ezra",
+      "chapter": 4,
+      "num_verses": 24,
+      "num_words": 739
+    },
+    {
+      "book": "Ezra",
+      "chapter": 5,
+      "num_verses": 17,
+      "num_words": 573
+    },
+    {
+      "book": "Ezra",
+      "chapter": 6,
+      "num_verses": 22,
+      "num_words": 754
+    },
+    {
+      "book": "Ezra",
+      "chapter": 7,
+      "num_verses": 28,
+      "num_words": 833
+    },
+    {
+      "book": "Ezra",
+      "chapter": 8,
+      "num_verses": 36,
+      "num_words": 919
+    },
+    {
+      "book": "Ezra",
+      "chapter": 9,
+      "num_verses": 15,
+      "num_words": 597
+    },
+    {
+      "book": "Ezra",
+      "chapter": 10,
+      "num_verses": 44,
+      "num_words": 840
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 1,
+      "num_verses": 11,
+      "num_words": 362
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 2,
+      "num_verses": 20,
+      "num_words": 698
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 3,
+      "num_verses": 32,
+      "num_words": 829
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 4,
+      "num_verses": 23,
+      "num_words": 678
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 5,
+      "num_verses": 19,
+      "num_words": 617
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 6,
+      "num_verses": 19,
+      "num_words": 590
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 7,
+      "num_verses": 73,
+      "num_words": 958
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 8,
+      "num_verses": 18,
+      "num_words": 665
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 9,
+      "num_verses": 38,
+      "num_words": 1302
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 10,
+      "num_verses": 39,
+      "num_words": 631
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 11,
+      "num_verses": 36,
+      "num_words": 691
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 12,
+      "num_verses": 47,
+      "num_words": 906
+    },
+    {
+      "book": "Nehemiah",
+      "chapter": 13,
+      "num_verses": 31,
+      "num_words": 947
+    },
+    {
+      "book": "Esther",
+      "chapter": 1,
+      "num_verses": 22,
+      "num_words": 672
+    },
+    {
+      "book": "Esther",
+      "chapter": 2,
+      "num_verses": 23,
+      "num_words": 775
+    },
+    {
+      "book": "Esther",
+      "chapter": 3,
+      "num_verses": 15,
+      "num_words": 561
+    },
+    {
+      "book": "Esther",
+      "chapter": 4,
+      "num_verses": 17,
+      "num_words": 518
+    },
+    {
+      "book": "Esther",
+      "chapter": 5,
+      "num_verses": 14,
+      "num_words": 466
+    },
+    {
+      "book": "Esther",
+      "chapter": 6,
+      "num_verses": 14,
+      "num_words": 462
+    },
+    {
+      "book": "Esther",
+      "chapter": 7,
+      "num_verses": 10,
+      "num_words": 339
+    },
+    {
+      "book": "Esther",
+      "chapter": 8,
+      "num_verses": 17,
+      "num_words": 649
+    },
+    {
+      "book": "Esther",
+      "chapter": 9,
+      "num_verses": 32,
+      "num_words": 945
+    },
+    {
+      "book": "Esther",
+      "chapter": 10,
+      "num_verses": 3,
+      "num_words": 97
+    },
+    {
+      "book": "Job",
+      "chapter": 1,
+      "num_verses": 22,
+      "num_words": 629
+    },
+    {
+      "book": "Job",
+      "chapter": 2,
+      "num_verses": 13,
+      "num_words": 382
+    },
+    {
+      "book": "Job",
+      "chapter": 3,
+      "num_verses": 26,
+      "num_words": 404
+    },
+    {
+      "book": "Job",
+      "chapter": 4,
+      "num_verses": 21,
+      "num_words": 329
+    },
+    {
+      "book": "Job",
+      "chapter": 5,
+      "num_verses": 27,
+      "num_words": 426
+    },
+    {
+      "book": "Job",
+      "chapter": 6,
+      "num_verses": 30,
+      "num_words": 444
+    },
+    {
+      "book": "Job",
+      "chapter": 7,
+      "num_verses": 21,
+      "num_words": 371
+    },
+    {
+      "book": "Job",
+      "chapter": 8,
+      "num_verses": 22,
+      "num_words": 327
+    },
+    {
+      "book": "Job",
+      "chapter": 9,
+      "num_verses": 35,
+      "num_words": 539
+    },
+    {
+      "book": "Job",
+      "chapter": 10,
+      "num_verses": 22,
+      "num_words": 370
+    },
+    {
+      "book": "Job",
+      "chapter": 11,
+      "num_verses": 20,
+      "num_words": 319
+    },
+    {
+      "book": "Job",
+      "chapter": 12,
+      "num_verses": 25,
+      "num_words": 383
+    },
+    {
+      "book": "Job",
+      "chapter": 13,
+      "num_verses": 28,
+      "num_words": 398
+    },
+    {
+      "book": "Job",
+      "chapter": 14,
+      "num_verses": 22,
+      "num_words": 403
+    },
+    {
+      "book": "Job",
+      "chapter": 15,
+      "num_verses": 35,
+      "num_words": 547
+    },
+    {
+      "book": "Job",
+      "chapter": 16,
+      "num_verses": 22,
+      "num_words": 374
+    },
+    {
+      "book": "Job",
+      "chapter": 17,
+      "num_verses": 16,
+      "num_words": 250
+    },
+    {
+      "book": "Job",
+      "chapter": 18,
+      "num_verses": 21,
+      "num_words": 306
+    },
+    {
+      "book": "Job",
+      "chapter": 19,
+      "num_verses": 29,
+      "num_words": 477
+    },
+    {
+      "book": "Job",
+      "chapter": 20,
+      "num_verses": 29,
+      "num_words": 489
+    },
+    {
+      "book": "Job",
+      "chapter": 21,
+      "num_verses": 34,
+      "num_words": 512
+    },
+    {
+      "book": "Job",
+      "chapter": 22,
+      "num_verses": 30,
+      "num_words": 460
+    },
+    {
+      "book": "Job",
+      "chapter": 23,
+      "num_verses": 17,
+      "num_words": 280
+    },
+    {
+      "book": "Job",
+      "chapter": 24,
+      "num_verses": 25,
+      "num_words": 465
+    },
+    {
+      "book": "Job",
+      "chapter": 25,
+      "num_verses": 6,
+      "num_words": 87
+    },
+    {
+      "book": "Job",
+      "chapter": 26,
+      "num_verses": 14,
+      "num_words": 202
+    },
+    {
+      "book": "Job",
+      "chapter": 27,
+      "num_verses": 23,
+      "num_words": 370
+    },
+    {
+      "book": "Job",
+      "chapter": 28,
+      "num_verses": 28,
+      "num_words": 449
+    },
+    {
+      "book": "Job",
+      "chapter": 29,
+      "num_verses": 25,
+      "num_words": 400
+    },
+    {
+      "book": "Job",
+      "chapter": 30,
+      "num_verses": 31,
+      "num_words": 523
+    },
+    {
+      "book": "Job",
+      "chapter": 31,
+      "num_verses": 40,
+      "num_words": 698
+    },
+    {
+      "book": "Job",
+      "chapter": 32,
+      "num_verses": 22,
+      "num_words": 378
+    },
+    {
+      "book": "Job",
+      "chapter": 33,
+      "num_verses": 33,
+      "num_words": 527
+    },
+    {
+      "book": "Job",
+      "chapter": 34,
+      "num_verses": 37,
+      "num_words": 584
+    },
+    {
+      "book": "Job",
+      "chapter": 35,
+      "num_verses": 16,
+      "num_words": 253
+    },
+    {
+      "book": "Job",
+      "chapter": 36,
+      "num_verses": 33,
+      "num_words": 479
+    },
+    {
+      "book": "Job",
+      "chapter": 37,
+      "num_verses": 24,
+      "num_words": 389
+    },
+    {
+      "book": "Job",
+      "chapter": 38,
+      "num_verses": 41,
+      "num_words": 638
+    },
+    {
+      "book": "Job",
+      "chapter": 39,
+      "num_verses": 30,
+      "num_words": 487
+    },
+    {
+      "book": "Job",
+      "chapter": 40,
+      "num_verses": 24,
+      "num_words": 359
+    },
+    {
+      "book": "Job",
+      "chapter": 41,
+      "num_verses": 34,
+      "num_words": 494
+    },
+    {
+      "book": "Job",
+      "chapter": 42,
+      "num_verses": 17,
+      "num_words": 426
+    },
+    {
+      "book": "Psalms",
+      "chapter": 1,
+      "num_verses": 6,
+      "num_words": 124
+    },
+    {
+      "book": "Psalms",
+      "chapter": 2,
+      "num_verses": 12,
+      "num_words": 193
+    },
+    {
+      "book": "Psalms",
+      "chapter": 3,
+      "num_verses": 8,
+      "num_words": 126
+    },
+    {
+      "book": "Psalms",
+      "chapter": 4,
+      "num_verses": 8,
+      "num_words": 157
+    },
+    {
+      "book": "Psalms",
+      "chapter": 5,
+      "num_verses": 12,
+      "num_words": 235
+    },
+    {
+      "book": "Psalms",
+      "chapter": 6,
+      "num_verses": 10,
+      "num_words": 161
+    },
+    {
+      "book": "Psalms",
+      "chapter": 7,
+      "num_verses": 17,
+      "num_words": 307
+    },
+    {
+      "book": "Psalms",
+      "chapter": 8,
+      "num_verses": 9,
+      "num_words": 166
+    },
+    {
+      "book": "Psalms",
+      "chapter": 9,
+      "num_verses": 20,
+      "num_words": 354
+    },
+    {
+      "book": "Psalms",
+      "chapter": 10,
+      "num_verses": 18,
+      "num_words": 348
+    },
+    {
+      "book": "Psalms",
+      "chapter": 11,
+      "num_verses": 7,
+      "num_words": 131
+    },
+    {
+      "book": "Psalms",
+      "chapter": 12,
+      "num_verses": 8,
+      "num_words": 144
+    },
+    {
+      "book": "Psalms",
+      "chapter": 13,
+      "num_verses": 6,
+      "num_words": 109
+    },
+    {
+      "book": "Psalms",
+      "chapter": 14,
+      "num_verses": 7,
+      "num_words": 143
+    },
+    {
+      "book": "Psalms",
+      "chapter": 15,
+      "num_verses": 5,
+      "num_words": 105
+    },
+    {
+      "book": "Psalms",
+      "chapter": 16,
+      "num_verses": 11,
+      "num_words": 191
+    },
+    {
+      "book": "Psalms",
+      "chapter": 17,
+      "num_verses": 15,
+      "num_words": 279
+    },
+    {
+      "book": "Psalms",
+      "chapter": 18,
+      "num_verses": 50,
+      "num_words": 864
+    },
+    {
+      "book": "Psalms",
+      "chapter": 19,
+      "num_verses": 14,
+      "num_words": 265
+    },
+    {
+      "book": "Psalms",
+      "chapter": 20,
+      "num_verses": 9,
+      "num_words": 152
+    },
+    {
+      "book": "Psalms",
+      "chapter": 21,
+      "num_verses": 13,
+      "num_words": 222
+    },
+    {
+      "book": "Psalms",
+      "chapter": 22,
+      "num_verses": 31,
+      "num_words": 557
+    },
+    {
+      "book": "Psalms",
+      "chapter": 23,
+      "num_verses": 6,
+      "num_words": 113
+    },
+    {
+      "book": "Psalms",
+      "chapter": 24,
+      "num_verses": 10,
+      "num_words": 180
+    },
+    {
+      "book": "Psalms",
+      "chapter": 25,
+      "num_verses": 22,
+      "num_words": 346
+    },
+    {
+      "book": "Psalms",
+      "chapter": 26,
+      "num_verses": 12,
+      "num_words": 173
+    },
+    {
+      "book": "Psalms",
+      "chapter": 27,
+      "num_verses": 14,
+      "num_words": 328
+    },
+    {
+      "book": "Psalms",
+      "chapter": 28,
+      "num_verses": 9,
+      "num_words": 213
+    },
+    {
+      "book": "Psalms",
+      "chapter": 29,
+      "num_verses": 11,
+      "num_words": 173
+    },
+    {
+      "book": "Psalms",
+      "chapter": 30,
+      "num_verses": 12,
+      "num_words": 227
+    },
+    {
+      "book": "Psalms",
+      "chapter": 31,
+      "num_verses": 24,
+      "num_words": 503
+    },
+    {
+      "book": "Psalms",
+      "chapter": 32,
+      "num_verses": 11,
+      "num_words": 233
+    },
+    {
+      "book": "Psalms",
+      "chapter": 33,
+      "num_verses": 22,
+      "num_words": 348
+    },
+    {
+      "book": "Psalms",
+      "chapter": 34,
+      "num_verses": 22,
+      "num_words": 334
+    },
+    {
+      "book": "Psalms",
+      "chapter": 35,
+      "num_verses": 28,
+      "num_words": 527
+    },
+    {
+      "book": "Psalms",
+      "chapter": 36,
+      "num_verses": 12,
+      "num_words": 213
+    },
+    {
+      "book": "Psalms",
+      "chapter": 37,
+      "num_verses": 40,
+      "num_words": 662
+    },
+    {
+      "book": "Psalms",
+      "chapter": 38,
+      "num_verses": 22,
+      "num_words": 342
+    },
+    {
+      "book": "Psalms",
+      "chapter": 39,
+      "num_verses": 13,
+      "num_words": 275
+    },
+    {
+      "book": "Psalms",
+      "chapter": 40,
+      "num_verses": 17,
+      "num_words": 402
+    },
+    {
+      "book": "Psalms",
+      "chapter": 41,
+      "num_verses": 13,
+      "num_words": 235
+    },
+    {
+      "book": "Psalms",
+      "chapter": 42,
+      "num_verses": 11,
+      "num_words": 266
+    },
+    {
+      "book": "Psalms",
+      "chapter": 43,
+      "num_verses": 5,
+      "num_words": 127
+    },
+    {
+      "book": "Psalms",
+      "chapter": 44,
+      "num_verses": 26,
+      "num_words": 444
+    },
+    {
+      "book": "Psalms",
+      "chapter": 45,
+      "num_verses": 17,
+      "num_words": 306
+    },
+    {
+      "book": "Psalms",
+      "chapter": 46,
+      "num_verses": 11,
+      "num_words": 189
+    },
+    {
+      "book": "Psalms",
+      "chapter": 47,
+      "num_verses": 9,
+      "num_words": 134
+    },
+    {
+      "book": "Psalms",
+      "chapter": 48,
+      "num_verses": 14,
+      "num_words": 218
+    },
+    {
+      "book": "Psalms",
+      "chapter": 49,
+      "num_verses": 20,
+      "num_words": 328
+    },
+    {
+      "book": "Psalms",
+      "chapter": 50,
+      "num_verses": 23,
+      "num_words": 378
+    },
+    {
+      "book": "Psalms",
+      "chapter": 51,
+      "num_verses": 19,
+      "num_words": 316
+    },
+    {
+      "book": "Psalms",
+      "chapter": 52,
+      "num_verses": 9,
+      "num_words": 168
+    },
+    {
+      "book": "Psalms",
+      "chapter": 53,
+      "num_verses": 6,
+      "num_words": 142
+    },
+    {
+      "book": "Psalms",
+      "chapter": 54,
+      "num_verses": 7,
+      "num_words": 114
+    },
+    {
+      "book": "Psalms",
+      "chapter": 55,
+      "num_verses": 23,
+      "num_words": 415
+    },
+    {
+      "book": "Psalms",
+      "chapter": 56,
+      "num_verses": 13,
+      "num_words": 215
+    },
+    {
+      "book": "Psalms",
+      "chapter": 57,
+      "num_verses": 11,
+      "num_words": 227
+    },
+    {
+      "book": "Psalms",
+      "chapter": 58,
+      "num_verses": 11,
+      "num_words": 190
+    },
+    {
+      "book": "Psalms",
+      "chapter": 59,
+      "num_verses": 17,
+      "num_words": 336
+    },
+    {
+      "book": "Psalms",
+      "chapter": 60,
+      "num_verses": 12,
+      "num_words": 200
+    },
+    {
+      "book": "Psalms",
+      "chapter": 61,
+      "num_verses": 8,
+      "num_words": 130
+    },
+    {
+      "book": "Psalms",
+      "chapter": 62,
+      "num_verses": 12,
+      "num_words": 222
+    },
+    {
+      "book": "Psalms",
+      "chapter": 63,
+      "num_verses": 11,
+      "num_words": 200
+    },
+    {
+      "book": "Psalms",
+      "chapter": 64,
+      "num_verses": 10,
+      "num_words": 163
+    },
+    {
+      "book": "Psalms",
+      "chapter": 65,
+      "num_verses": 13,
+      "num_words": 244
+    },
+    {
+      "book": "Psalms",
+      "chapter": 66,
+      "num_verses": 20,
+      "num_words": 332
+    },
+    {
+      "book": "Psalms",
+      "chapter": 67,
+      "num_verses": 7,
+      "num_words": 106
+    },
+    {
+      "book": "Psalms",
+      "chapter": 68,
+      "num_verses": 35,
+      "num_words": 646
+    },
+    {
+      "book": "Psalms",
+      "chapter": 69,
+      "num_verses": 36,
+      "num_words": 661
+    },
+    {
+      "book": "Psalms",
+      "chapter": 70,
+      "num_verses": 5,
+      "num_words": 97
+    },
+    {
+      "book": "Psalms",
+      "chapter": 71,
+      "num_verses": 24,
+      "num_words": 464
+    },
+    {
+      "book": "Psalms",
+      "chapter": 72,
+      "num_verses": 20,
+      "num_words": 352
+    },
+    {
+      "book": "Psalms",
+      "chapter": 73,
+      "num_verses": 28,
+      "num_words": 404
+    },
+    {
+      "book": "Psalms",
+      "chapter": 74,
+      "num_verses": 23,
+      "num_words": 406
+    },
+    {
+      "book": "Psalms",
+      "chapter": 75,
+      "num_verses": 10,
+      "num_words": 182
+    },
+    {
+      "book": "Psalms",
+      "chapter": 76,
+      "num_verses": 12,
+      "num_words": 191
+    },
+    {
+      "book": "Psalms",
+      "chapter": 77,
+      "num_verses": 20,
+      "num_words": 314
+    },
+    {
+      "book": "Psalms",
+      "chapter": 78,
+      "num_verses": 72,
+      "num_words": 1150
+    },
+    {
+      "book": "Psalms",
+      "chapter": 79,
+      "num_verses": 13,
+      "num_words": 264
+    },
+    {
+      "book": "Psalms",
+      "chapter": 80,
+      "num_verses": 19,
+      "num_words": 317
+    },
+    {
+      "book": "Psalms",
+      "chapter": 81,
+      "num_verses": 16,
+      "num_words": 271
+    },
+    {
+      "book": "Psalms",
+      "chapter": 82,
+      "num_verses": 8,
+      "num_words": 118
+    },
+    {
+      "book": "Psalms",
+      "chapter": 83,
+      "num_verses": 18,
+      "num_words": 256
+    },
+    {
+      "book": "Psalms",
+      "chapter": 84,
+      "num_verses": 12,
+      "num_words": 224
+    },
+    {
+      "book": "Psalms",
+      "chapter": 85,
+      "num_verses": 13,
+      "num_words": 187
+    },
+    {
+      "book": "Psalms",
+      "chapter": 86,
+      "num_verses": 17,
+      "num_words": 308
+    },
+    {
+      "book": "Psalms",
+      "chapter": 87,
+      "num_verses": 7,
+      "num_words": 107
+    },
+    {
+      "book": "Psalms",
+      "chapter": 88,
+      "num_verses": 18,
+      "num_words": 300
+    },
+    {
+      "book": "Psalms",
+      "chapter": 89,
+      "num_verses": 52,
+      "num_words": 845
+    },
+    {
+      "book": "Psalms",
+      "chapter": 90,
+      "num_verses": 17,
+      "num_words": 308
+    },
+    {
+      "book": "Psalms",
+      "chapter": 91,
+      "num_verses": 16,
+      "num_words": 273
+    },
+    {
+      "book": "Psalms",
+      "chapter": 92,
+      "num_verses": 15,
+      "num_words": 233
+    },
+    {
+      "book": "Psalms",
+      "chapter": 93,
+      "num_verses": 5,
+      "num_words": 93
+    },
+    {
+      "book": "Psalms",
+      "chapter": 94,
+      "num_verses": 23,
+      "num_words": 330
+    },
+    {
+      "book": "Psalms",
+      "chapter": 95,
+      "num_verses": 11,
+      "num_words": 202
+    },
+    {
+      "book": "Psalms",
+      "chapter": 96,
+      "num_verses": 13,
+      "num_words": 225
+    },
+    {
+      "book": "Psalms",
+      "chapter": 97,
+      "num_verses": 12,
+      "num_words": 185
+    },
+    {
+      "book": "Psalms",
+      "chapter": 98,
+      "num_verses": 9,
+      "num_words": 173
+    },
+    {
+      "book": "Psalms",
+      "chapter": 99,
+      "num_verses": 9,
+      "num_words": 157
+    },
+    {
+      "book": "Psalms",
+      "chapter": 100,
+      "num_verses": 5,
+      "num_words": 81
+    },
+    {
+      "book": "Psalms",
+      "chapter": 101,
+      "num_verses": 8,
+      "num_words": 175
+    },
+    {
+      "book": "Psalms",
+      "chapter": 102,
+      "num_verses": 28,
+      "num_words": 437
+    },
+    {
+      "book": "Psalms",
+      "chapter": 103,
+      "num_verses": 22,
+      "num_words": 336
+    },
+    {
+      "book": "Psalms",
+      "chapter": 104,
+      "num_verses": 35,
+      "num_words": 580
+    },
+    {
+      "book": "Psalms",
+      "chapter": 105,
+      "num_verses": 45,
+      "num_words": 616
+    },
+    {
+      "book": "Psalms",
+      "chapter": 106,
+      "num_verses": 48,
+      "num_words": 764
+    },
+    {
+      "book": "Psalms",
+      "chapter": 107,
+      "num_verses": 43,
+      "num_words": 653
+    },
+    {
+      "book": "Psalms",
+      "chapter": 108,
+      "num_verses": 13,
+      "num_words": 201
+    },
+    {
+      "book": "Psalms",
+      "chapter": 109,
+      "num_verses": 31,
+      "num_words": 508
+    },
+    {
+      "book": "Psalms",
+      "chapter": 110,
+      "num_verses": 7,
+      "num_words": 135
+    },
+    {
+      "book": "Psalms",
+      "chapter": 111,
+      "num_verses": 10,
+      "num_words": 164
+    },
+    {
+      "book": "Psalms",
+      "chapter": 112,
+      "num_verses": 10,
+      "num_words": 162
+    },
+    {
+      "book": "Psalms",
+      "chapter": 113,
+      "num_verses": 9,
+      "num_words": 125
+    },
+    {
+      "book": "Psalms",
+      "chapter": 114,
+      "num_verses": 8,
+      "num_words": 98
+    },
+    {
+      "book": "Psalms",
+      "chapter": 115,
+      "num_verses": 18,
+      "num_words": 266
+    },
+    {
+      "book": "Psalms",
+      "chapter": 116,
+      "num_verses": 19,
+      "num_words": 279
+    },
+    {
+      "book": "Psalms",
+      "chapter": 117,
+      "num_verses": 2,
+      "num_words": 28
+    },
+    {
+      "book": "Psalms",
+      "chapter": 118,
+      "num_verses": 29,
+      "num_words": 451
+    },
+    {
+      "book": "Psalms",
+      "chapter": 119,
+      "num_verses": 176,
+      "num_words": 2362
+    },
+    {
+      "book": "Psalms",
+      "chapter": 120,
+      "num_verses": 7,
+      "num_words": 91
+    },
+    {
+      "book": "Psalms",
+      "chapter": 121,
+      "num_verses": 8,
+      "num_words": 107
+    },
+    {
+      "book": "Psalms",
+      "chapter": 122,
+      "num_verses": 9,
+      "num_words": 126
+    },
+    {
+      "book": "Psalms",
+      "chapter": 123,
+      "num_verses": 4,
+      "num_words": 96
+    },
+    {
+      "book": "Psalms",
+      "chapter": 124,
+      "num_verses": 8,
+      "num_words": 121
+    },
+    {
+      "book": "Psalms",
+      "chapter": 125,
+      "num_verses": 5,
+      "num_words": 97
+    },
+    {
+      "book": "Psalms",
+      "chapter": 126,
+      "num_verses": 6,
+      "num_words": 96
+    },
+    {
+      "book": "Psalms",
+      "chapter": 127,
+      "num_verses": 5,
+      "num_words": 108
+    },
+    {
+      "book": "Psalms",
+      "chapter": 128,
+      "num_verses": 6,
+      "num_words": 95
+    },
+    {
+      "book": "Psalms",
+      "chapter": 129,
+      "num_verses": 8,
+      "num_words": 117
+    },
+    {
+      "book": "Psalms",
+      "chapter": 130,
+      "num_verses": 8,
+      "num_words": 112
+    },
+    {
+      "book": "Psalms",
+      "chapter": 131,
+      "num_verses": 3,
+      "num_words": 65
+    },
+    {
+      "book": "Psalms",
+      "chapter": 132,
+      "num_verses": 18,
+      "num_words": 280
+    },
+    {
+      "book": "Psalms",
+      "chapter": 133,
+      "num_verses": 3,
+      "num_words": 63
+    },
+    {
+      "book": "Psalms",
+      "chapter": 134,
+      "num_verses": 3,
+      "num_words": 45
+    },
+    {
+      "book": "Psalms",
+      "chapter": 135,
+      "num_verses": 21,
+      "num_words": 319
+    },
+    {
+      "book": "Psalms",
+      "chapter": 136,
+      "num_verses": 26,
+      "num_words": 352
+    },
+    {
+      "book": "Psalms",
+      "chapter": 137,
+      "num_verses": 9,
+      "num_words": 155
+    },
+    {
+      "book": "Psalms",
+      "chapter": 138,
+      "num_verses": 8,
+      "num_words": 171
+    },
+    {
+      "book": "Psalms",
+      "chapter": 139,
+      "num_verses": 24,
+      "num_words": 400
+    },
+    {
+      "book": "Psalms",
+      "chapter": 140,
+      "num_verses": 13,
+      "num_words": 240
+    },
+    {
+      "book": "Psalms",
+      "chapter": 141,
+      "num_verses": 10,
+      "num_words": 205
+    },
+    {
+      "book": "Psalms",
+      "chapter": 142,
+      "num_verses": 7,
+      "num_words": 147
+    },
+    {
+      "book": "Psalms",
+      "chapter": 143,
+      "num_verses": 12,
+      "num_words": 245
+    },
+    {
+      "book": "Psalms",
+      "chapter": 144,
+      "num_verses": 15,
+      "num_words": 283
+    },
+    {
+      "book": "Psalms",
+      "chapter": 145,
+      "num_verses": 21,
+      "num_words": 336
+    },
+    {
+      "book": "Psalms",
+      "chapter": 146,
+      "num_verses": 10,
+      "num_words": 177
+    },
+    {
+      "book": "Psalms",
+      "chapter": 147,
+      "num_verses": 20,
+      "num_words": 292
+    },
+    {
+      "book": "Psalms",
+      "chapter": 148,
+      "num_verses": 14,
+      "num_words": 191
+    },
+    {
+      "book": "Psalms",
+      "chapter": 149,
+      "num_verses": 9,
+      "num_words": 135
+    },
+    {
+      "book": "Psalms",
+      "chapter": 150,
+      "num_verses": 6,
+      "num_words": 72
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 1,
+      "num_verses": 33,
+      "num_words": 506
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 2,
+      "num_verses": 22,
+      "num_words": 306
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 3,
+      "num_verses": 35,
+      "num_words": 537
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 4,
+      "num_verses": 27,
+      "num_words": 419
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 5,
+      "num_verses": 23,
+      "num_words": 345
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 6,
+      "num_verses": 35,
+      "num_words": 524
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 7,
+      "num_verses": 27,
+      "num_words": 395
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 8,
+      "num_verses": 36,
+      "num_words": 519
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 9,
+      "num_verses": 18,
+      "num_words": 285
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 10,
+      "num_verses": 32,
+      "num_words": 513
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 11,
+      "num_verses": 31,
+      "num_words": 494
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 12,
+      "num_verses": 28,
+      "num_words": 452
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 13,
+      "num_verses": 25,
+      "num_words": 388
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 14,
+      "num_verses": 35,
+      "num_words": 561
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 15,
+      "num_verses": 33,
+      "num_words": 522
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 16,
+      "num_verses": 33,
+      "num_words": 531
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 17,
+      "num_verses": 28,
+      "num_words": 462
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 18,
+      "num_verses": 24,
+      "num_words": 361
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 19,
+      "num_verses": 29,
+      "num_words": 501
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 20,
+      "num_verses": 30,
+      "num_words": 471
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 21,
+      "num_verses": 31,
+      "num_words": 486
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 22,
+      "num_verses": 29,
+      "num_words": 486
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 23,
+      "num_verses": 35,
+      "num_words": 539
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 24,
+      "num_verses": 34,
+      "num_words": 561
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 25,
+      "num_verses": 28,
+      "num_words": 501
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 26,
+      "num_verses": 28,
+      "num_words": 453
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 27,
+      "num_verses": 27,
+      "num_words": 446
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 28,
+      "num_verses": 28,
+      "num_words": 498
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 29,
+      "num_verses": 27,
+      "num_words": 428
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 30,
+      "num_verses": 33,
+      "num_words": 595
+    },
+    {
+      "book": "Proverbs",
+      "chapter": 31,
+      "num_verses": 31,
+      "num_words": 467
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 1,
+      "num_verses": 18,
+      "num_words": 362
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 2,
+      "num_verses": 26,
+      "num_words": 707
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 3,
+      "num_verses": 22,
+      "num_words": 499
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 4,
+      "num_verses": 16,
+      "num_words": 371
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 5,
+      "num_verses": 20,
+      "num_words": 518
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 6,
+      "num_verses": 12,
+      "num_words": 303
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 7,
+      "num_verses": 29,
+      "num_words": 612
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 8,
+      "num_verses": 17,
+      "num_words": 482
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 9,
+      "num_verses": 18,
+      "num_words": 540
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 10,
+      "num_verses": 20,
+      "num_words": 381
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 11,
+      "num_verses": 10,
+      "num_words": 260
+    },
+    {
+      "book": "Ecclesiastes",
+      "chapter": 12,
+      "num_verses": 14,
+      "num_words": 341
+    },
+    {
+      "book": "Song of Solomon",
+      "chapter": 1,
+      "num_verses": 17,
+      "num_words": 318
+    },
+    {
+      "book": "Song of Solomon",
+      "chapter": 2,
+      "num_verses": 17,
+      "num_words": 335
+    },
+    {
+      "book": "Song of Solomon",
+      "chapter": 3,
+      "num_verses": 11,
+      "num_words": 276
+    },
+    {
+      "book": "Song of Solomon",
+      "chapter": 4,
+      "num_verses": 16,
+      "num_words": 363
+    },
+    {
+      "book": "Song of Solomon",
+      "chapter": 5,
+      "num_verses": 16,
+      "num_words": 374
+    },
+    {
+      "book": "Song of Solomon",
+      "chapter": 6,
+      "num_verses": 13,
+      "num_words": 285
+    },
+    {
+      "book": "Song of Solomon",
+      "chapter": 7,
+      "num_verses": 13,
+      "num_words": 274
+    },
+    {
+      "book": "Song of Solomon",
+      "chapter": 8,
+      "num_verses": 14,
+      "num_words": 351
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 1,
+      "num_verses": 31,
+      "num_words": 738
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 2,
+      "num_verses": 22,
+      "num_words": 548
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 3,
+      "num_verses": 26,
+      "num_words": 537
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 4,
+      "num_verses": 6,
+      "num_words": 194
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 5,
+      "num_verses": 30,
+      "num_words": 813
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 6,
+      "num_verses": 13,
+      "num_words": 354
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 7,
+      "num_verses": 25,
+      "num_words": 656
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 8,
+      "num_verses": 22,
+      "num_words": 538
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 9,
+      "num_verses": 21,
+      "num_words": 581
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 10,
+      "num_verses": 34,
+      "num_words": 870
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 11,
+      "num_verses": 16,
+      "num_words": 482
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 12,
+      "num_verses": 6,
+      "num_words": 138
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 13,
+      "num_verses": 22,
+      "num_words": 523
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 14,
+      "num_verses": 32,
+      "num_words": 806
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 15,
+      "num_verses": 9,
+      "num_words": 230
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 16,
+      "num_verses": 14,
+      "num_words": 390
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 17,
+      "num_verses": 14,
+      "num_words": 405
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 18,
+      "num_verses": 7,
+      "num_words": 232
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 19,
+      "num_verses": 25,
+      "num_words": 688
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 20,
+      "num_verses": 6,
+      "num_words": 182
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 21,
+      "num_verses": 17,
+      "num_words": 392
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 22,
+      "num_verses": 25,
+      "num_words": 628
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 23,
+      "num_verses": 18,
+      "num_words": 430
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 24,
+      "num_verses": 23,
+      "num_words": 545
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 25,
+      "num_verses": 12,
+      "num_words": 357
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 26,
+      "num_verses": 21,
+      "num_words": 503
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 27,
+      "num_verses": 13,
+      "num_words": 363
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 28,
+      "num_verses": 29,
+      "num_words": 758
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 29,
+      "num_verses": 24,
+      "num_words": 697
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 30,
+      "num_verses": 33,
+      "num_words": 1000
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 31,
+      "num_verses": 9,
+      "num_words": 301
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 32,
+      "num_verses": 20,
+      "num_words": 417
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 33,
+      "num_verses": 24,
+      "num_words": 554
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 34,
+      "num_verses": 17,
+      "num_words": 474
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 35,
+      "num_verses": 10,
+      "num_words": 274
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 36,
+      "num_verses": 22,
+      "num_words": 676
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 37,
+      "num_verses": 38,
+      "num_words": 1079
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 38,
+      "num_verses": 22,
+      "num_words": 575
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 39,
+      "num_verses": 8,
+      "num_words": 257
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 40,
+      "num_verses": 31,
+      "num_words": 761
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 41,
+      "num_verses": 29,
+      "num_words": 768
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 42,
+      "num_verses": 25,
+      "num_words": 682
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 43,
+      "num_verses": 28,
+      "num_words": 664
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 44,
+      "num_verses": 28,
+      "num_words": 852
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 45,
+      "num_verses": 25,
+      "num_words": 750
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 46,
+      "num_verses": 13,
+      "num_words": 320
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 47,
+      "num_verses": 15,
+      "num_words": 447
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 48,
+      "num_verses": 22,
+      "num_words": 599
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 49,
+      "num_verses": 26,
+      "num_words": 820
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 50,
+      "num_verses": 11,
+      "num_words": 362
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 51,
+      "num_verses": 23,
+      "num_words": 731
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 52,
+      "num_verses": 15,
+      "num_words": 398
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 53,
+      "num_verses": 12,
+      "num_words": 392
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 54,
+      "num_verses": 17,
+      "num_words": 480
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 55,
+      "num_verses": 13,
+      "num_words": 382
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 56,
+      "num_verses": 12,
+      "num_words": 342
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 57,
+      "num_verses": 21,
+      "num_words": 575
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 58,
+      "num_verses": 14,
+      "num_words": 504
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 59,
+      "num_verses": 21,
+      "num_words": 588
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 60,
+      "num_verses": 22,
+      "num_words": 635
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 61,
+      "num_verses": 11,
+      "num_words": 380
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 62,
+      "num_verses": 12,
+      "num_words": 352
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 63,
+      "num_verses": 19,
+      "num_words": 534
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 64,
+      "num_verses": 12,
+      "num_words": 301
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 65,
+      "num_verses": 25,
+      "num_words": 761
+    },
+    {
+      "book": "Isaiah",
+      "chapter": 66,
+      "num_verses": 24,
+      "num_words": 820
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 1,
+      "num_verses": 19,
+      "num_words": 513
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 2,
+      "num_verses": 37,
+      "num_words": 984
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 3,
+      "num_verses": 25,
+      "num_words": 757
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 4,
+      "num_verses": 31,
+      "num_words": 801
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 5,
+      "num_verses": 31,
+      "num_words": 845
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 6,
+      "num_verses": 30,
+      "num_words": 788
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 7,
+      "num_verses": 34,
+      "num_words": 958
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 8,
+      "num_verses": 22,
+      "num_words": 667
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 9,
+      "num_verses": 26,
+      "num_words": 744
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 10,
+      "num_verses": 25,
+      "num_words": 663
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 11,
+      "num_verses": 23,
+      "num_words": 692
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 12,
+      "num_verses": 17,
+      "num_words": 527
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 13,
+      "num_verses": 27,
+      "num_words": 712
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 14,
+      "num_verses": 22,
+      "num_words": 660
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 15,
+      "num_verses": 21,
+      "num_words": 656
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 16,
+      "num_verses": 21,
+      "num_words": 673
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 17,
+      "num_verses": 27,
+      "num_words": 817
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 18,
+      "num_verses": 23,
+      "num_words": 613
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 19,
+      "num_verses": 15,
+      "num_words": 536
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 20,
+      "num_verses": 18,
+      "num_words": 560
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 21,
+      "num_verses": 14,
+      "num_words": 483
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 22,
+      "num_verses": 30,
+      "num_words": 828
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 23,
+      "num_verses": 40,
+      "num_words": 1170
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 24,
+      "num_verses": 10,
+      "num_words": 335
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 25,
+      "num_verses": 38,
+      "num_words": 1053
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 26,
+      "num_verses": 24,
+      "num_words": 770
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 27,
+      "num_verses": 22,
+      "num_words": 738
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 28,
+      "num_verses": 17,
+      "num_words": 506
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 29,
+      "num_verses": 32,
+      "num_words": 929
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 30,
+      "num_verses": 24,
+      "num_words": 688
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 31,
+      "num_verses": 40,
+      "num_words": 1238
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 32,
+      "num_verses": 44,
+      "num_words": 1359
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 33,
+      "num_verses": 26,
+      "num_words": 815
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 34,
+      "num_verses": 22,
+      "num_words": 765
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 35,
+      "num_verses": 19,
+      "num_words": 620
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 36,
+      "num_verses": 32,
+      "num_words": 1042
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 37,
+      "num_verses": 21,
+      "num_words": 569
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 38,
+      "num_verses": 28,
+      "num_words": 914
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 39,
+      "num_verses": 18,
+      "num_words": 516
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 40,
+      "num_verses": 16,
+      "num_words": 644
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 41,
+      "num_verses": 18,
+      "num_words": 589
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 42,
+      "num_verses": 22,
+      "num_words": 713
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 43,
+      "num_verses": 13,
+      "num_words": 442
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 44,
+      "num_verses": 30,
+      "num_words": 1171
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 45,
+      "num_verses": 5,
+      "num_words": 151
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 46,
+      "num_verses": 28,
+      "num_words": 769
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 47,
+      "num_verses": 7,
+      "num_words": 203
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 48,
+      "num_verses": 47,
+      "num_words": 1105
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 49,
+      "num_verses": 39,
+      "num_words": 1110
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 50,
+      "num_verses": 46,
+      "num_words": 1366
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 51,
+      "num_verses": 64,
+      "num_words": 1753
+    },
+    {
+      "book": "Jeremiah",
+      "chapter": 52,
+      "num_verses": 34,
+      "num_words": 1024
+    },
+    {
+      "book": "Lamentations",
+      "chapter": 1,
+      "num_verses": 22,
+      "num_words": 730
+    },
+    {
+      "book": "Lamentations",
+      "chapter": 2,
+      "num_verses": 22,
+      "num_words": 824
+    },
+    {
+      "book": "Lamentations",
+      "chapter": 3,
+      "num_verses": 66,
+      "num_words": 842
+    },
+    {
+      "book": "Lamentations",
+      "chapter": 4,
+      "num_verses": 22,
+      "num_words": 560
+    },
+    {
+      "book": "Lamentations",
+      "chapter": 5,
+      "num_verses": 22,
+      "num_words": 297
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 1,
+      "num_verses": 28,
+      "num_words": 805
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 2,
+      "num_verses": 10,
+      "num_words": 272
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 3,
+      "num_verses": 27,
+      "num_words": 805
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 4,
+      "num_verses": 17,
+      "num_words": 501
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 5,
+      "num_verses": 17,
+      "num_words": 607
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 6,
+      "num_verses": 14,
+      "num_words": 438
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 7,
+      "num_verses": 27,
+      "num_words": 706
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 8,
+      "num_verses": 18,
+      "num_words": 621
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 9,
+      "num_verses": 11,
+      "num_words": 369
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 10,
+      "num_verses": 22,
+      "num_words": 616
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 11,
+      "num_verses": 25,
+      "num_words": 702
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 12,
+      "num_verses": 28,
+      "num_words": 789
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 13,
+      "num_verses": 23,
+      "num_words": 708
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 14,
+      "num_verses": 23,
+      "num_words": 725
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 15,
+      "num_verses": 8,
+      "num_words": 202
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 16,
+      "num_verses": 63,
+      "num_words": 1693
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 17,
+      "num_verses": 24,
+      "num_words": 739
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 18,
+      "num_verses": 32,
+      "num_words": 855
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 19,
+      "num_verses": 14,
+      "num_words": 336
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 20,
+      "num_verses": 49,
+      "num_words": 1557
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 21,
+      "num_verses": 32,
+      "num_words": 875
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 22,
+      "num_verses": 31,
+      "num_words": 805
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 23,
+      "num_verses": 49,
+      "num_words": 1279
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 24,
+      "num_verses": 27,
+      "num_words": 735
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 25,
+      "num_verses": 17,
+      "num_words": 494
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 26,
+      "num_verses": 21,
+      "num_words": 673
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 27,
+      "num_verses": 36,
+      "num_words": 805
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 28,
+      "num_verses": 26,
+      "num_words": 774
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 29,
+      "num_verses": 21,
+      "num_words": 674
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 30,
+      "num_verses": 26,
+      "num_words": 728
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 31,
+      "num_verses": 18,
+      "num_words": 612
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 32,
+      "num_verses": 32,
+      "num_words": 1009
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 33,
+      "num_verses": 33,
+      "num_words": 1060
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 34,
+      "num_verses": 31,
+      "num_words": 922
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 35,
+      "num_verses": 15,
+      "num_words": 384
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 36,
+      "num_verses": 38,
+      "num_words": 1154
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 37,
+      "num_verses": 28,
+      "num_words": 847
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 38,
+      "num_verses": 23,
+      "num_words": 721
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 39,
+      "num_verses": 29,
+      "num_words": 895
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 40,
+      "num_verses": 49,
+      "num_words": 1453
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 41,
+      "num_verses": 26,
+      "num_words": 720
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 42,
+      "num_verses": 20,
+      "num_words": 520
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 43,
+      "num_verses": 27,
+      "num_words": 856
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 44,
+      "num_verses": 31,
+      "num_words": 955
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 45,
+      "num_verses": 25,
+      "num_words": 802
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 46,
+      "num_verses": 24,
+      "num_words": 858
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 47,
+      "num_verses": 23,
+      "num_words": 713
+    },
+    {
+      "book": "Ezekiel",
+      "chapter": 48,
+      "num_verses": 35,
+      "num_words": 940
+    },
+    {
+      "book": "Daniel",
+      "chapter": 1,
+      "num_verses": 21,
+      "num_words": 561
+    },
+    {
+      "book": "Daniel",
+      "chapter": 2,
+      "num_verses": 49,
+      "num_words": 1466
+    },
+    {
+      "book": "Daniel",
+      "chapter": 3,
+      "num_verses": 30,
+      "num_words": 935
+    },
+    {
+      "book": "Daniel",
+      "chapter": 4,
+      "num_verses": 37,
+      "num_words": 1289
+    },
+    {
+      "book": "Daniel",
+      "chapter": 5,
+      "num_verses": 31,
+      "num_words": 946
+    },
+    {
+      "book": "Daniel",
+      "chapter": 6,
+      "num_verses": 28,
+      "num_words": 885
+    },
+    {
+      "book": "Daniel",
+      "chapter": 7,
+      "num_verses": 28,
+      "num_words": 927
+    },
+    {
+      "book": "Daniel",
+      "chapter": 8,
+      "num_verses": 27,
+      "num_words": 845
+    },
+    {
+      "book": "Daniel",
+      "chapter": 9,
+      "num_verses": 27,
+      "num_words": 967
+    },
+    {
+      "book": "Daniel",
+      "chapter": 10,
+      "num_verses": 21,
+      "num_words": 611
+    },
+    {
+      "book": "Daniel",
+      "chapter": 11,
+      "num_verses": 45,
+      "num_words": 1453
+    },
+    {
+      "book": "Daniel",
+      "chapter": 12,
+      "num_verses": 13,
+      "num_words": 387
+    },
+    {
+      "book": "Hosea",
+      "chapter": 1,
+      "num_verses": 11,
+      "num_words": 346
+    },
+    {
+      "book": "Hosea",
+      "chapter": 2,
+      "num_verses": 23,
+      "num_words": 661
+    },
+    {
+      "book": "Hosea",
+      "chapter": 3,
+      "num_verses": 5,
+      "num_words": 145
+    },
+    {
+      "book": "Hosea",
+      "chapter": 4,
+      "num_verses": 19,
+      "num_words": 445
+    },
+    {
+      "book": "Hosea",
+      "chapter": 5,
+      "num_verses": 15,
+      "num_words": 351
+    },
+    {
+      "book": "Hosea",
+      "chapter": 6,
+      "num_verses": 11,
+      "num_words": 237
+    },
+    {
+      "book": "Hosea",
+      "chapter": 7,
+      "num_verses": 16,
+      "num_words": 368
+    },
+    {
+      "book": "Hosea",
+      "chapter": 8,
+      "num_verses": 14,
+      "num_words": 300
+    },
+    {
+      "book": "Hosea",
+      "chapter": 9,
+      "num_verses": 17,
+      "num_words": 461
+    },
+    {
+      "book": "Hosea",
+      "chapter": 10,
+      "num_verses": 15,
+      "num_words": 407
+    },
+    {
+      "book": "Hosea",
+      "chapter": 11,
+      "num_verses": 12,
+      "num_words": 318
+    },
+    {
+      "book": "Hosea",
+      "chapter": 12,
+      "num_verses": 14,
+      "num_words": 305
+    },
+    {
+      "book": "Hosea",
+      "chapter": 13,
+      "num_verses": 16,
+      "num_words": 405
+    },
+    {
+      "book": "Hosea",
+      "chapter": 14,
+      "num_verses": 9,
+      "num_words": 227
+    },
+    {
+      "book": "Joel",
+      "chapter": 1,
+      "num_verses": 20,
+      "num_words": 482
+    },
+    {
+      "book": "Joel",
+      "chapter": 2,
+      "num_verses": 32,
+      "num_words": 892
+    },
+    {
+      "book": "Joel",
+      "chapter": 3,
+      "num_verses": 21,
+      "num_words": 543
+    },
+    {
+      "book": "Amos",
+      "chapter": 1,
+      "num_verses": 15,
+      "num_words": 433
+    },
+    {
+      "book": "Amos",
+      "chapter": 2,
+      "num_verses": 16,
+      "num_words": 446
+    },
+    {
+      "book": "Amos",
+      "chapter": 3,
+      "num_verses": 15,
+      "num_words": 378
+    },
+    {
+      "book": "Amos",
+      "chapter": 4,
+      "num_verses": 13,
+      "num_words": 421
+    },
+    {
+      "book": "Amos",
+      "chapter": 5,
+      "num_verses": 27,
+      "num_words": 640
+    },
+    {
+      "book": "Amos",
+      "chapter": 6,
+      "num_verses": 14,
+      "num_words": 391
+    },
+    {
+      "book": "Amos",
+      "chapter": 7,
+      "num_verses": 17,
+      "num_words": 455
+    },
+    {
+      "book": "Amos",
+      "chapter": 8,
+      "num_verses": 14,
+      "num_words": 389
+    },
+    {
+      "book": "Amos",
+      "chapter": 9,
+      "num_verses": 15,
+      "num_words": 514
+    },
+    {
+      "book": "Obadiah",
+      "chapter": 1,
+      "num_verses": 21,
+      "num_words": 614
+    },
+    {
+      "book": "Jonah",
+      "chapter": 1,
+      "num_verses": 17,
+      "num_words": 518
+    },
+    {
+      "book": "Jonah",
+      "chapter": 2,
+      "num_verses": 10,
+      "num_words": 211
+    },
+    {
+      "book": "Jonah",
+      "chapter": 3,
+      "num_verses": 10,
+      "num_words": 254
+    },
+    {
+      "book": "Jonah",
+      "chapter": 4,
+      "num_verses": 11,
+      "num_words": 329
+    },
+    {
+      "book": "Micah",
+      "chapter": 1,
+      "num_verses": 16,
+      "num_words": 440
+    },
+    {
+      "book": "Micah",
+      "chapter": 2,
+      "num_verses": 13,
+      "num_words": 354
+    },
+    {
+      "book": "Micah",
+      "chapter": 3,
+      "num_verses": 12,
+      "num_words": 333
+    },
+    {
+      "book": "Micah",
+      "chapter": 4,
+      "num_verses": 13,
+      "num_words": 457
+    },
+    {
+      "book": "Micah",
+      "chapter": 5,
+      "num_verses": 15,
+      "num_words": 428
+    },
+    {
+      "book": "Micah",
+      "chapter": 6,
+      "num_verses": 16,
+      "num_words": 429
+    },
+    {
+      "book": "Micah",
+      "chapter": 7,
+      "num_verses": 20,
+      "num_words": 581
+    },
+    {
+      "book": "Nahum",
+      "chapter": 1,
+      "num_verses": 15,
+      "num_words": 366
+    },
+    {
+      "book": "Nahum",
+      "chapter": 2,
+      "num_verses": 13,
+      "num_words": 298
+    },
+    {
+      "book": "Nahum",
+      "chapter": 3,
+      "num_verses": 19,
+      "num_words": 447
+    },
+    {
+      "book": "Habakkuk",
+      "chapter": 1,
+      "num_verses": 17,
+      "num_words": 383
+    },
+    {
+      "book": "Habakkuk",
+      "chapter": 2,
+      "num_verses": 20,
+      "num_words": 535
+    },
+    {
+      "book": "Habakkuk",
+      "chapter": 3,
+      "num_verses": 19,
+      "num_words": 455
+    },
+    {
+      "book": "Zephaniah",
+      "chapter": 1,
+      "num_verses": 18,
+      "num_words": 530
+    },
+    {
+      "book": "Zephaniah",
+      "chapter": 2,
+      "num_verses": 15,
+      "num_words": 449
+    },
+    {
+      "book": "Zephaniah",
+      "chapter": 3,
+      "num_verses": 20,
+      "num_words": 594
+    },
+    {
+      "book": "Haggai",
+      "chapter": 1,
+      "num_verses": 15,
+      "num_words": 444
+    },
+    {
+      "book": "Haggai",
+      "chapter": 2,
+      "num_verses": 23,
+      "num_words": 651
+    },
+    {
+      "book": "Zechariah",
+      "chapter": 1,
+      "num_verses": 21,
+      "num_words": 582
+    },
+    {
+      "book": "Zechariah",
+      "chapter": 2,
+      "num_verses": 13,
+      "num_words": 306
+    },
+    {
+      "book": "Zechariah",
+      "chapter": 3,
+      "num_verses": 10,
+      "num_words": 290
+    },
+    {
+      "book": "Zechariah",
+      "chapter": 4,
+      "num_verses": 14,
+      "num_words": 352
+    },
+    {
+      "book": "Zechariah",
+      "chapter": 5,
+      "num_verses": 11,
+      "num_words": 315
+    },
+    {
+      "book": "Zechariah",
+      "chapter": 6,
+      "num_verses": 15,
+      "num_words": 384
+    },
+    {
+      "book": "Zechariah",
+      "chapter": 7,
+      "num_verses": 14,
+      "num_words": 340
+    },
+    {
+      "book": "Zechariah",
+      "chapter": 8,
+      "num_verses": 23,
+      "num_words": 671
+    },
+    {
+      "book": "Zechariah",
+      "chapter": 9,
+      "num_verses": 17,
+      "num_words": 514
+    },
+    {
+      "book": "Zechariah",
+      "chapter": 10,
+      "num_verses": 12,
+      "num_words": 387
+    },
+    {
+      "book": "Zechariah",
+      "chapter": 11,
+      "num_verses": 17,
+      "num_words": 475
+    },
+    {
+      "book": "Zechariah",
+      "chapter": 12,
+      "num_verses": 14,
+      "num_words": 454
+    },
+    {
+      "book": "Zechariah",
+      "chapter": 13,
+      "num_verses": 9,
+      "num_words": 302
+    },
+    {
+      "book": "Zechariah",
+      "chapter": 14,
+      "num_verses": 21,
+      "num_words": 711
+    },
+    {
+      "book": "Malachi",
+      "chapter": 1,
+      "num_verses": 14,
+      "num_words": 484
+    },
+    {
+      "book": "Malachi",
+      "chapter": 2,
+      "num_verses": 17,
+      "num_words": 543
+    },
+    {
+      "book": "Malachi",
+      "chapter": 3,
+      "num_verses": 18,
+      "num_words": 554
+    },
+    {
+      "book": "Malachi",
+      "chapter": 4,
+      "num_verses": 6,
+      "num_words": 171
+    },
+    {
+      "book": "Matthew",
+      "chapter": 1,
+      "num_verses": 25,
+      "num_words": 527
+    },
+    {
+      "book": "Matthew",
+      "chapter": 2,
+      "num_verses": 23,
+      "num_words": 591
+    },
+    {
+      "book": "Matthew",
+      "chapter": 3,
+      "num_verses": 17,
+      "num_words": 386
+    },
+    {
+      "book": "Matthew",
+      "chapter": 4,
+      "num_verses": 25,
+      "num_words": 528
+    },
+    {
+      "book": "Matthew",
+      "chapter": 5,
+      "num_verses": 48,
+      "num_words": 1031
+    },
+    {
+      "book": "Matthew",
+      "chapter": 6,
+      "num_verses": 34,
+      "num_words": 762
+    },
+    {
+      "book": "Matthew",
+      "chapter": 7,
+      "num_verses": 29,
+      "num_words": 621
+    },
+    {
+      "book": "Matthew",
+      "chapter": 8,
+      "num_verses": 34,
+      "num_words": 734
+    },
+    {
+      "book": "Matthew",
+      "chapter": 9,
+      "num_verses": 38,
+      "num_words": 807
+    },
+    {
+      "book": "Matthew",
+      "chapter": 10,
+      "num_verses": 42,
+      "num_words": 870
+    },
+    {
+      "book": "Matthew",
+      "chapter": 11,
+      "num_verses": 30,
+      "num_words": 660
+    },
+    {
+      "book": "Matthew",
+      "chapter": 12,
+      "num_verses": 49,
+      "num_words": 1099
+    },
+    {
+      "book": "Matthew",
+      "chapter": 13,
+      "num_verses": 58,
+      "num_words": 1364
+    },
+    {
+      "book": "Matthew",
+      "chapter": 14,
+      "num_verses": 36,
+      "num_words": 718
+    },
+    {
+      "book": "Matthew",
+      "chapter": 15,
+      "num_verses": 39,
+      "num_words": 752
+    },
+    {
+      "book": "Matthew",
+      "chapter": 16,
+      "num_verses": 28,
+      "num_words": 660
+    },
+    {
+      "book": "Matthew",
+      "chapter": 17,
+      "num_verses": 26,
+      "num_words": 595
+    },
+    {
+      "book": "Matthew",
+      "chapter": 18,
+      "num_verses": 34,
+      "num_words": 817
+    },
+    {
+      "book": "Matthew",
+      "chapter": 19,
+      "num_verses": 30,
+      "num_words": 667
+    },
+    {
+      "book": "Matthew",
+      "chapter": 20,
+      "num_verses": 34,
+      "num_words": 731
+    },
+    {
+      "book": "Matthew",
+      "chapter": 21,
+      "num_verses": 46,
+      "num_words": 1121
+    },
+    {
+      "book": "Matthew",
+      "chapter": 22,
+      "num_verses": 46,
+      "num_words": 813
+    },
+    {
+      "book": "Matthew",
+      "chapter": 23,
+      "num_verses": 38,
+      "num_words": 778
+    },
+    {
+      "book": "Matthew",
+      "chapter": 24,
+      "num_verses": 51,
+      "num_words": 1060
+    },
+    {
+      "book": "Matthew",
+      "chapter": 25,
+      "num_verses": 46,
+      "num_words": 968
+    },
+    {
+      "book": "Matthew",
+      "chapter": 26,
+      "num_verses": 75,
+      "num_words": 1602
+    },
+    {
+      "book": "Matthew",
+      "chapter": 27,
+      "num_verses": 66,
+      "num_words": 1346
+    },
+    {
+      "book": "Matthew",
+      "chapter": 28,
+      "num_verses": 20,
+      "num_words": 411
+    },
+    {
+      "book": "Mark",
+      "chapter": 1,
+      "num_verses": 45,
+      "num_words": 896
+    },
+    {
+      "book": "Mark",
+      "chapter": 2,
+      "num_verses": 28,
+      "num_words": 682
+    },
+    {
+      "book": "Mark",
+      "chapter": 3,
+      "num_verses": 35,
+      "num_words": 644
+    },
+    {
+      "book": "Mark",
+      "chapter": 4,
+      "num_verses": 41,
+      "num_words": 876
+    },
+    {
+      "book": "Mark",
+      "chapter": 5,
+      "num_verses": 43,
+      "num_words": 907
+    },
+    {
+      "book": "Mark",
+      "chapter": 6,
+      "num_verses": 56,
+      "num_words": 1235
+    },
+    {
+      "book": "Mark",
+      "chapter": 7,
+      "num_verses": 36,
+      "num_words": 736
+    },
+    {
+      "book": "Mark",
+      "chapter": 8,
+      "num_verses": 38,
+      "num_words": 840
+    },
+    {
+      "book": "Mark",
+      "chapter": 9,
+      "num_verses": 48,
+      "num_words": 1107
+    },
+    {
+      "book": "Mark",
+      "chapter": 10,
+      "num_verses": 52,
+      "num_words": 1164
+    },
+    {
+      "book": "Mark",
+      "chapter": 11,
+      "num_verses": 32,
+      "num_words": 722
+    },
+    {
+      "book": "Mark",
+      "chapter": 12,
+      "num_verses": 44,
+      "num_words": 1032
+    },
+    {
+      "book": "Mark",
+      "chapter": 13,
+      "num_verses": 37,
+      "num_words": 803
+    },
+    {
+      "book": "Mark",
+      "chapter": 14,
+      "num_verses": 72,
+      "num_words": 1569
+    },
+    {
+      "book": "Mark",
+      "chapter": 15,
+      "num_verses": 46,
+      "num_words": 916
+    },
+    {
+      "book": "Mark",
+      "chapter": 16,
+      "num_verses": 20,
+      "num_words": 467
+    },
+    {
+      "book": "Luke",
+      "chapter": 1,
+      "num_verses": 80,
+      "num_words": 1509
+    },
+    {
+      "book": "Luke",
+      "chapter": 2,
+      "num_verses": 52,
+      "num_words": 1066
+    },
+    {
+      "book": "Luke",
+      "chapter": 3,
+      "num_verses": 38,
+      "num_words": 858
+    },
+    {
+      "book": "Luke",
+      "chapter": 4,
+      "num_verses": 44,
+      "num_words": 1005
+    },
+    {
+      "book": "Luke",
+      "chapter": 5,
+      "num_verses": 39,
+      "num_words": 904
+    },
+    {
+      "book": "Luke",
+      "chapter": 6,
+      "num_verses": 49,
+      "num_words": 1176
+    },
+    {
+      "book": "Luke",
+      "chapter": 7,
+      "num_verses": 50,
+      "num_words": 1170
+    },
+    {
+      "book": "Luke",
+      "chapter": 8,
+      "num_verses": 56,
+      "num_words": 1405
+    },
+    {
+      "book": "Luke",
+      "chapter": 9,
+      "num_verses": 62,
+      "num_words": 1420
+    },
+    {
+      "book": "Luke",
+      "chapter": 10,
+      "num_verses": 42,
+      "num_words": 964
+    },
+    {
+      "book": "Luke",
+      "chapter": 11,
+      "num_verses": 54,
+      "num_words": 1227
+    },
+    {
+      "book": "Luke",
+      "chapter": 12,
+      "num_verses": 59,
+      "num_words": 1350
+    },
+    {
+      "book": "Luke",
+      "chapter": 13,
+      "num_verses": 35,
+      "num_words": 855
+    },
+    {
+      "book": "Luke",
+      "chapter": 14,
+      "num_verses": 35,
+      "num_words": 807
+    },
+    {
+      "book": "Luke",
+      "chapter": 15,
+      "num_verses": 32,
+      "num_words": 714
+    },
+    {
+      "book": "Luke",
+      "chapter": 16,
+      "num_verses": 31,
+      "num_words": 755
+    },
+    {
+      "book": "Luke",
+      "chapter": 17,
+      "num_verses": 36,
+      "num_words": 738
+    },
+    {
+      "book": "Luke",
+      "chapter": 18,
+      "num_verses": 43,
+      "num_words": 869
+    },
+    {
+      "book": "Luke",
+      "chapter": 19,
+      "num_verses": 48,
+      "num_words": 1011
+    },
+    {
+      "book": "Luke",
+      "chapter": 20,
+      "num_verses": 47,
+      "num_words": 917
+    },
+    {
+      "book": "Luke",
+      "chapter": 21,
+      "num_verses": 38,
+      "num_words": 789
+    },
+    {
+      "book": "Luke",
+      "chapter": 22,
+      "num_verses": 71,
+      "num_words": 1428
+    },
+    {
+      "book": "Luke",
+      "chapter": 23,
+      "num_verses": 55,
+      "num_words": 1063
+    },
+    {
+      "book": "Luke",
+      "chapter": 24,
+      "num_verses": 53,
+      "num_words": 1010
+    },
+    {
+      "book": "John",
+      "chapter": 1,
+      "num_verses": 51,
+      "num_words": 983
+    },
+    {
+      "book": "John",
+      "chapter": 2,
+      "num_verses": 25,
+      "num_words": 505
+    },
+    {
+      "book": "John",
+      "chapter": 3,
+      "num_verses": 36,
+      "num_words": 755
+    },
+    {
+      "book": "John",
+      "chapter": 4,
+      "num_verses": 54,
+      "num_words": 1074
+    },
+    {
+      "book": "John",
+      "chapter": 5,
+      "num_verses": 46,
+      "num_words": 987
+    },
+    {
+      "book": "John",
+      "chapter": 6,
+      "num_verses": 71,
+      "num_words": 1477
+    },
+    {
+      "book": "John",
+      "chapter": 7,
+      "num_verses": 52,
+      "num_words": 996
+    },
+    {
+      "book": "John",
+      "chapter": 8,
+      "num_verses": 48,
+      "num_words": 1090
+    },
+    {
+      "book": "John",
+      "chapter": 9,
+      "num_verses": 41,
+      "num_words": 847
+    },
+    {
+      "book": "John",
+      "chapter": 10,
+      "num_verses": 42,
+      "num_words": 828
+    },
+    {
+      "book": "John",
+      "chapter": 11,
+      "num_verses": 57,
+      "num_words": 1146
+    },
+    {
+      "book": "John",
+      "chapter": 12,
+      "num_verses": 50,
+      "num_words": 1089
+    },
+    {
+      "book": "John",
+      "chapter": 13,
+      "num_verses": 38,
+      "num_words": 843
+    },
+    {
+      "book": "John",
+      "chapter": 14,
+      "num_verses": 31,
+      "num_words": 732
+    },
+    {
+      "book": "John",
+      "chapter": 15,
+      "num_verses": 27,
+      "num_words": 612
+    },
+    {
+      "book": "John",
+      "chapter": 16,
+      "num_verses": 33,
+      "num_words": 802
+    },
+    {
+      "book": "John",
+      "chapter": 17,
+      "num_verses": 26,
+      "num_words": 627
+    },
+    {
+      "book": "John",
+      "chapter": 18,
+      "num_verses": 40,
+      "num_words": 962
+    },
+    {
+      "book": "John",
+      "chapter": 19,
+      "num_verses": 42,
+      "num_words": 1018
+    },
+    {
+      "book": "John",
+      "chapter": 20,
+      "num_verses": 31,
+      "num_words": 752
+    },
+    {
+      "book": "John",
+      "chapter": 21,
+      "num_verses": 25,
+      "num_words": 716
+    },
+    {
+      "book": "Acts",
+      "chapter": 1,
+      "num_verses": 26,
+      "num_words": 636
+    },
+    {
+      "book": "Acts",
+      "chapter": 2,
+      "num_verses": 47,
+      "num_words": 983
+    },
+    {
+      "book": "Acts",
+      "chapter": 3,
+      "num_verses": 26,
+      "num_words": 599
+    },
+    {
+      "book": "Acts",
+      "chapter": 4,
+      "num_verses": 37,
+      "num_words": 844
+    },
+    {
+      "book": "Acts",
+      "chapter": 5,
+      "num_verses": 42,
+      "num_words": 1001
+    },
+    {
+      "book": "Acts",
+      "chapter": 6,
+      "num_verses": 15,
+      "num_words": 364
+    },
+    {
+      "book": "Acts",
+      "chapter": 7,
+      "num_verses": 60,
+      "num_words": 1392
+    },
+    {
+      "book": "Acts",
+      "chapter": 8,
+      "num_verses": 39,
+      "num_words": 852
+    },
+    {
+      "book": "Acts",
+      "chapter": 9,
+      "num_verses": 43,
+      "num_words": 989
+    },
+    {
+      "book": "Acts",
+      "chapter": 10,
+      "num_verses": 48,
+      "num_words": 1040
+    },
+    {
+      "book": "Acts",
+      "chapter": 11,
+      "num_verses": 30,
+      "num_words": 625
+    },
+    {
+      "book": "Acts",
+      "chapter": 12,
+      "num_verses": 25,
+      "num_words": 653
+    },
+    {
+      "book": "Acts",
+      "chapter": 13,
+      "num_verses": 52,
+      "num_words": 1217
+    },
+    {
+      "book": "Acts",
+      "chapter": 14,
+      "num_verses": 28,
+      "num_words": 618
+    },
+    {
+      "book": "Acts",
+      "chapter": 15,
+      "num_verses": 40,
+      "num_words": 911
+    },
+    {
+      "book": "Acts",
+      "chapter": 16,
+      "num_verses": 40,
+      "num_words": 963
+    },
+    {
+      "book": "Acts",
+      "chapter": 17,
+      "num_verses": 34,
+      "num_words": 848
+    },
+    {
+      "book": "Acts",
+      "chapter": 18,
+      "num_verses": 28,
+      "num_words": 661
+    },
+    {
+      "book": "Acts",
+      "chapter": 19,
+      "num_verses": 41,
+      "num_words": 948
+    },
+    {
+      "book": "Acts",
+      "chapter": 20,
+      "num_verses": 38,
+      "num_words": 884
+    },
+    {
+      "book": "Acts",
+      "chapter": 21,
+      "num_verses": 40,
+      "num_words": 1032
+    },
+    {
+      "book": "Acts",
+      "chapter": 22,
+      "num_verses": 30,
+      "num_words": 760
+    },
+    {
+      "book": "Acts",
+      "chapter": 23,
+      "num_verses": 35,
+      "num_words": 882
+    },
+    {
+      "book": "Acts",
+      "chapter": 24,
+      "num_verses": 26,
+      "num_words": 594
+    },
+    {
+      "book": "Acts",
+      "chapter": 25,
+      "num_verses": 27,
+      "num_words": 733
+    },
+    {
+      "book": "Acts",
+      "chapter": 26,
+      "num_verses": 32,
+      "num_words": 799
+    },
+    {
+      "book": "Acts",
+      "chapter": 27,
+      "num_verses": 44,
+      "num_words": 1024
+    },
+    {
+      "book": "Acts",
+      "chapter": 28,
+      "num_verses": 30,
+      "num_words": 781
+    },
+    {
+      "book": "Romans",
+      "chapter": 1,
+      "num_verses": 32,
+      "num_words": 691
+    },
+    {
+      "book": "Romans",
+      "chapter": 2,
+      "num_verses": 29,
+      "num_words": 597
+    },
+    {
+      "book": "Romans",
+      "chapter": 3,
+      "num_verses": 31,
+      "num_words": 560
+    },
+    {
+      "book": "Romans",
+      "chapter": 4,
+      "num_verses": 25,
+      "num_words": 570
+    },
+    {
+      "book": "Romans",
+      "chapter": 5,
+      "num_verses": 21,
+      "num_words": 498
+    },
+    {
+      "book": "Romans",
+      "chapter": 6,
+      "num_verses": 23,
+      "num_words": 521
+    },
+    {
+      "book": "Romans",
+      "chapter": 7,
+      "num_verses": 25,
+      "num_words": 635
+    },
+    {
+      "book": "Romans",
+      "chapter": 8,
+      "num_verses": 39,
+      "num_words": 910
+    },
+    {
+      "book": "Romans",
+      "chapter": 9,
+      "num_verses": 33,
+      "num_words": 715
+    },
+    {
+      "book": "Romans",
+      "chapter": 10,
+      "num_verses": 21,
+      "num_words": 462
+    },
+    {
+      "book": "Romans",
+      "chapter": 11,
+      "num_verses": 36,
+      "num_words": 797
+    },
+    {
+      "book": "Romans",
+      "chapter": 12,
+      "num_verses": 21,
+      "num_words": 412
+    },
+    {
+      "book": "Romans",
+      "chapter": 13,
+      "num_verses": 14,
+      "num_words": 363
+    },
+    {
+      "book": "Romans",
+      "chapter": 14,
+      "num_verses": 23,
+      "num_words": 544
+    },
+    {
+      "book": "Romans",
+      "chapter": 15,
+      "num_verses": 33,
+      "num_words": 752
+    },
+    {
+      "book": "Romans",
+      "chapter": 16,
+      "num_verses": 26,
+      "num_words": 503
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 1,
+      "num_verses": 31,
+      "num_words": 642
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 2,
+      "num_verses": 16,
+      "num_words": 359
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 3,
+      "num_verses": 23,
+      "num_words": 440
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 4,
+      "num_verses": 21,
+      "num_words": 490
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 5,
+      "num_verses": 13,
+      "num_words": 311
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 6,
+      "num_verses": 20,
+      "num_words": 451
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 7,
+      "num_verses": 40,
+      "num_words": 994
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 8,
+      "num_verses": 13,
+      "num_words": 280
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 9,
+      "num_verses": 27,
+      "num_words": 671
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 10,
+      "num_verses": 33,
+      "num_words": 649
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 11,
+      "num_verses": 34,
+      "num_words": 708
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 12,
+      "num_verses": 31,
+      "num_words": 607
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 13,
+      "num_verses": 13,
+      "num_words": 253
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 14,
+      "num_verses": 40,
+      "num_words": 845
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 15,
+      "num_verses": 58,
+      "num_words": 1178
+    },
+    {
+      "book": "1 Corinthians",
+      "chapter": 16,
+      "num_verses": 24,
+      "num_words": 436
+    },
+    {
+      "book": "2 Corinthians",
+      "chapter": 1,
+      "num_verses": 24,
+      "num_words": 605
+    },
+    {
+      "book": "2 Corinthians",
+      "chapter": 2,
+      "num_verses": 17,
+      "num_words": 387
+    },
+    {
+      "book": "2 Corinthians",
+      "chapter": 3,
+      "num_verses": 18,
+      "num_words": 390
+    },
+    {
+      "book": "2 Corinthians",
+      "chapter": 4,
+      "num_verses": 18,
+      "num_words": 415
+    },
+    {
+      "book": "2 Corinthians",
+      "chapter": 5,
+      "num_verses": 21,
+      "num_words": 489
+    },
+    {
+      "book": "2 Corinthians",
+      "chapter": 6,
+      "num_verses": 18,
+      "num_words": 340
+    },
+    {
+      "book": "2 Corinthians",
+      "chapter": 7,
+      "num_verses": 16,
+      "num_words": 438
+    },
+    {
+      "book": "2 Corinthians",
+      "chapter": 8,
+      "num_verses": 24,
+      "num_words": 568
+    },
+    {
+      "book": "2 Corinthians",
+      "chapter": 9,
+      "num_verses": 15,
+      "num_words": 368
+    },
+    {
+      "book": "2 Corinthians",
+      "chapter": 10,
+      "num_verses": 18,
+      "num_words": 412
+    },
+    {
+      "book": "2 Corinthians",
+      "chapter": 11,
+      "num_verses": 33,
+      "num_words": 722
+    },
+    {
+      "book": "2 Corinthians",
+      "chapter": 12,
+      "num_verses": 21,
+      "num_words": 606
+    },
+    {
+      "book": "2 Corinthians",
+      "chapter": 13,
+      "num_verses": 14,
+      "num_words": 337
+    },
+    {
+      "book": "Galatians",
+      "chapter": 1,
+      "num_verses": 24,
+      "num_words": 480
+    },
+    {
+      "book": "Galatians",
+      "chapter": 2,
+      "num_verses": 21,
+      "num_words": 572
+    },
+    {
+      "book": "Galatians",
+      "chapter": 3,
+      "num_verses": 29,
+      "num_words": 623
+    },
+    {
+      "book": "Galatians",
+      "chapter": 4,
+      "num_verses": 31,
+      "num_words": 644
+    },
+    {
+      "book": "Galatians",
+      "chapter": 5,
+      "num_verses": 26,
+      "num_words": 444
+    },
+    {
+      "book": "Galatians",
+      "chapter": 6,
+      "num_verses": 18,
+      "num_words": 370
+    },
+    {
+      "book": "Ephesians",
+      "chapter": 1,
+      "num_verses": 23,
+      "num_words": 483
+    },
+    {
+      "book": "Ephesians",
+      "chapter": 2,
+      "num_verses": 22,
+      "num_words": 456
+    },
+    {
+      "book": "Ephesians",
+      "chapter": 3,
+      "num_verses": 21,
+      "num_words": 408
+    },
+    {
+      "book": "Ephesians",
+      "chapter": 4,
+      "num_verses": 32,
+      "num_words": 623
+    },
+    {
+      "book": "Ephesians",
+      "chapter": 5,
+      "num_verses": 33,
+      "num_words": 560
+    },
+    {
+      "book": "Ephesians",
+      "chapter": 6,
+      "num_verses": 24,
+      "num_words": 484
+    },
+    {
+      "book": "Philippians",
+      "chapter": 1,
+      "num_verses": 30,
+      "num_words": 650
+    },
+    {
+      "book": "Philippians",
+      "chapter": 2,
+      "num_verses": 30,
+      "num_words": 589
+    },
+    {
+      "book": "Philippians",
+      "chapter": 3,
+      "num_verses": 21,
+      "num_words": 470
+    },
+    {
+      "book": "Philippians",
+      "chapter": 4,
+      "num_verses": 23,
+      "num_words": 451
+    },
+    {
+      "book": "Colossians",
+      "chapter": 1,
+      "num_verses": 29,
+      "num_words": 625
+    },
+    {
+      "book": "Colossians",
+      "chapter": 2,
+      "num_verses": 23,
+      "num_words": 507
+    },
+    {
+      "book": "Colossians",
+      "chapter": 3,
+      "num_verses": 25,
+      "num_words": 442
+    },
+    {
+      "book": "Colossians",
+      "chapter": 4,
+      "num_verses": 18,
+      "num_words": 376
+    },
+    {
+      "book": "1 Thessalonians",
+      "chapter": 1,
+      "num_verses": 10,
+      "num_words": 242
+    },
+    {
+      "book": "1 Thessalonians",
+      "chapter": 2,
+      "num_verses": 20,
+      "num_words": 486
+    },
+    {
+      "book": "1 Thessalonians",
+      "chapter": 3,
+      "num_verses": 13,
+      "num_words": 305
+    },
+    {
+      "book": "1 Thessalonians",
+      "chapter": 4,
+      "num_verses": 18,
+      "num_words": 402
+    },
+    {
+      "book": "1 Thessalonians",
+      "chapter": 5,
+      "num_verses": 28,
+      "num_words": 419
+    },
+    {
+      "book": "2 Thessalonians",
+      "chapter": 1,
+      "num_verses": 12,
+      "num_words": 298
+    },
+    {
+      "book": "2 Thessalonians",
+      "chapter": 2,
+      "num_verses": 17,
+      "num_words": 394
+    },
+    {
+      "book": "2 Thessalonians",
+      "chapter": 3,
+      "num_verses": 18,
+      "num_words": 373
+    },
+    {
+      "book": "1 Timothy",
+      "chapter": 1,
+      "num_verses": 20,
+      "num_words": 436
+    },
+    {
+      "book": "1 Timothy",
+      "chapter": 2,
+      "num_verses": 15,
+      "num_words": 256
+    },
+    {
+      "book": "1 Timothy",
+      "chapter": 3,
+      "num_verses": 16,
+      "num_words": 317
+    },
+    {
+      "book": "1 Timothy",
+      "chapter": 4,
+      "num_verses": 16,
+      "num_words": 311
+    },
+    {
+      "book": "1 Timothy",
+      "chapter": 5,
+      "num_verses": 25,
+      "num_words": 500
+    },
+    {
+      "book": "1 Timothy",
+      "chapter": 6,
+      "num_verses": 21,
+      "num_words": 494
+    },
+    {
+      "book": "2 Timothy",
+      "chapter": 1,
+      "num_verses": 18,
+      "num_words": 415
+    },
+    {
+      "book": "2 Timothy",
+      "chapter": 2,
+      "num_verses": 26,
+      "num_words": 501
+    },
+    {
+      "book": "2 Timothy",
+      "chapter": 3,
+      "num_verses": 17,
+      "num_words": 309
+    },
+    {
+      "book": "2 Timothy",
+      "chapter": 4,
+      "num_verses": 22,
+      "num_words": 422
+    },
+    {
+      "book": "Titus",
+      "chapter": 1,
+      "num_verses": 16,
+      "num_words": 347
+    },
+    {
+      "book": "Titus",
+      "chapter": 2,
+      "num_verses": 15,
+      "num_words": 264
+    },
+    {
+      "book": "Titus",
+      "chapter": 3,
+      "num_verses": 15,
+      "num_words": 317
+    },
+    {
+      "book": "Philemon",
+      "chapter": 1,
+      "num_verses": 25,
+      "num_words": 461
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 1,
+      "num_verses": 14,
+      "num_words": 331
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 2,
+      "num_verses": 18,
+      "num_words": 441
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 3,
+      "num_verses": 19,
+      "num_words": 373
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 4,
+      "num_verses": 16,
+      "num_words": 392
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 5,
+      "num_verses": 14,
+      "num_words": 299
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 6,
+      "num_verses": 20,
+      "num_words": 441
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 7,
+      "num_verses": 28,
+      "num_words": 631
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 8,
+      "num_verses": 13,
+      "num_words": 392
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 9,
+      "num_verses": 28,
+      "num_words": 715
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 10,
+      "num_verses": 39,
+      "num_words": 791
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 11,
+      "num_verses": 40,
+      "num_words": 913
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 12,
+      "num_verses": 29,
+      "num_words": 696
+    },
+    {
+      "book": "Hebrews",
+      "chapter": 13,
+      "num_verses": 25,
+      "num_words": 520
+    },
+    {
+      "book": "James",
+      "chapter": 1,
+      "num_verses": 27,
+      "num_words": 543
+    },
+    {
+      "book": "James",
+      "chapter": 2,
+      "num_verses": 26,
+      "num_words": 542
+    },
+    {
+      "book": "James",
+      "chapter": 3,
+      "num_verses": 18,
+      "num_words": 387
+    },
+    {
+      "book": "James",
+      "chapter": 4,
+      "num_verses": 17,
+      "num_words": 380
+    },
+    {
+      "book": "James",
+      "chapter": 5,
+      "num_verses": 20,
+      "num_words": 479
+    },
+    {
+      "book": "1 Peter",
+      "chapter": 1,
+      "num_verses": 25,
+      "num_words": 587
+    },
+    {
+      "book": "1 Peter",
+      "chapter": 2,
+      "num_verses": 25,
+      "num_words": 555
+    },
+    {
+      "book": "1 Peter",
+      "chapter": 3,
+      "num_verses": 22,
+      "num_words": 539
+    },
+    {
+      "book": "1 Peter",
+      "chapter": 4,
+      "num_verses": 19,
+      "num_words": 431
+    },
+    {
+      "book": "1 Peter",
+      "chapter": 5,
+      "num_verses": 14,
+      "num_words": 293
+    },
+    {
+      "book": "2 Peter",
+      "chapter": 1,
+      "num_verses": 21,
+      "num_words": 497
+    },
+    {
+      "book": "2 Peter",
+      "chapter": 2,
+      "num_verses": 22,
+      "num_words": 563
+    },
+    {
+      "book": "2 Peter",
+      "chapter": 3,
+      "num_verses": 18,
+      "num_words": 489
+    },
+    {
+      "book": "1 John",
+      "chapter": 1,
+      "num_verses": 10,
+      "num_words": 247
+    },
+    {
+      "book": "1 John",
+      "chapter": 2,
+      "num_verses": 29,
+      "num_words": 732
+    },
+    {
+      "book": "1 John",
+      "chapter": 3,
+      "num_verses": 24,
+      "num_words": 547
+    },
+    {
+      "book": "1 John",
+      "chapter": 4,
+      "num_verses": 21,
+      "num_words": 482
+    },
+    {
+      "book": "1 John",
+      "chapter": 5,
+      "num_verses": 21,
+      "num_words": 499
+    },
+    {
+      "book": "2 John",
+      "chapter": 1,
+      "num_verses": 13,
+      "num_words": 302
+    },
+    {
+      "book": "3 John",
+      "chapter": 1,
+      "num_verses": 15,
+      "num_words": 303
+    },
+    {
+      "book": "Jude",
+      "chapter": 1,
+      "num_verses": 25,
+      "num_words": 610
+    },
+    {
+      "book": "Revelation",
+      "chapter": 1,
+      "num_verses": 20,
+      "num_words": 556
+    },
+    {
+      "book": "Revelation",
+      "chapter": 2,
+      "num_verses": 29,
+      "num_words": 800
+    },
+    {
+      "book": "Revelation",
+      "chapter": 3,
+      "num_verses": 22,
+      "num_words": 652
+    },
+    {
+      "book": "Revelation",
+      "chapter": 4,
+      "num_verses": 11,
+      "num_words": 336
+    },
+    {
+      "book": "Revelation",
+      "chapter": 5,
+      "num_verses": 14,
+      "num_words": 406
+    },
+    {
+      "book": "Revelation",
+      "chapter": 6,
+      "num_verses": 17,
+      "num_words": 489
+    },
+    {
+      "book": "Revelation",
+      "chapter": 7,
+      "num_verses": 17,
+      "num_words": 453
+    },
+    {
+      "book": "Revelation",
+      "chapter": 8,
+      "num_verses": 13,
+      "num_words": 387
+    },
+    {
+      "book": "Revelation",
+      "chapter": 9,
+      "num_verses": 21,
+      "num_words": 538
+    },
+    {
+      "book": "Revelation",
+      "chapter": 10,
+      "num_verses": 11,
+      "num_words": 331
+    },
+    {
+      "book": "Revelation",
+      "chapter": 11,
+      "num_verses": 19,
+      "num_words": 554
+    },
+    {
+      "book": "Revelation",
+      "chapter": 12,
+      "num_verses": 17,
+      "num_words": 514
+    },
+    {
+      "book": "Revelation",
+      "chapter": 13,
+      "num_verses": 18,
+      "num_words": 506
+    },
+    {
+      "book": "Revelation",
+      "chapter": 14,
+      "num_verses": 20,
+      "num_words": 627
+    },
+    {
+      "book": "Revelation",
+      "chapter": 15,
+      "num_verses": 8,
+      "num_words": 239
+    },
+    {
+      "book": "Revelation",
+      "chapter": 16,
+      "num_verses": 21,
+      "num_words": 534
+    },
+    {
+      "book": "Revelation",
+      "chapter": 17,
+      "num_verses": 18,
+      "num_words": 528
+    },
+    {
+      "book": "Revelation",
+      "chapter": 18,
+      "num_verses": 24,
+      "num_words": 713
+    },
+    {
+      "book": "Revelation",
+      "chapter": 19,
+      "num_verses": 21,
+      "num_words": 633
+    },
+    {
+      "book": "Revelation",
+      "chapter": 20,
+      "num_verses": 15,
+      "num_words": 493
+    },
+    {
+      "book": "Revelation",
+      "chapter": 21,
+      "num_verses": 27,
+      "num_words": 688
+    },
+    {
+      "book": "Revelation",
+      "chapter": 22,
+      "num_verses": 21,
+      "num_words": 549
+    }
+  ]
