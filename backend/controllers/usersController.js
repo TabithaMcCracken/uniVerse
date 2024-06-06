@@ -1,4 +1,5 @@
 // import User from '../models/usersModel.js'
+const bcrypt = require('bcrypt')
 const User = require('../models/usersModel.js')
 
 // Get Route- works
@@ -114,11 +115,32 @@ const deleteUser = async ({ params: { id } }, res) => {
     }
 }; 
 
+const loginUser = async (req, res) => {
+    const { email, password } = req.body;
+    trimmedPassword = password.trim();
 
-// export {indexUsers, addUser, updateUser, deleteUser, getUser }
+    try{
+        const user = await User.findOne({ email });
+        if (!user) {
+            return res.status(400).json({ message: 'No user found: Invalid email or password'});
+        }
+        console.log("password from db:",user.password)
+        console.log("password entered: ", trimmedPassword)
+        
+        if (password !== user.password) {
+            return res.status(400).json({ message: 'Password does not match' });
+        }
+
+        res.json({ _id: user._id });
+    } catch (err) {
+      console.error(err);
+      res.status(500).json({ message: 'Server error' });
+    }
+};
 
 exports.indexUsers = indexUsers;
 exports.addUser = addUser;
 exports.updateUser = updateUser;
 exports.deleteUser = deleteUser;
 exports.getUser = getUser;
+exports.loginUser = loginUser;

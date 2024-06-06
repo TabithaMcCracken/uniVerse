@@ -1,18 +1,14 @@
 
-const userId = '6659f6fca4d25109360432bb';
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import axios from 'axios';
 import Navbar from '../components/Navbar';
 import VerseCard from '../components/VerseCard';
 
 const LoggedInPage = () => {
+  const { userId } = useParams();
     const [savedVerses, setSavedVerses] = useState([]);
-    // const [versesText, setVersesText] = useState([]);
     const [error, setError] = useState(null);
-
-  // const [verse, setVerse] = useState(null);
-  // const query = 'John 11:35';
   
     useEffect(() => {
         console.log("Fetching saved verses...")
@@ -32,23 +28,6 @@ const LoggedInPage = () => {
           fetchSavedVerses();
         }, [userId]); 
 
-//   useEffect(() => {
-//     const fetchVerse = async () => {
-//       try {
-//         const response = await axios.get(`https://api.esv.org/v3/passage/text/?q=${query}`, {
-//           headers: {
-//             Authorization: `Token ${apiKey}`
-//           }
-//         });
-//         setVerse(response.data.passages[0]);
-//       } catch (error) {
-//         console.error('Error fetching verse:', error);
-//       }
-//     };
-
-//     fetchVerse();
-//   }, []);
-
 return (
     <div>
       <Navbar />
@@ -65,9 +44,7 @@ return (
             ))}
           </ul>
         )}
-        <Link to="/add-verse"><button>Add Verse</button></Link>
-        
-        <button><Link to="/">Log Out</Link></button>
+        <Link to={`/add-verse/${userId}`}><button>Add Verse</button></Link>
       </div>
     </div>
   );

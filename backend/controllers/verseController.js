@@ -21,7 +21,7 @@ const addVerse = async (req, res) => {
     console.log(req.params.userId);
 
     // Extract verse data from request body
-    const { book, chapter, verse, text, practiceAttemps, progress, dateSaved } =
+    const { book, chapter, verse, text, practiceAttempts, progress, dateSaved } =
       req.body;
 
     // Find the user in the database
@@ -36,7 +36,7 @@ const addVerse = async (req, res) => {
       chapter,
       verse,
       text,
-      practiceAttemps,
+      practiceAttempts,
       progress,
       dateSaved,
     });

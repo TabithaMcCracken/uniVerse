@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import axios from "axios";
-import ScrambleGameComponent from './ScrambleGameComponent';
+import ScrambleGameComponent from '../components/ScrambleGameComponent';
 
 
 const apiKey = import.meta.env.VITE_ESV_API_KEY;

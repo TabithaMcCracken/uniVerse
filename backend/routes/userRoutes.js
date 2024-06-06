@@ -3,7 +3,7 @@ const express = require('express');
 
 const router = express.Router()
 
-const { indexUsers, addUser, deleteUser, updateUser, getUser } = require('../controllers/usersController.js')
+const { indexUsers, addUser, deleteUser, updateUser, getUser, loginUser } = require('../controllers/usersController.js')
 // import { indexUsers, addUser, deleteUser, updateUser, getUser } from '../controllers/usersController.js'
 
 const { addVerse, updateVerse, deleteVerse } = require('../controllers/verseController.js')
@@ -35,6 +35,9 @@ router.route('/updateVerse/:id').patch(updateVerse) // change userId to id
 
 // Delete route to remove a verse  by user
 router.route('/deleteVerse/:id').delete(deleteVerse)
+
+// Check email and password from client
+router.route('/login').post(loginUser)
 
 
 // export default router

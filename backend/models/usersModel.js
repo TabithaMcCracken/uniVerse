@@ -5,7 +5,6 @@ const savedVerseSchema = new mongoose.Schema({
   book: { type: String, required: true },
   chapter: { type: Number, required: true },
   verse: { type: Number, required: true },
-  text: { type: String, required: true },
   practiceAttempts: { type: Number, default: 0 },
   progress: { type: Number, default: 0 },
   dateSaved: { type: Date, default: Date.now }

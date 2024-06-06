@@ -1,15 +1,27 @@
 //const PATH = "../bible_verse_data.json";
+
 import React, { useState, useEffect } from "react";
-// import axios from "axios";
+import axios from "axios";
+import { useNavigate, useParams } from "react-router-dom";
+import { useAuth } from '../AuthContext'; 
 import json from "../bible_verse_data.json";
+import Navbar from '../components/Navbar';
 
 const LoggedInPage = () => {
+  const { userId } = useParams();
+  const { login } = useAuth();
   const [bibleData, setBibleData] = useState([]); // Initialize as null
   const [selectedBook, setSelectedBook] = useState("");
   const [chapters, setChapters] = useState([]);
   const [selectedChapter, setSelectedChapter] = useState("");
   const [verses, setVerses] = useState([]);
   const [selectedVerse, setSelectedVerse] = useState("");
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    // Set the user as logged in when this page is accessed
+    login();
+  }, [login]);
 
   useEffect(() => {
     const uniqueBooks = [...new Set(json.map((item) => item.book))];
@@ -31,15 +43,20 @@ const LoggedInPage = () => {
 
   useEffect(() => {
     if (selectedBook && selectedChapter) {
-      // Extract verses for the selected book and chapter
-      const versesForChapter = json
-        .filter((item) => item.book === selectedBook && item.chapter === selectedChapter)
-        .map((item) => item.num_verses);
-      const uniqueVerses = Array.from({ length: Math.max(...versesForChapter) }, (_, i) => i + 1);
-      setVerses(uniqueVerses);
-      setSelectedVerse(""); // Reset selected verse when the chapter changes
+      const chapterData = json.find(
+        (item) => item.book === selectedBook && item.chapter === parseInt(selectedChapter)
+      );
+      if (chapterData) {
+        const verseCount = chapterData.num_verses;
+        const verseNumbers = Array.from({ length: verseCount }, (_, i) => i + 1);
+        setVerses(verseNumbers);
+        setSelectedVerse("");
+      } else {
+        setVerses([]);
+      }
     }
   }, [selectedBook, selectedChapter]);
+
 
   const handleBookChange = (event) => {
     setSelectedBook(event.target.value);
@@ -52,31 +69,42 @@ const LoggedInPage = () => {
     setSelectedVerse(event.target.value);
   };
 
-  //   useEffect(() => {
-  //     const fetchData = async () => {
-  //       try {
-  //         // Assuming your JSON file is hosted at a URL
-  //         const response = await axios.get({PATH});
-  //         console.log('Data fetched successfully:', response.data);
-  //         setBibleData(response.data);
-  //       } catch (error) {
-  //         console.error('Error fetching Bible data:', error);
-  //         setError('Error fetching Bible data');
-  //       }
-  //     };
+  const handleAddVerse = async () => {
+    const verseData = {
+      book: selectedBook,
+      chapter: parseInt(selectedChapter),
+      verse: parseInt(selectedVerse),
+      practiceAttempts: 0,
+      progress: 0,
+      dateSaved: new Date().toISOString(),
+    };
+    console.log(verseData)
+    try {
+      const response = await axios.patch(
+        `http://localhost:3075/users/addVerse/${userId}`,
+        verseData
+      );
+      console.log("Verse added:", response.data);
+      navigate(`/loggedin/${userId}`);
+    } catch (error) {
+      console.error("Error adding verse:", error);
+    }
+  };
 
-  //     fetchData();
-  //   }, []); // Fetch Bible data when the component mounts
+
 
   return (
     <div>
+      <Navbar />
       <header>
         <h1>List of Bible Books and Chapters</h1>
       </header>
       <div>
         <h1>Books of the Bible</h1>
         <select onChange={handleBookChange} value={selectedBook}>
-          <option value="" disabled>Select a book</option>
+          <option value="" disabled>
+            Select a book
+          </option>
           {bibleData.map((book, index) => (
             <option key={index} value={book}>
               {book}
@@ -88,7 +116,9 @@ const LoggedInPage = () => {
             <h2>Selected Book: {selectedBook}</h2>
             <h1>Chapters</h1>
             <select onChange={handleChapterChange} value={selectedChapter}>
-              <option value="" disabled>Select a chapter</option>
+              <option value="" disabled>
+                Select a chapter
+              </option>
               {chapters.map((chapter, index) => (
                 <option key={index} value={chapter}>
                   {chapter}
@@ -102,7 +132,9 @@ const LoggedInPage = () => {
             <h2>Selected Chapter: {selectedChapter}</h2>
             <h1>Verses</h1>
             <select onChange={handleVerseChange} value={selectedVerse}>
-              <option value="" disabled>Select a verse</option>
+              <option value="" disabled>
+                Select a verse
+              </option>
               {verses.map((verse, index) => (
                 <option key={index} value={verse}>
                   {verse}
@@ -113,7 +145,8 @@ const LoggedInPage = () => {
         )}
         {selectedVerse && (
           <div>
-            <h2>Selected Verse: {selectedVerse}</h2>
+            <h2>Selected Verse: {`${selectedBook} ${selectedChapter}:${selectedVerse}`}</h2>
+            <button onClick={handleAddVerse}>Add Verse</button>
           </div>
         )}
       </div>
@@ -179,7 +212,7 @@ export default LoggedInPage;
 //     try {
 //       // Assuming your backend endpoint for saving the verse is '/verses'
 //       await axios.post('/verses', formData);
-//       // Optionally, navigate back to the logged-in page or display a success message
+//       // Optionally, navigate back to the loggedin page or display a success message
 //     } catch (error) {
 //       console.error('Error adding verse:', error);
 //     }
