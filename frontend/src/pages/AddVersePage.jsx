@@ -1,5 +1,3 @@
-//const PATH = "../bible_verse_data.json";
-
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useNavigate, useParams } from "react-router-dom";
@@ -7,9 +5,10 @@ import { useAuth } from '../AuthContext';
 import json from "../bible_verse_data.json";
 import Navbar from '../components/Navbar';
 
-const LoggedInPage = () => {
-  const { userId } = useParams();
-  const { login } = useAuth();
+const AddVersePage = () => {
+  const { userId } = useAuth();
+  console.log(userId);
+  //const { login } = useAuth();
   const [bibleData, setBibleData] = useState([]); // Initialize as null
   const [selectedBook, setSelectedBook] = useState("");
   const [chapters, setChapters] = useState([]);
@@ -18,10 +17,10 @@ const LoggedInPage = () => {
   const [selectedVerse, setSelectedVerse] = useState("");
   const navigate = useNavigate();
 
-  useEffect(() => {
-    // Set the user as logged in when this page is accessed
-    login();
-  }, [login]);
+  // useEffect(() => {
+  //   // Set the user as logged in when this page is accessed
+  //   login();
+  // }, [login]);
 
   useEffect(() => {
     const uniqueBooks = [...new Set(json.map((item) => item.book))];
@@ -78,7 +77,7 @@ const LoggedInPage = () => {
       progress: 0,
       dateSaved: new Date().toISOString(),
     };
-    console.log(verseData)
+
     try {
       const response = await axios.patch(
         `http://localhost:3075/users/addVerse/${userId}`,
@@ -97,7 +96,7 @@ const LoggedInPage = () => {
     <div>
       <Navbar />
       <header>
-        <h1>List of Bible Books and Chapters</h1>
+        <h1>Select a Bible verse to practice:</h1>
       </header>
       <div>
         <h1>Books of the Bible</h1>
@@ -145,8 +144,10 @@ const LoggedInPage = () => {
         )}
         {selectedVerse && (
           <div>
-            <h2>Selected Verse: {`${selectedBook} ${selectedChapter}:${selectedVerse}`}</h2>
+            <h2>Selected Verse: {`${selectedVerse}`}</h2>
+            <h2>{`${selectedBook} ${selectedChapter}:${selectedVerse}`}</h2>
             <button onClick={handleAddVerse}>Add Verse</button>
+            
           </div>
         )}
       </div>
@@ -154,7 +155,7 @@ const LoggedInPage = () => {
   );
 };
 
-export default LoggedInPage;
+export default AddVersePage;
 
 // import React, { useState, useEffect } from 'react';
 // import axios from 'axios';

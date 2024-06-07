@@ -63,7 +63,11 @@ const addUser = async (req, res) => {
         res.status(201).json(savedUser);
     } catch (error) {
         console.error('Error adding user:', error);
-        res.status(500).json({ error: 'Failed to add user' });
+        if (error.code === 11000) {
+          res.status(400).json({ error: 'Email already exists', code: 11000 });
+        } else {
+          res.status(500).json({ error: 'Failed to add user' });
+        }
     }
 }
 

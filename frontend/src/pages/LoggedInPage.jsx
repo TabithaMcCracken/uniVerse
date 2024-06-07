@@ -4,9 +4,11 @@ import { useParams, Link } from 'react-router-dom';
 import axios from 'axios';
 import Navbar from '../components/Navbar';
 import VerseCard from '../components/VerseCard';
+import { useAuth } from '../AuthContext';
 
 const LoggedInPage = () => {
-  const { userId } = useParams();
+  const { userId } = useAuth();
+  // console.log(userId);
     const [savedVerses, setSavedVerses] = useState([]);
     const [error, setError] = useState(null);
   
@@ -25,7 +27,9 @@ const LoggedInPage = () => {
             }
           };
       
+          if(userId){
           fetchSavedVerses();
+          }
         }, [userId]); 
 
 return (

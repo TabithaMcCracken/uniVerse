@@ -2,17 +2,25 @@
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import axios from "axios";
-import ScrambleGameComponent from '../components/ScrambleGameComponent';
-
+import ScrambleGameComponent from "../components/ScrambleGameComponent";
+import { useAuth } from '../AuthContext'; 
+import Navbar from '../components/Navbar';
 
 const apiKey = import.meta.env.VITE_ESV_API_KEY;
+
 
 
 const VersePage = () => {
   const location = useLocation();
   const { verse } = location.state;
+  const { login } = useAuth();
   const [verseText, setVerseText] = useState("");
-  const [isScrambleGameActive, setIsScrambleGameActive] = useState (false);
+  const [isScrambleGameActive, setIsScrambleGameActive] = useState(false);
+
+  // useEffect(() => {
+  //   // Set the user as logged in when this page is accessed
+  //   login();
+  // }, [login]);
 
   useEffect(() => {
     const fetchVerseText = async () => {
@@ -45,22 +53,26 @@ const VersePage = () => {
     setIsScrambleGameActive(true);
   };
 
-
   if (!verse) {
     return <div>Error: No verse data available</div>;
   }
 
   return (
-    <div className="single-verse-page">
-      <h2>{verse.book} {verse.chapter}:{verse.verse}</h2>
-      {isScrambleGameActive ? (
-        <ScrambleGameComponent verseText ={verseText}/>
-      ) : (
-        <>
-          <p>{verseText}</p>
-          <button onClick={handlePlayGame}>Play Scramble Game</button>
-        </>
-      )}
+    <div>
+      <Navbar />
+      <div className="single-verse-page">
+        <h2>
+          {verse.book} {verse.chapter}:{verse.verse}
+        </h2>
+        {isScrambleGameActive ? (
+          <ScrambleGameComponent verseText={verseText} />
+        ) : (
+          <>
+            <p>{verseText}</p>
+            <button onClick={handlePlayGame}>Play Scramble Game</button>
+          </>
+        )}
+      </div>
     </div>
   );
 };

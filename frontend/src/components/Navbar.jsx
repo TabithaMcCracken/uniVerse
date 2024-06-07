@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../AuthContext'; 
 
 const Navbar = () => {
-  const { isLoggedIn, logout } = useContext(AuthContext);
+  const { isLoggedIn, logout, userId } = useContext(AuthContext);
   const navigate = useNavigate();
 
   const handleLogout = () =>{
@@ -12,6 +12,7 @@ const Navbar = () => {
   }
 
   const handleNavigate = (path) => {
+    // console.log("User Id ", userId)
     navigate(path);
   }
 
@@ -20,24 +21,24 @@ const Navbar = () => {
       <ul>
         {!isLoggedIn && (
           <li>
-            <button onClick={() => handleNavigate('/login')}>
-              Log In
-            </button>
-          </li>
-        )}
-        {!isLoggedIn && (
-          <li>
-            <button onClick={() => handleNavigate('/create-account')}>
-              Create Account
-            </button>
+            <button onClick={() => handleNavigate('/')}>
+            Home
+          </button>
           </li>
         )}
         {isLoggedIn && (
-          <li>
-            <button onClick={handleLogout}>
-              Log Out
-            </button>
-          </li>
+          <>
+            <li>
+              <button onClick={handleLogout}>
+                Log Out
+              </button>
+            </li>
+            <li>
+            <button onClick={() => handleNavigate(`/loggedin/${userId}`)}>
+                Home
+              </button>
+            </li>
+          </>
         )}
       </ul>
     </nav>

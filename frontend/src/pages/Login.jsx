@@ -23,7 +23,7 @@ const Login = () => {
       console.log("user id:", userId)
 
       if (userId) {
-        login();
+        login(userId);
         console.log("Successfully matched email and password", userId)
         navigate(`/loggedin/${userId}`);
       } else {
