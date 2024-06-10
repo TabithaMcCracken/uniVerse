@@ -50,12 +50,14 @@ const CreateAccount = () => {
   return (
     <div>
       <Navbar />
+      <div className="container1">
       <h2>Create Account</h2>
       {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
-      <form onSubmit={handleSubmit}>
+      <form className="login-form" onSubmit={handleSubmit}>
         <input
           type="text"
           placeholder="First Name"
+          className="input-field"
           value={firstName}
           onChange={(e) => setFirstName(e.target.value)}
           required
@@ -63,6 +65,7 @@ const CreateAccount = () => {
         <input
           type="email"
           placeholder="Email"
+          className="input-field"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
@@ -70,12 +73,14 @@ const CreateAccount = () => {
         <input
           type="password"
           placeholder="Password"
+          className="input-field"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           required
         />
         <button type="submit">Create Account</button>
       </form>
+      </div>
     </div>
   );
 };

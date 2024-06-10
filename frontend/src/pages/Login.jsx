@@ -38,25 +38,29 @@ const Login = () => {
   return (
     <div>
       <Navbar />
+      <div className="container1">
       <h2>Log In</h2>
-      <form onSubmit={handleSubmit}>
+      <form className="login-form" onSubmit={handleSubmit}>
         <input 
           type="email" 
           placeholder="Email" 
           required 
           value={email} 
           onChange={(e) => setEmail(e.target.value)} 
+          className="input-field"
         />
         <input 
           type="password" 
           placeholder="Password" 
           required 
           value={password} 
-          onChange={(e) => setPassword(e.target.value)} 
+          onChange={(e) => setPassword(e.target.value)}
+          className="input-field" // Added class name 
         />
         <button type="submit">Log In</button>
         {error && <p>{error}</p>}
       </form>
+      </div>
     </div>
   );
 };

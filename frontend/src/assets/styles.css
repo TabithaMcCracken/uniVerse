@@ -1,58 +1,112 @@
 /* src/assets/styles.css */
 body {
-    background-color: #f0f0f0;
-    color: #333;
-    font-family: Arial, sans-serif;
-  }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 10px;
-  }
-  
-  nav li {
-    display: inline;
-  }
-  
-  a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    margin: 5px;
-  }
-  
-  button a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  input {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: Arial, sans-serif;
+  background-image: url('space-5654794_1920.png'); 
+  background-repeat: repeat;
+  background-size: 50%;
+}
+/* body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('../public/space-7826453_1920.jpg');
+    background-size: cover; /* Ensures the image covers the entire background */
+/* background-position: center; Centers the image */
+/* color: #FFFFFF; Default text color */
+
+/* button,
+button:hover,
+button:focus,
+button:active {
+  text-decoration: none;
+} */
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+nav li {
+  display: inline;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.input-field {
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+.login-form {
+  width: 400px; /* Set the width to your desired value */
+  margin: 0 auto; /* Center the form horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* a:hover {
+  text-decoration: underline;
+} */
+
+button {
+  background-color: #6ca3d8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #8484ae;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.verse-list{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.verse-container {
+  width: 300px;
+  border: 2px solid #ccc; /* Border color and thickness */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Optional: Add padding to the container */
+  margin: 0 auto;
+}
+
+.container1 {
+  background-color: #aac697;
+  height: 200px;
+  border-radius: 10px;
+}
+
+p, h3 {
+  margin: 10px;
+}

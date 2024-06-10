@@ -7,6 +7,8 @@ import CreateAccount from './pages/CreateAccount';
 import LoggedInPage from './pages/LoggedInPage';
 import VersePage from './pages/VersePage';
 import AddVersePage from './pages/AddVersePage';
+import './App.css';
+import './assets/styles.css';
 
 // import dotenv from 'dotenv';
 // dotenv.config()
