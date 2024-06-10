@@ -1,12 +1,13 @@
-import React, { useState, useContext } from 'react';
-import { useNavigate } from 'react-router-dom';
-import axios from 'axios';
-import Navbar from '../components/Navbar';
-import { AuthContext } from '../AuthContext';
+import React, { useState, useContext } from "react";
+import { useNavigate } from "react-router-dom";
+import axios from "axios";
+import Navbar from "../components/Navbar";
+import { AuthContext } from "../AuthContext";
+import starImage from './uniVerseSmBlue.png';
 
 const Login = () => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [error, setError] = useState(null);
   const navigate = useNavigate();
   const { login } = useContext(AuthContext);
@@ -15,52 +16,56 @@ const Login = () => {
     e.preventDefault();
     const loginData = {
       password: password,
-      email: email
-    }
+      email: email,
+    };
     try {
-      const response = await axios.post('http://localhost:3075/users/login', loginData);
+      const response = await axios.post(
+        "http://localhost:3075/users/login",
+        loginData
+      );
       const userId = response.data._id;
-      console.log("user id:", userId)
+      console.log("user id:", userId);
 
       if (userId) {
         login(userId);
-        console.log("Successfully matched email and password", userId)
+        console.log("Successfully matched email and password", userId);
         navigate(`/loggedin/${userId}`);
       } else {
-        setError('Invalid email or password');
+        setError("Invalid email or password");
       }
     } catch (err) {
-      console.error('Error logging in:', err);
-      setError('Incorrect email or password. Please try again.');
+      console.error("Error logging in:", err);
+      setError("Incorrect email or password. Please try again.");
     }
   };
 
   return (
-    <div>
+    <div className="app">
       <Navbar />
-      <div className="container1">
-      <h2>Log In</h2>
-      <form className="login-form" onSubmit={handleSubmit}>
-        <input 
-          type="email" 
-          placeholder="Email" 
-          required 
-          value={email} 
-          onChange={(e) => setEmail(e.target.value)} 
-          className="input-field"
-        />
-        <input 
-          type="password" 
-          placeholder="Password" 
-          required 
-          value={password} 
-          onChange={(e) => setPassword(e.target.value)}
-          className="input-field" // Added class name 
-        />
-        <button type="submit">Log In</button>
-        {error && <p>{error}</p>}
-      </form>
-      </div>
+        <div className="container1">
+        <img src={starImage} alt="Yellow Star" className="small-image" />
+          <h2>Log In</h2>
+          <form className="login-form" onSubmit={handleSubmit}>
+            <input
+              type="email"
+              placeholder="Email"
+              required
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              className="input-field"
+            />
+            <input
+              type="password"
+              placeholder="Password"
+              required
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              className="input-field" // Added class name
+            />
+            <button type="submit">Log In</button>
+            {error && <p>{error}</p>}
+          </form>
+        </div>
     </div>
   );
 };

@@ -34,10 +34,10 @@ const LoggedInPage = () => {
   }, [userId]);
 
   return (
-    <div>
+    <div className="app">
       <Navbar />
       <div className = 'verse-container'>
-        <header>
+        <header className="verse-header">
           <h1>Your Memory Verses</h1>
           <h3>Click on a verse to practice it!</h3>
         </header>
@@ -51,6 +51,7 @@ const LoggedInPage = () => {
               ))}
             </ul>
           )}
+          <br />
           <Link to={`/add-verse/${userId}`}>
             <button>Add Verse</button>
           </Link>
@@ -61,43 +62,3 @@ const LoggedInPage = () => {
 };
 
 export default LoggedInPage;
-
-// const UserPage = () => {
-//   const [savedVerses, setSavedVerses] = useState([]);
-
-//   useEffect(() => {
-//     // Function to fetch saved verses by user ID
-//     const fetchSavedVerses = async () => {
-//       try {
-//         // Replace 'USER_ID' with the actual user ID
-//         const response = await axios.get(`/api/verses/USER_ID`);
-//         setSavedVerses(response.data);
-//       } catch (error) {
-//         console.error('Error fetching saved verses:', error);
-//       }
-//     };
-
-//     fetchSavedVerses();
-//   }, []); // Fetch saved verses when the component mounts
-
-//   return (
-//     <div>
-//       <h1>Saved Verses</h1>
-//       <ul>
-//         {savedVerses.map(verse => (
-//           <li key={verse._id}>
-//             <p>Book: {verse.book}</p>
-//             <p>Chapter: {verse.chapter}</p>
-//             <p>Verse: {verse.verse}</p>
-//             <p>Text: {verse.text}</p>
-//             <p>Practice Attempts: {verse.practiceAttempts}</p>
-//             <p>Progress: {verse.progress}</p>
-//             <p>Date Saved: {verse.dateSaved}</p>
-//           </li>
-//         ))}
-//       </ul>
-//     </div>
-//   );
-// };
-
-// export default UserPage;

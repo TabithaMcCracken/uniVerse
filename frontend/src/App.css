@@ -1,42 +1,29 @@
+/* Global styles */
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-image: url('space-5654794_1920.png'); 
+  background-repeat: repeat;
+  background-size: 50%;
 }
 
-body {
+header, footer {
+  color: white;
+  padding: 10px 20px;
+  text-align: center
+}
+/* body {
   margin: 0;
   font-family: 'Arial', sans-serif;
   /* background-image: url('../public/space-7826453_1920.jpg'); */
-  background-size: cover; /* Ensures the image covers the entire background */
-  background-position: center; /* Centers the image */
-  color: #FFFFFF; /* Default text color */
+  /* background-size: cover; Ensures the image covers the entire background
+  background-position: center; Centers the image
+  color: #FFFFFF; Default text color
   background-repeat: no-repeat;
-}
-
-.container1 {
-  /* background-image: url('../public/space-7826453_1920.jpg'); Add your image URL here */
-  background-size: cover;
-  background-position: center;
-  height: 400px; /* Adjust height as needed */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: white; /* Text color */
-}
-
-.container2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px; /* Adjust margin as needed */
-}
-
-button {
-  margin: 0 10px; /* Adjust margin as needed */
-}
+} */
 
 .logo {
   height: 6em;
@@ -44,6 +31,7 @@ button {
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
