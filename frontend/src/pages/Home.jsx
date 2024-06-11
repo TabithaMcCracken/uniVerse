@@ -15,9 +15,7 @@ const Home = () => {
           </h1>
           <img src={starImage} alt="Yellow Star" className="small-image" />
           <p>
-            Prepare for an interstellar adventure unlike any other with
-            uniVerse, the stellar app that makes memorizing Bible verses an
-            out-of-this-world experience!
+            Are you ready to blast off and practice <br />your Bible memory verses?
           </p>
         </div>
         <button>

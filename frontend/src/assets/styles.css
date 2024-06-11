@@ -1,17 +1,21 @@
 /* src/assets/styles.css */
 body {
-  /* background-color: #f0f0f0;
-  color: #333; */
-  /* font-family: 'Barriecito', sans-serif; */
   font-family: 'Ubuntu';
-  background-image: url('space-5654794_1920.png'); 
+  /* background-image: url('space-5654794_1920.png'); 
   background-repeat: repeat;
-  background-size: 50%;
+  background-size: 50%; */
 }
-.barriecito-regular {
-  font-family: "Barriecito", system-ui;
-  font-weight: 400;
-  font-style: normal;
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.vp {
+  /* height: 150vh; */
+  
 }
 
 .ubuntu-regular {
@@ -42,8 +46,8 @@ a {
 }
 
 .login-form {
-  width: 400px; /* Set the width to your desired value */
-  margin: 0 auto; /* Center the form horizontally */
+  width: 400px; 
+  margin: 0 auto; 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -89,16 +93,18 @@ input {
 }
 
 .verse-container {
-  width: 300px;
+  width: 500px;
+  /* height: 500px; */
   background-color: #6ca3d8;
   border-radius: 10px;
   padding: 20px;
   margin: 0 auto;
+  color: white;
 }
 
 .container1 {
   background-color: #6ca3d8;
-  height: 500px;
+  /* height: 500px; */
   width: 400px;
   border-radius: 10px;
   display: flex;
@@ -106,17 +112,12 @@ input {
   justify-content: center;
   align-items: center;
   color: white;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 .inner-container{
   padding: 10px;
-}
-
-.app {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .container2 {
@@ -140,11 +141,50 @@ p, h3 {
   align-items: center;
 }
 
-.verse-header {
-  color: #b68080;
-}
-
 .small-image {
   width: 100px;
   height: auto;
+}
+
+
+#verse-display-table {
+  border: 1px solid white;
+  height: 180px;
+  border-radius: 5px;;
+  
+}
+
+word-button {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#ordered-words-section {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 10px;
+  flex-wrap: wrap;
+  background-color: #eb9ab3;
+  height: 180px;
+  border-radius: 5px;
+  /* margin: 5px; */
+}
+
+.ordered-word {
+  margin: 5px;
+}
+.word-button {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.verse-header {
+  margin: 5px;
+  color: white;
+}
+
+span {
+  margin-top: 5px;
 }

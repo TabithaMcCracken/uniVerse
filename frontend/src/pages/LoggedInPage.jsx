@@ -34,7 +34,7 @@ const LoggedInPage = () => {
   }, [userId]);
 
   return (
-    <div className="app">
+    <div className="app loggedinpage">
       <Navbar />
       <div className = 'verse-container'>
         <header className="verse-header">

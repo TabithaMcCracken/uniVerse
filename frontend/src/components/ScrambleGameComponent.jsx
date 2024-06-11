@@ -55,16 +55,18 @@ const ScrambleGameComponent = ({ verseText }) => {
       <h3>Click on the words to put them back in order.</h3>
       <div id="verse-display-table">
         {scrambledWords.map((word, index) => (
-          <button key={index} onClick={() => handleWordClick(word)}>
+          <button className="word-button" key={index} onClick={() => handleWordClick(word)}>
             {word}
           </button>
         ))}
       </div>
+      <br />
       <div id="ordered-words-section">
         {orderedWords.map((word, index) => (
-          <span key={index}>{word} </span>
+          <span className="ordered-word" key={index}>{word} </span>
         ))}
       </div>
+      <br />
       {orderedWords.length === originalWords.length && (
         <button onClick={handleCheckVerse}>
           Check Verse

@@ -5,10 +5,9 @@ import axios from "axios";
 import ScrambleGameComponent from "../components/ScrambleGameComponent";
 import { useAuth } from '../AuthContext'; 
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 const apiKey = import.meta.env.VITE_ESV_API_KEY;
-
-
 
 const VersePage = () => {
   const location = useLocation();
@@ -16,11 +15,6 @@ const VersePage = () => {
   const { login } = useAuth();
   const [verseText, setVerseText] = useState("");
   const [isScrambleGameActive, setIsScrambleGameActive] = useState(false);
-
-  // useEffect(() => {
-  //   // Set the user as logged in when this page is accessed
-  //   login();
-  // }, [login]);
 
   useEffect(() => {
     const fetchVerseText = async () => {
@@ -58,21 +52,25 @@ const VersePage = () => {
   }
 
   return (
-    <div>
+    <div className="app vp" >
       <Navbar />
+      <div className="verse-container">
       <div className="single-verse-page">
-        <h2>
-          {verse.book} {verse.chapter}:{verse.verse}
+        <h2 className="verse-header">
+          {verse.book} {verse.chapter}:{verse.verse} ESV
         </h2>
         {isScrambleGameActive ? (
           <ScrambleGameComponent verseText={verseText} />
         ) : (
           <>
             <p>{verseText}</p>
-            <button onClick={handlePlayGame}>Play Scramble Game</button>
+            <br />
+            <button onClick={handlePlayGame}>Play Word Scramble Game</button>
           </>
         )}
       </div>
+      </div>
+      <Footer />
     </div>
   );
 };
