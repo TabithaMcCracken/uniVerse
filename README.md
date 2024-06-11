@@ -91,4 +91,4 @@ The project is set up to be deployed on [Render](https://render.com). Please fol
 - `src/context/AuthContext.jsx`: Context for handling authentication state
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.

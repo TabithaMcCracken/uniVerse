@@ -70,6 +70,8 @@ const VersePage = () => {
         )}
       </div>
       </div>
+      <br />
+      <br />
       <Footer />
     </div>
   );

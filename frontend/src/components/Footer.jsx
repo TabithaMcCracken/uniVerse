@@ -15,7 +15,7 @@ const Footer = () => {
       </p>
       {isOpen && (
         <div className="copyright-info">
-          <p>
+          <p className="copyright-container">
             Scripture quotations are from the ESV® Bible (The Holy Bible,
             English Standard Version®), © 2001 by Crossway, a publishing
             ministry of Good News Publishers. Used by permission. All rights
