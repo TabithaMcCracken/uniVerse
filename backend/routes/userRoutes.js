@@ -1,14 +1,14 @@
-// import express from 'express'
+// Import required moddules
 const express = require('express');
-
 const router = express.Router()
 
+// Import user controller functions
 const { indexUsers, addUser, deleteUser, updateUser, getUser, loginUser } = require('../controllers/usersController.js')
-// import { indexUsers, addUser, deleteUser, updateUser, getUser } from '../controllers/usersController.js'
 
+// Import verse controller functions
 const { addVerse, updateVerse, deleteVerse } = require('../controllers/verseController.js')
-// import { addVerse, updateVerse, deleteVerse } from '../controllers/verseController.js'
 
+// Define routes for user operations
 
 // Get route to get all user data
 router.route('/').get(indexUsers)
@@ -26,6 +26,7 @@ router.route('/deleteUser/:id').delete(deleteUser)
 router.route('/updateUser/:id').patch(updateUser)
 
 
+// Define routes for verse operations
 
 // Patch route to add a verse by user
 router.route('/addVerse/:id').patch(addVerse)
@@ -36,9 +37,8 @@ router.route('/updateVerse/:id').patch(updateVerse) // change userId to id
 // Delete route to remove a verse  by user
 router.route('/deleteVerse/:id').delete(deleteVerse)
 
-// Check email and password from client
+// Route to check email and password from client
 router.route('/login').post(loginUser)
 
-
-// export default router
+// Export default router
 module.exports = router;

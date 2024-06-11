@@ -1,7 +1,7 @@
-// import User from "../models/usersModel.js";
-const User = require("../models/usersModel.js")
+// Import required modules
+const User = require("../models/usersModel.js");
 
-// PATCH Route to add Verse- works
+// PATCH Route to add a verse to a user's saved verses
 // http://localhost:3075/users/addVerse/:id
 
 // id: 665906dca4d25109369cc2a1
@@ -21,8 +21,15 @@ const addVerse = async (req, res) => {
     console.log(req.params.userId);
 
     // Extract verse data from request body
-    const { book, chapter, verse, text, practiceAttempts, progress, dateSaved } =
-      req.body;
+    const {
+      book,
+      chapter,
+      verse,
+      text,
+      practiceAttempts,
+      progress,
+      dateSaved,
+    } = req.body;
 
     // Find the user in the database
     const user = await User.findById(userId);
@@ -47,12 +54,12 @@ const addVerse = async (req, res) => {
     // Respond with the updated user data
     res.status(201).json(user);
   } catch (error) {
-    // Handle errors
+    console.error("Error adding verse:", error);
     res.status(500).json({ error: error.message });
   }
 };
 
-// PATCH Route to add Verse- works
+// PATCH Route to update a saved verse in a user's saved verses
 // http://localhost:3075/users/updateVerse/:id
 
 // id: 665906dca4d25109369cc2a1
@@ -71,11 +78,13 @@ const updateVerse = async (req, res) => {
     req.body;
 
   try {
+    // Find the user in the database
     const user = await User.findById(id);
     if (!user) {
       return res.status(404).send("User not found");
     }
 
+    // Find the saved verse in the user's savedVerses array
     const savedVerse = user.savedVerses.find(
       (v) => v.book === book && v.chapter === chapter && v.verse === verse
     );
@@ -84,20 +93,22 @@ const updateVerse = async (req, res) => {
       return res.status(404).send("Saved verse not found");
     }
 
+    // Update the saved verse with new data
     savedVerse.practiceAttempts = practiceAttempts;
     savedVerse.progress = progress;
     savedVerse.dateSaved = dateSaved;
 
+    // Save the updated user data back to the database
     await user.save();
 
-    res.send("Saved verse updated successfully");
+    res.status(200).send("Saved verse updated successfully");
   } catch (error) {
+    console.error("Error updating saved verse: ", error);
     res.status(500).send("Error updating saved verse: " + error.message);
   }
 };
 
-
-// DELETE Route to remove verse- works
+// DELETE Route to remove a saved verse from a user's saved verses
 // http://localhost:3075/users/deleteVerse/:id'
 
 // id: 665906dca4d25109369cc2a1
@@ -112,11 +123,13 @@ const deleteVerse = async (req, res) => {
   const { book, chapter, verse } = req.body;
 
   try {
+    // Find the user in the database
     const user = await User.findById(id);
     if (!user) {
       return res.status(404).send("User not found");
     }
 
+    // Find the index of the verse to be deleted in the user's savedVerses array
     const verseIndex = user.savedVerses.findIndex(
       (v) => v.book === book && v.chapter === chapter && v.verse === verse
     );
@@ -125,18 +138,20 @@ const deleteVerse = async (req, res) => {
       return res.status(404).send("Saved verse not found");
     }
 
-    user.savedVerses.splice(verseIndex, 1); // Remove the verse from the array
+    // Remove the verse from the array
+    user.savedVerses.splice(verseIndex, 1);
 
+    // Save the updated user data back to the database
     await user.save();
 
-    res.send("Saved verse deleted successfully");
+    res.status(200).send("Saved verse deleted successfully");
   } catch (error) {
+    console.error("Error deleting saved verse:", error);
     res.status(500).send("Error deleting saved verse: " + error.message);
   }
 };
 
-// export { addVerse, updateVerse, deleteVerse };
-
+// Export the functions for use in other parts of the application
 exports.addVerse = addVerse;
 exports.updateVerse = updateVerse;
 exports.deleteVerse = deleteVerse;
