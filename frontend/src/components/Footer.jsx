@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 
 const Footer = () => {
+    // State to manage the visibility of copyright info
   const [isOpen, setIsOpen] = useState(false);
+
+  //Function to toggle the visibility of copyright info
   const toggleOpen = () => {
     setIsOpen(!isOpen);
   };
@@ -9,13 +12,16 @@ const Footer = () => {
   return (
     <footer className="footer">
       <p>
+        {/* Button to toggle copyright info */}
         <button onClick={toggleOpen} className="link-button">
           {isOpen ? "Hide Copyright Info" : "Show Copyright Info"}
         </button>
       </p>
+      {/* Copyright info shown only if isOpen state is true */}
       {isOpen && (
         <div className="copyright-info">
           <p className="copyright-container">
+            {/* Copyright text */}
             Scripture quotations are from the ESV® Bible (The Holy Bible,
             English Standard Version®), © 2001 by Crossway, a publishing
             ministry of Good News Publishers. Used by permission. All rights

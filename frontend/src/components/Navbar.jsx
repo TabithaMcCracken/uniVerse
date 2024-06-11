@@ -1,40 +1,42 @@
-import React, { useContext } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import { AuthContext } from '../AuthContext'; 
+import React, { useContext } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { AuthContext } from "../AuthContext";
 
 const Navbar = () => {
+  // Accessing authentication context
   const { isLoggedIn, logout, userId } = useContext(AuthContext);
+
+  // Hook to navigate between routes
   const navigate = useNavigate();
 
-  const handleLogout = () =>{
+  // Function to handle logout
+  const handleLogout = () => {
     logout();
-    navigate('/');
-  }
+    navigate("/");
+  };
 
+  // Function to handle navigate to specified path
   const handleNavigate = (path) => {
-    // console.log("User Id ", userId)
     navigate(path);
-  }
+  };
 
   return (
     <nav>
       <ul>
+        {/* If not logged in, display home button */}
         {!isLoggedIn && (
           <li>
-            <button onClick={() => handleNavigate('/')}>
-            Home
-          </button>
+            <button onClick={() => handleNavigate("/")}>Home</button>
           </li>
         )}
+        {/* If logged in, display logout and home buttons */}
         {isLoggedIn && (
           <>
             <li>
-              <button onClick={handleLogout}>
-                Log Out
-              </button>
+              <button onClick={handleLogout}>Log Out</button>
             </li>
             <li>
-            <button onClick={() => handleNavigate(`/loggedin/${userId}`)}>
+              <button onClick={() => handleNavigate(`/loggedin/${userId}`)}>
                 Home
               </button>
             </li>
