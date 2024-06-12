@@ -1,20 +1,23 @@
 import React, { useState, useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import axios from "axios";
 import ScrambleGameComponent from "../components/ScrambleGameComponent";
 import { useAuth } from '../AuthContext'; 
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import { BASE_URL } from "../App";
 
  // API key for ESV API
 const apiKey = import.meta.env.VITE_ESV_API_KEY;
 
 const VersePage = () => {
+  const { userId } = useAuth();
   const location = useLocation(); // Hook to acces teh current location
   const { verse } = location.state; // Extracting verse data from location state
   const { login } = useAuth(); // Authentication context
   const [verseText, setVerseText] = useState(""); // State variable for verse
   const [isScrambleGameActive, setIsScrambleGameActive] = useState(false); // State variable to track if game is active
+  const navigate = useNavigate(); // Hook for navigation
 
   useEffect(() => {
     // Function to fetch verse text from ESV API
@@ -49,6 +52,25 @@ const VersePage = () => {
     setIsScrambleGameActive(true);
   };
 
+
+  const handleDeleteVerse = async () => {
+    try {
+      const { book, chapter, verse: verseNumber } = verse;
+      await axios.delete(`${BASE_URL}/users/deleteVerse/${userId}`, {
+        data: {
+          book,
+          chapter,
+          verse: verseNumber
+        }
+      });
+
+      // Navigate back to the LoggedIn page after deletion
+      navigate(`/loggedin/${userId}`);
+    } catch (error) {
+      console.error("Error deleting verse:", error);
+    }
+  };
+
   if (!verse) {
     return <div>Error: No verse data available</div>;
   }
@@ -68,6 +90,9 @@ const VersePage = () => {
             <p>{verseText}</p>
             <br />
             <button onClick={handlePlayGame}>Play Word Scramble Game</button>
+            <br />
+            <br />
+            <button onClick={handleDeleteVerse}>Delete Verse</button>
           </>
         )}
       </div>
