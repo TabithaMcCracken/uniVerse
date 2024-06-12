@@ -4,6 +4,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { useAuth } from '../AuthContext'; 
 import json from "../bible_verse_data.json";
 import Navbar from '../components/Navbar';
+import { BASE_URL } from "../App";
 
 const AddVersePage = () => {
   const { userId } = useAuth();
@@ -84,7 +85,7 @@ const AddVersePage = () => {
     try {
       // Send a PATCH request to add the verse to the user's saved verses
       const response = await axios.patch(
-        `http://localhost:3075/users/addVerse/${userId}`,
+        `${BASE_URL}/users/addVerse/${userId}`,
         verseData
       );
       console.log("Verse added:", response.data);

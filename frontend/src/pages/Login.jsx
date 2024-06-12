@@ -4,6 +4,7 @@ import axios from "axios";
 import Navbar from "../components/Navbar";
 import { AuthContext } from "../AuthContext";
 import starImage from "./uniVerseSmBlue.png";
+import { BASE_URL } from "../App";
 
 const Login = () => {
   // State variables for email, password, and error message
@@ -28,7 +29,7 @@ const Login = () => {
     };
     try {
       const response = await axios.post(
-        "http://localhost:3075/users/login",
+        `${BASE_URL}/users/login`,
         loginData
       );
       // Extract user ID from the response

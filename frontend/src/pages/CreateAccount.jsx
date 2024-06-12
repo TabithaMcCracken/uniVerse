@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import { useNavigate } from "react-router-dom";
 import starImage from "./uniVerseSmBlue.png";
+import { BASE_URL } from "../App";
 
 const CreateAccount = () => {
   // State variables for managing form inputs and error messages
@@ -25,7 +26,7 @@ const CreateAccount = () => {
 
     try {
       // Send a POST request to create a new user account
-      const response = await fetch("http://localhost:3075/users/addUser", {
+      const response = await fetch(`${BASE_URL}/users/addUser`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

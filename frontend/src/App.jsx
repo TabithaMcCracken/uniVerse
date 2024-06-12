@@ -10,6 +10,8 @@ import AddVersePage from './pages/AddVersePage';
 import './App.css';
 import './assets/styles.css';
 
+export const BASE_URL = import.meta.DEV ? 'http://localhost:3075' : 'https://universe-backend-tf04.onrender.com'
+
 const App = () => {
   return (
     <AuthProvider>

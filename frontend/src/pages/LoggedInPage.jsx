@@ -4,6 +4,7 @@ import axios from "axios";
 import Navbar from "../components/Navbar";
 import VerseCard from "../components/VerseCard";
 import { useAuth } from "../AuthContext";
+import { BASE_URL } from "../App";
 
 const LoggedInPage = () => {
   const { userId } = useAuth(); // Get the user Id from the authentication context
@@ -17,7 +18,7 @@ const LoggedInPage = () => {
       try {
         // Fetch saved verses from the backend
         const response = await axios.get(
-          `http://localhost:3075/users/${userId}`
+          `${BASE_URL}/users/${userId}`
         );
         console.log("Response:", response.data);
         const savedVerses = response.data.savedVerses;
