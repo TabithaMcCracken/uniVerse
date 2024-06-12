@@ -37,7 +37,7 @@ const Navbar = () => {
             </li>
             <li>
               <button onClick={() => handleNavigate(`/loggedin/${userId}`)}>
-                Home
+                My Verse Page
               </button>
             </li>
           </>
