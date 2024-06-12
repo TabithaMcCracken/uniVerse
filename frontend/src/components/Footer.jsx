@@ -11,14 +11,6 @@ const Footer = () => {
 
   return (
     <footer className="footer">
-      <p>
-        {/* Button to toggle copyright info */}
-        <button onClick={toggleOpen} className="link-button">
-          {isOpen ? "Hide Copyright Info" : "Show Copyright Info"}
-        </button>
-      </p>
-      {/* Copyright info shown only if isOpen state is true */}
-      {isOpen && (
         <div className="copyright-info">
           <p className="copyright-container">
             {/* Copyright text */}
@@ -32,7 +24,6 @@ const Footer = () => {
             of any book of the ESV Bible.
           </p>
         </div>
-      )}
     </footer>
   );
 };

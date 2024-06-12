@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useNavigate, useParams } from "react-router-dom";
-import { useAuth } from '../AuthContext'; 
+import { useAuth } from "../AuthContext";
 import json from "../bible_verse_data.json";
-import Navbar from '../components/Navbar';
+import Navbar from "../components/Navbar";
 import { BASE_URL } from "../App";
 
 const AddVersePage = () => {
@@ -29,9 +29,13 @@ const AddVersePage = () => {
   useEffect(() => {
     if (selectedBook) {
       // Extract unique chapters for the selected book
-      const uniqueChapters = [...new Set(json
-        .filter((item) => item.book === selectedBook)
-        .map((item) => item.chapter))];
+      const uniqueChapters = [
+        ...new Set(
+          json
+            .filter((item) => item.book === selectedBook)
+            .map((item) => item.chapter)
+        ),
+      ];
       setChapters(uniqueChapters);
       setSelectedChapter(""); // Reset selected chapter when the book changes
       setVerses([]); // Reset verses when the book changes
@@ -43,11 +47,16 @@ const AddVersePage = () => {
   useEffect(() => {
     if (selectedBook && selectedChapter) {
       const chapterData = json.find(
-        (item) => item.book === selectedBook && item.chapter === parseInt(selectedChapter)
+        (item) =>
+          item.book === selectedBook &&
+          item.chapter === parseInt(selectedChapter)
       );
       if (chapterData) {
         const verseCount = chapterData.num_verses;
-        const verseNumbers = Array.from({ length: verseCount }, (_, i) => i + 1);
+        const verseNumbers = Array.from(
+          { length: verseCount },
+          (_, i) => i + 1
+        );
         setVerses(verseNumbers);
         setSelectedVerse("");
       } else {
@@ -95,69 +104,69 @@ const AddVersePage = () => {
     }
   };
 
-
-
   return (
-    <div>
+    <div className="app">
       <Navbar />
-      <header>
-        <h1>Select a Bible verse to practice:</h1>
-      </header>
-      <div>
-        <h1>Books of the Bible</h1>
-        <select onChange={handleBookChange} value={selectedBook}>
-          <option value="" disabled>
-            Select a book
-          </option>
-          {bibleData.map((book, index) => (
-            <option key={index} value={book}>
-              {book}
+      <div className="add-verse-container">
+        <header>
+          <h1>Add a Bible verse to practice:</h1>
+        </header>
+        <div>
+          <h1>Books of the Bible</h1>
+          <select id="roundedDropdown" onChange={handleBookChange} value={selectedBook}>
+            <option value="" disabled>
+              Select a book
             </option>
-          ))}
-        </select>
-        {/* Render selected book, chapters, and verses dropdowns based on user selection */}
-        {selectedBook && (
-          <>
-            <h2>Selected Book: {selectedBook}</h2>
-            <h1>Chapters</h1>
-            <select onChange={handleChapterChange} value={selectedChapter}>
-              <option value="" disabled>
-                Select a chapter
+            {bibleData.map((book, index) => (
+              <option key={index} value={book}>
+                {book}
               </option>
-              {chapters.map((chapter, index) => (
-                <option key={index} value={chapter}>
-                  {chapter}
+            ))}
+          </select>
+          {/* Render selected book, chapters, and verses dropdowns based on user selection */}
+          {selectedBook && (
+            <>
+              <h2>Selected Book: {selectedBook}</h2>
+              <h1>Chapters</h1>
+              <select id="roundedDropdown" onChange={handleChapterChange} value={selectedChapter}>
+                <option value="" disabled>
+                  Select a chapter
                 </option>
-              ))}
-            </select>
-          </>
-        )}
-        {/* Render selected chapter and verse based on user selection */}
-        {selectedChapter && (
-          <>
-            <h2>Selected Chapter: {selectedChapter}</h2>
-            <h1>Verses</h1>
-            <select onChange={handleVerseChange} value={selectedVerse}>
-              <option value="" disabled>
-                Select a verse
-              </option>
-              {verses.map((verse, index) => (
-                <option key={index} value={verse}>
-                  {verse}
+                {chapters.map((chapter, index) => (
+                  <option key={index} value={chapter}>
+                    {chapter}
+                  </option>
+                ))}
+              </select>
+            </>
+          )}
+          {/* Render selected chapter and verse based on user selection */}
+          {selectedChapter && (
+            <>
+              <h2>Selected Chapter: {selectedChapter}</h2>
+              <h1>Verses</h1>
+              <select id="roundedDropdown" onChange={handleVerseChange} value={selectedVerse}>
+                <option value="" disabled>
+                  Select a verse
                 </option>
-              ))}
-            </select>
-          </>
-        )}
-        {/* Render selected verse and button to add it */}
-        {selectedVerse && (
-          <div>
-            <h2>Selected Verse: {`${selectedVerse}`}</h2>
-            <h2>{`${selectedBook} ${selectedChapter}:${selectedVerse}`}</h2>
-            <button onClick={handleAddVerse}>Add Verse</button>
-            
-          </div>
-        )}
+                {verses.map((verse, index) => (
+                  <option key={index} value={verse}>
+                    {verse}
+                  </option>
+                ))}
+              </select>
+            </>
+          )}
+          {/* Render selected verse and button to add it */}
+          {selectedVerse && (
+            <div>
+              <h2>Selected Verse: {`${selectedVerse}`}</h2>
+              <h2>{`${selectedBook} ${selectedChapter}:${selectedVerse}`}</h2>
+              <button onClick={handleAddVerse}>Add Verse</button>
+            </div>
+          )}
+        </div>
+        <br />
       </div>
     </div>
   );

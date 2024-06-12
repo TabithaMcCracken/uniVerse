@@ -2,12 +2,12 @@ import React, { useState, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import axios from "axios";
 import ScrambleGameComponent from "../components/ScrambleGameComponent";
-import { useAuth } from '../AuthContext'; 
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+import { useAuth } from "../AuthContext";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import { BASE_URL } from "../App";
 
- // API key for ESV API
+// API key for ESV API
 const apiKey = import.meta.env.VITE_ESV_API_KEY;
 
 const VersePage = () => {
@@ -52,22 +52,27 @@ const VersePage = () => {
     setIsScrambleGameActive(true);
   };
 
-
   const handleDeleteVerse = async () => {
-    try {
-      const { book, chapter, verse: verseNumber } = verse;
-      await axios.delete(`${BASE_URL}/users/deleteVerse/${userId}`, {
-        data: {
-          book,
-          chapter,
-          verse: verseNumber
-        }
-      });
+    // Confirm deletin with user
+    const confirmDelete = window.confirm(
+      "Are you sure you want to delete this verse?"
+    );
+    if (confirmDelete) {
+      try {
+        const { book, chapter, verse: verseNumber } = verse;
+        await axios.delete(`${BASE_URL}/users/deleteVerse/${userId}`, {
+          data: {
+            book,
+            chapter,
+            verse: verseNumber,
+          },
+        });
 
-      // Navigate back to the LoggedIn page after deletion
-      navigate(`/loggedin/${userId}`);
-    } catch (error) {
-      console.error("Error deleting verse:", error);
+        // Navigate back to the LoggedIn page after deletion
+        navigate(`/loggedin/${userId}`);
+      } catch (error) {
+        console.error("Error deleting verse:", error);
+      }
     }
   };
 
@@ -76,26 +81,26 @@ const VersePage = () => {
   }
 
   return (
-    <div className="app vp" >
+    <div className="app vp">
       <Navbar />
       <div className="verse-container">
-      <div className="single-verse-page">
-        <h2 className="verse-header">
-          {verse.book} {verse.chapter}:{verse.verse} ESV
-        </h2>
-        {isScrambleGameActive ? (
-          <ScrambleGameComponent verseText={verseText} />
-        ) : (
-          <>
-            <p>{verseText}</p>
-            <br />
-            <button onClick={handlePlayGame}>Play Word Scramble Game</button>
-            <br />
-            <br />
-            <button onClick={handleDeleteVerse}>Delete Verse</button>
-          </>
-        )}
-      </div>
+        <div className="single-verse-page">
+          <h2 className="verse-header">
+            {verse.book} {verse.chapter}:{verse.verse} ESV
+          </h2>
+          {isScrambleGameActive ? (
+            <ScrambleGameComponent verseText={verseText} />
+          ) : (
+            <>
+              <p>{verseText}</p>
+              <br />
+              <button onClick={handlePlayGame}>Play Word Scramble Game</button>
+              <br />
+              <br />
+              <button onClick={handleDeleteVerse}>Delete Verse</button>
+            </>
+          )}
+        </div>
       </div>
       <br />
       <br />
