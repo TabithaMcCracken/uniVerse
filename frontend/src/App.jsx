@@ -10,9 +10,6 @@ import AddVersePage from './pages/AddVersePage';
 import './App.css';
 import './assets/styles.css';
 
-// import dotenv from 'dotenv';
-// dotenv.config()
-
 const App = () => {
   return (
     <AuthProvider>

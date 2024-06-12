@@ -1,4 +1,3 @@
-// import React from 'react';
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import axios from "axios";
@@ -7,16 +6,18 @@ import { useAuth } from '../AuthContext';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
+ // API key for ESV API
 const apiKey = import.meta.env.VITE_ESV_API_KEY;
 
 const VersePage = () => {
-  const location = useLocation();
-  const { verse } = location.state;
-  const { login } = useAuth();
-  const [verseText, setVerseText] = useState("");
-  const [isScrambleGameActive, setIsScrambleGameActive] = useState(false);
+  const location = useLocation(); // Hook to acces teh current location
+  const { verse } = location.state; // Extracting verse data from location state
+  const { login } = useAuth(); // Authentication context
+  const [verseText, setVerseText] = useState(""); // State variable for verse
+  const [isScrambleGameActive, setIsScrambleGameActive] = useState(false); // State variable to track if game is active
 
   useEffect(() => {
+    // Function to fetch verse text from ESV API
     const fetchVerseText = async () => {
       try {
         const { book, chapter, verse: verseNumber } = verse; //??? Maybe takes parts of the verse state?
@@ -30,9 +31,9 @@ const VersePage = () => {
         );
         const passage = response.data.passages[0];
 
-        // Find the position after the first closing square bracket ']' and the space following it
+        // Extracting verse text from passage (removing citation and other meta info)
         const start = passage.indexOf("]") + 2; // +2 to skip the ']' and the space
-        const end = passage.indexOf("(ESV)");
+        const end = passage.indexOf("(ESV)"); // Finding end position before citation end marker
         const extractedText = passage.substring(start, end).trim();
         setVerseText(extractedText);
       } catch (error) {
@@ -43,6 +44,7 @@ const VersePage = () => {
     fetchVerseText();
   }, [verse]);
 
+  // Function to handle starting the scramble game
   const handlePlayGame = () => {
     setIsScrambleGameActive(true);
   };

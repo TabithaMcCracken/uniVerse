@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
-import starImage from './uniVerseSmBlue.png'
+import starImage from "./uniVerseSmBlue.png";
 
 const Home = () => {
   return (
@@ -15,7 +15,8 @@ const Home = () => {
           </h1>
           <img src={starImage} alt="Yellow Star" className="small-image" />
           <p>
-            Are you ready to blast off and practice <br />your Bible memory verses?
+            Are you ready to blast off and practice <br />
+            your Bible memory verses?
           </p>
         </div>
         <button>

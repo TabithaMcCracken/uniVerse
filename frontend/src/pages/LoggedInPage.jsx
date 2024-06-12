@@ -6,7 +6,7 @@ import VerseCard from "../components/VerseCard";
 import { useAuth } from "../AuthContext";
 
 const LoggedInPage = () => {
-  const { userId } = useAuth();
+  const { userId } = useAuth(); // Get the user Id from the authentication context
   // console.log(userId);
   const [savedVerses, setSavedVerses] = useState([]);
   const [error, setError] = useState(null);
@@ -29,14 +29,14 @@ const LoggedInPage = () => {
     };
 
     if (userId) {
-      fetchSavedVerses();
+      fetchSavedVerses();// Fetch saved verses when user ID changes
     }
   }, [userId]);
 
   return (
     <div className="app loggedinpage">
       <Navbar />
-      <div className = 'verse-container'>
+      <div className="verse-container">
         <header className="verse-header">
           <h1>Your Memory Verses</h1>
           <h3>Click on a verse to practice it!</h3>

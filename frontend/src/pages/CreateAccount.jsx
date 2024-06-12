@@ -1,16 +1,19 @@
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import { useNavigate } from "react-router-dom";
-import starImage from './uniVerseSmBlue.png'
+import starImage from "./uniVerseSmBlue.png";
 
 const CreateAccount = () => {
+  // State variables for managing form inputs and error messages
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [firstName, setFirstName] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
+  // Hook for navigating to different pages
   const navigate = useNavigate();
 
+  // Function to handle form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
     const userData = {
@@ -21,6 +24,7 @@ const CreateAccount = () => {
     };
 
     try {
+      // Send a POST request to create a new user account
       const response = await fetch("http://localhost:3075/users/addUser", {
         method: "POST",
         headers: {
@@ -30,12 +34,13 @@ const CreateAccount = () => {
       });
 
       if (response.ok) {
+        // Account creation successful
         const result = await response.json();
         console.log("User created successfully:", result);
         alert(
           "Congratulations! Account successfully created. You can now log in!"
         );
-        navigate("/");
+        navigate("/"); // Navigate to the login page
       } else {
         const errorData = await response.json();
         console.log(errorData.code);
@@ -54,9 +59,11 @@ const CreateAccount = () => {
     <div className="app">
       <Navbar />
       <div className="container1">
-      <img src={starImage} alt="Yellow Star" className="small-image" />
+        <img src={starImage} alt="Yellow Star" className="small-image" />
         <h2>Create Account</h2>
+        {/* Display error message if account creation fails */}
         {errorMessage && <p style={{ color: "red" }}>{errorMessage}</p>}
+        {/* Render the form for creating a new account */}
         <form className="login-form" onSubmit={handleSubmit}>
           <input
             type="text"

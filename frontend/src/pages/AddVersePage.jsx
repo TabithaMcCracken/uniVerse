@@ -8,7 +8,8 @@ import Navbar from '../components/Navbar';
 const AddVersePage = () => {
   const { userId } = useAuth();
   console.log(userId);
-  //const { login } = useAuth();
+
+  // State variables for managing Bible verse data
   const [bibleData, setBibleData] = useState([]); // Initialize as null
   const [selectedBook, setSelectedBook] = useState("");
   const [chapters, setChapters] = useState([]);
@@ -17,16 +18,13 @@ const AddVersePage = () => {
   const [selectedVerse, setSelectedVerse] = useState("");
   const navigate = useNavigate();
 
-  // useEffect(() => {
-  //   // Set the user as logged in when this page is accessed
-  //   login();
-  // }, [login]);
-
+  // Fetch unique list of Bible books from the JSON data when the component mounts
   useEffect(() => {
     const uniqueBooks = [...new Set(json.map((item) => item.book))];
     setBibleData(uniqueBooks);
   }, []);
 
+  // Update the list of chapters when a book is selected
   useEffect(() => {
     if (selectedBook) {
       // Extract unique chapters for the selected book
@@ -40,6 +38,7 @@ const AddVersePage = () => {
     }
   }, [selectedBook]);
 
+  // Update the list of verses when a chapter is selected
   useEffect(() => {
     if (selectedBook && selectedChapter) {
       const chapterData = json.find(
@@ -56,18 +55,22 @@ const AddVersePage = () => {
     }
   }, [selectedBook, selectedChapter]);
 
-
+  // Event handler for book selection change
   const handleBookChange = (event) => {
     setSelectedBook(event.target.value);
   };
+
+  // Event handler for chapter selection change
   const handleChapterChange = (event) => {
     setSelectedChapter(event.target.value);
   };
 
+  // Event handler for verse selection change
   const handleVerseChange = (event) => {
     setSelectedVerse(event.target.value);
   };
 
+  // Event handler for adding a verse to the user's saved verses
   const handleAddVerse = async () => {
     const verseData = {
       book: selectedBook,
@@ -79,12 +82,13 @@ const AddVersePage = () => {
     };
 
     try {
+      // Send a PATCH request to add the verse to the user's saved verses
       const response = await axios.patch(
         `http://localhost:3075/users/addVerse/${userId}`,
         verseData
       );
       console.log("Verse added:", response.data);
-      navigate(`/loggedin/${userId}`);
+      navigate(`/loggedin/${userId}`); // Navigate to the logged-in page after adding the verse
     } catch (error) {
       console.error("Error adding verse:", error);
     }
@@ -110,6 +114,7 @@ const AddVersePage = () => {
             </option>
           ))}
         </select>
+        {/* Render selected book, chapters, and verses dropdowns based on user selection */}
         {selectedBook && (
           <>
             <h2>Selected Book: {selectedBook}</h2>
@@ -126,6 +131,7 @@ const AddVersePage = () => {
             </select>
           </>
         )}
+        {/* Render selected chapter and verse based on user selection */}
         {selectedChapter && (
           <>
             <h2>Selected Chapter: {selectedChapter}</h2>
@@ -142,6 +148,7 @@ const AddVersePage = () => {
             </select>
           </>
         )}
+        {/* Render selected verse and button to add it */}
         {selectedVerse && (
           <div>
             <h2>Selected Verse: {`${selectedVerse}`}</h2>
@@ -156,119 +163,3 @@ const AddVersePage = () => {
 };
 
 export default AddVersePage;
-
-// import React, { useState, useEffect } from 'react';
-// import axios from 'axios';
-
-// const AddVersePage = () => {
-//   // Load your Bible books data from the JSON file
-//   const [bibleBooks, setBibleBooks] = useState([]);
-
-//   useEffect(() => {
-//     // Fetch the Bible books data from your JSON file
-//     const fetchBibleBooks = async () => {
-//       try {
-//         const response = await axios.get('../bible_verse_data.json');
-//         setBibleBooks(response.data);
-//       } catch (error) {
-//         console.error('Error fetching Bible books:', error);
-//       }
-//     };
-
-//     fetchBibleBooks();
-//   }, []);
-
-//   const [formData, setFormData] = useState({
-//     book: '',
-//     chapter: '',
-//     verse: ''
-//   });
-
-//   const handleChange = (e) => {
-//     const { name, value } = e.target;
-
-//     if (name === 'book') {
-//       setFormData(prevState => ({
-//         ...prevState,
-//         chapter: '',
-//         verse: '',
-//         [name]: value
-//       }));
-//     } else if (name === 'chapter') {
-//       setFormData(prevState => ({
-//         ...prevState,
-//         verse: '',
-//         [name]: value
-//       }));
-//     } else {
-//       setFormData(prevState => ({
-//         ...prevState,
-//         [name]: value
-//       }));
-//     }
-//   };
-
-//   const handleSubmit = async (e) => {
-//     e.preventDefault();
-//     try {
-//       // Assuming your backend endpoint for saving the verse is '/verses'
-//       await axios.post('/verses', formData);
-//       // Optionally, navigate back to the loggedin page or display a success message
-//     } catch (error) {
-//       console.error('Error adding verse:', error);
-//     }
-//   };
-
-//   return (
-//     <div>
-//       <h2>Add Verse</h2>
-//       <form onSubmit={handleSubmit}>
-//         <label>
-//           Book:
-//           <select name="book" value={formData.book} onChange={handleChange}>
-//             <option value="">Select a book</option>
-//             {bibleBooks.map((book, index) => (
-//               <option key={index} value={book.Book}>{book.Book}</option>
-//             ))}
-//           </select>
-//         </label>
-//         <label>
-//           Chapter:
-//           <select
-//             name="chapter"
-//             value={formData.chapter}
-//             onChange={handleChange}
-//             disabled={!formData.book}
-//           >
-//             <option value="">Select a chapter</option>
-//             {formData.book && bibleBooks.find(b => b.Book === formData.book) &&
-//               Array.from({ length: bibleBooks.find(b => b.Book === formData.book).numVerses }, (_, i) => i + 1).map(chapter => (
-//                 <option key={chapter} value={chapter}>{chapter}</option>
-//               ))}
-//           </select>
-//         </label>
-//         <label>
-//           Verse:
-//           <select
-//             name="verse"
-//             value={formData.verse}
-//             onChange={handleChange}
-//             disabled={!formData.chapter}
-//           >
-//             <option value="">Select a verse</option>
-//             {formData.book && formData.chapter && Array.from({ length: bibleBooks.find(b => b.Book === formData.book).numVerses }, (_, i) => i + 1).map(verse => (
-//               <option key={verse} value={verse}>{verse}</option>
-//             ))}
-//           </select>
-//         </label>
-//         <label>
-//           Text:
-//           <textarea name="text" value={formData.text} onChange={handleChange}></textarea>
-//         </label>
-//         <button type="submit">Add Verse</button>
-//       </form>
-//     </div>
-//   );
-// };
-
-// export default AddVersePage;
