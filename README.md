@@ -1,6 +1,8 @@
 
 # Bible Verse Memorization Website
 
+[![Deployed on Render](https://img.shields.io/badge/Deployed%20on-Render-blue)](https://universe-frontend-lh9l.onrender.com)
+
 ## Description
 This project is a full-stack website designed to help kids practice memorizing Bible verses. Users can create accounts, log in, add verses, and play an interactive game to aid in memorization.
 
@@ -72,9 +74,6 @@ Create a `.env` file in the `backend` directory with the following content:
     ```
 
 3. The frontend should now be running on `http://localhost:5173` and the backend on `http://localhost:3075`.
-
-## Deployment
-The project is set up to be deployed on [Render](https://render.com). Please follow the [Render deployment guide](https://render.com/docs/deploy-node-express-app) for detailed instructions. The deployment link will be provided once the deployment is completed.
 
 ## Project Structure
 ### Backend
