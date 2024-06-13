@@ -16,6 +16,11 @@ This project is a full-stack website designed to help kids practice memorizing B
 - User-specific verse management
 
 ## Technologies Used
+
+## Planning
+- Jira kanband board
+- Figma wireframes
+
 ### Frontend
 - React
 - React Router
@@ -28,6 +33,7 @@ This project is a full-stack website designed to help kids practice memorizing B
 - Mongoose
 - dotenv (for environment variables)
 - cors (for Cross-Origin Resource Sharing)
+- Crossway ESV Bible API (for fetching Bible verses)
 
 ## Getting Started
 ### Prerequisites
