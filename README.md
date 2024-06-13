@@ -5,7 +5,7 @@
 This project is a full-stack website designed to help kids practice memorizing Bible verses. Users can create accounts, log in, add verses, and play an interactive game to aid in memorization.
 
 ## Screenshot
-![App Screenshot](images/screenshot.png)
+![App Screenshot](./images/screenshot.png)
 
 ## Features
 - User registration and authentication
