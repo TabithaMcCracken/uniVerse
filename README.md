@@ -4,9 +4,12 @@
 ## Description
 This project is a full-stack website designed to help kids practice memorizing Bible verses. Users can create accounts, log in, add verses, and play an interactive game to aid in memorization.
 
+## Screenshot
+![App Screenshot](images/screenshot.png)
+
 ## Features
 - User registration and authentication
-- Add Bible verses
+- Bible verse selection
 - An Interactive verse memorization game
 - User-specific verse management
 
@@ -32,8 +35,8 @@ This project is a full-stack website designed to help kids practice memorizing B
 ### Installation
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/bible-verse-memorization.git
-    cd bible-verse-memorization
+    git clone https://github.com/TabithaMcCracken/uniVerse
+    cd uniVerse
     ```
 
 2. Install the dependencies for the backend:
@@ -51,24 +54,24 @@ This project is a full-stack website designed to help kids practice memorizing B
 ### Environment Variables
 Create a `.env` file in the `backend` directory with the following content:
     ```env
-    PORT=5050
+    PORT=3075
     ATLAS_URI=your_mongodb_connection_string
     ```
 
 ### Running the Application
-1. Start the backend server:
+1. Start the backend development server:
     ```sh
     cd backend
-    npm start
+    nodemon run dev
     ```
 
 2. Start the frontend development server:
     ```sh
     cd ../frontend
-    npm start
+    npm run dev
     ```
 
-3. The frontend should now be running on `http://localhost:3000` and the backend on `http://localhost:5050`.
+3. The frontend should now be running on `http://localhost:5173` and the backend on `http://localhost:3075`.
 
 ## Deployment
 The project is set up to be deployed on [Render](https://render.com). Please follow the [Render deployment guide](https://render.com/docs/deploy-node-express-app) for detailed instructions. The deployment link will be provided once the deployment is completed.
